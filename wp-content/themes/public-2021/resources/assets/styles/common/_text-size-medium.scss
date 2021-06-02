@@ -1,0 +1,364 @@
+:root {
+  --text-size-medium-h1-size: 1.6875rem;
+  --text-size-medium-h1-padding: 2rem;
+  --text-size-medium-h1-line-height: 1;
+  --text-size-medium-h1-letter-spacing: normal;
+  --text-size-medium-h1-weight: 500;
+  --text-size-medium-h1-transform: none;
+
+  /* -- */
+  --text-size-medium-h2-size: 1.6875rem;
+  --text-size-medium-h2-padding: 1.6875rem;
+  --text-size-medium-h2-line-height: 1;
+  --text-size-medium-h2-letter-spacing: normal;
+  --text-size-medium-h2-weight: 500;
+  --text-size-medium-h2-transform: none;
+
+  /* -- */
+  --text-size-medium-h3-size: 1.25rem;
+  --text-size-medium-h3-padding: 0.5rem;
+  --text-size-medium-h3-line-height: 1;
+  --text-size-medium-h3-letter-spacing: normal;
+  --text-size-medium-h3-weight: 500;
+  --text-size-medium-h3-transform: none;
+
+  /* -- */
+  --text-size-medium-h4-size: 1.25rem;
+  --text-size-medium-h4-padding: 0.5rem;
+  --text-size-medium-h4-line-height: 1;
+  --text-size-medium-h4-letter-spacing: normal;
+  --text-size-medium-h4-weight: 500;
+  --text-size-medium-h4-transform: none;
+
+  /* -- */
+  --text-size-medium-p-size: 1.6875rem;
+  --text-size-medium-p-padding: 1.6875rem;
+  --text-size-medium-p-line-height: 1.5;
+  --text-size-medium-p-letter-spacing: normal;
+  --text-size-medium-p-weight: 400;
+  --text-size-medium-p-transform: none;
+
+  /* -- */
+  --text-size-medium-q-p-size: 1.33rem;
+  --text-size-medium-q-p-padding: 1rem;
+  --text-size-medium-q-p-line-height: 1.14;
+  --text-size-medium-q-p-letter-spacing: normal;
+  --text-size-medium-q-p-weight: 400;
+  --text-size-medium-q-p-transform: none;
+
+  /* -- */
+  --text-size-medium-q-c-size: 1rem;
+  --text-size-medium-q-c-padding: 1rem;
+  --text-size-medium-q-c-line-height: 1.5;
+  --text-size-medium-q-c-letter-spacing: normal;
+  --text-size-medium-q-c-weight: 400;
+  --text-size-medium-q-c-transform: none;
+
+  /* -- */
+  --text-size-medium-scale-xs: 1;
+  --text-size-medium-scale-sm: 1;
+  --text-size-medium-scale-md: 1;
+  --text-size-medium-scale-lg: 1;
+  --text-size-medium-scale-xl: 1;
+  --text-size-medium-scale-xxl: 1;
+
+  /* -- */
+
+  /*
+  --text-size-medium-scale-xs: 0.35;
+  --text-size-medium-scale-sm: 0.45;
+  --text-size-medium-scale-md: 0.63;
+  --text-size-medium-scale-lg: 0.62;
+  --text-size-medium-scale-xl: 0.74;
+  */
+  --text-size-medium-scale-xs: 0.45;
+  --text-size-medium-scale-sm: 0.65;
+  --text-size-medium-scale-md: 0.58;
+  --text-size-medium-scale-lg: 0.78;
+  --text-size-medium-scale-xl: 0.9;
+  --text-size-medium-scale-xxl: 1;
+}
+
+.medium {
+  h1 {
+    margin: 0;
+    font-size: calc(var(--text-size-medium-h1-size) * var(--text-size-medium-scale-xs));
+    padding-bottom: calc(var(--text-size-medium-h1-padding) * var(--text-size-medium-scale-xs));
+    line-height: var(--text-size-medium-h1-line-height);
+    letter-spacing: var(--text-size-medium-h1-letter-spacing);
+    font-weight: var(--text-size-medium-h1-weight);
+    text-transform: var(--text-size-medium-h1-transform);
+
+    @include media-breakpoint-up(sm) {
+      font-size: calc(var(--text-size-medium-h1-size) * var(--text-size-medium-scale-sm));
+      padding-bottom: calc(var(--text-size-medium-h1-padding) * var(--text-size-medium-scale-sm));
+    }
+
+    @include media-breakpoint-up(md) {
+      font-size: calc(var(--text-size-medium-h1-size) * var(--text-size-medium-scale-md));
+      padding-bottom: calc(var(--text-size-medium-h1-padding) * var(--text-size-medium-scale-md));
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: calc(var(--text-size-medium-h1-size) * var(--text-size-medium-scale-lg));
+      padding-bottom: calc(var(--text-size-medium-h1-padding) * var(--text-size-medium-scale-lg));
+    }
+
+    @include media-breakpoint-up(xl) {
+      font-size: calc(var(--text-size-medium-h1-size) * var(--text-size-medium-scale-xl));
+      padding-bottom: calc(var(--text-size-medium-h1-padding) * var(--text-size-medium-scale-xl));
+    }
+
+    @include media-breakpoint-up(xxl) {
+      font-size: calc(var(--text-size-medium-h1-size) * var(--text-size-medium-scale-xxl));
+      padding-bottom: calc(var(--text-size-medium-h1-padding) * var(--text-size-medium-scale-xxl));
+    }
+  }
+
+  h2,
+  .h2 {
+    margin: 0;
+    font-size: calc(var(--text-size-medium-h2-size) * var(--text-size-medium-scale-xs));
+    padding-bottom: calc(var(--text-size-medium-h2-padding) * var(--text-size-medium-scale-xs));
+    line-height: var(--text-size-medium-h2-line-height);
+    letter-spacing: var(--text-size-medium-h2-letter-spacing);
+    font-weight: var(--text-size-medium-h2-weight);
+    text-transform: var(--text-size-medium-h2-transform);
+
+    @include media-breakpoint-up(sm) {
+      font-size: calc(var(--text-size-medium-h2-size) * var(--text-size-medium-scale-sm));
+      padding-bottom: calc(var(--text-size-medium-h2-padding) * var(--text-size-medium-scale-sm));
+    }
+
+    @include media-breakpoint-up(md) {
+      font-size: calc(var(--text-size-medium-h2-size) * var(--text-size-medium-scale-md));
+      padding-bottom: calc(var(--text-size-medium-h2-padding) * var(--text-size-medium-scale-md));
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: calc(var(--text-size-medium-h2-size) * var(--text-size-medium-scale-lg));
+      padding-bottom: calc(var(--text-size-medium-h2-padding) * var(--text-size-medium-scale-lg));
+    }
+
+    @include media-breakpoint-up(xl) {
+      font-size: calc(var(--text-size-medium-h2-size) * var(--text-size-medium-scale-xl));
+      padding-bottom: calc(var(--text-size-medium-h2-padding) * var(--text-size-medium-scale-xl));
+    }
+
+    @include media-breakpoint-up(xxl) {
+      font-size: calc(var(--text-size-medium-h2-size) * var(--text-size-medium-scale-xxl));
+      padding-bottom: calc(var(--text-size-medium-h2-padding) * var(--text-size-medium-scale-xxl));
+    }
+  }
+
+  h3 {
+    margin: 0;
+    font-size: calc(var(--text-size-medium-h3-size) * var(--text-size-medium-scale-xs));
+    padding-bottom: calc(var(--text-size-medium-h3-padding) * var(--text-size-medium-scale-xs));
+    line-height: var(--text-size-medium-h3-line-height);
+    letter-spacing: var(--text-size-medium-h3-letter-spacing);
+    font-weight: var(--text-size-medium-h3-weight);
+    text-transform: var(--text-size-medium-h3-transform);
+
+    @include media-breakpoint-up(sm) {
+      font-size: calc(var(--text-size-medium-h3-size) * var(--text-size-medium-scale-sm));
+      padding-bottom: calc(var(--text-size-medium-h3-padding) * var(--text-size-medium-scale-sm));
+    }
+
+    @include media-breakpoint-up(md) {
+      font-size: calc(var(--text-size-medium-h3-size) * var(--text-size-medium-scale-md));
+      padding-bottom: calc(var(--text-size-medium-h3-padding) * var(--text-size-medium-scale-md));
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: calc(var(--text-size-medium-h3-size) * var(--text-size-medium-scale-lg));
+      padding-bottom: calc(var(--text-size-medium-h3-padding) * var(--text-size-medium-scale-lg));
+    }
+
+    @include media-breakpoint-up(xl) {
+      font-size: calc(var(--text-size-medium-h3-size) * var(--text-size-medium-scale-xl));
+      padding-bottom: calc(var(--text-size-medium-h3-padding) * var(--text-size-medium-scale-xl));
+    }
+
+    @include media-breakpoint-up(xxl) {
+      font-size: calc(var(--text-size-medium-h3-size) * var(--text-size-medium-scale-xxl));
+      padding-bottom: calc(var(--text-size-medium-h3-padding) * var(--text-size-medium-scale-xxl));
+    }
+  }
+
+  h4 {
+    margin: 0;
+    font-size: calc(var(--text-size-medium-h4-size) * var(--text-size-medium-scale-xs));
+    padding-bottom: calc(var(--text-size-medium-h4-padding) * var(--text-size-medium-scale-xs));
+    line-height: var(--text-size-medium-h4-line-height);
+    letter-spacing: var(--text-size-medium-h4-letter-spacing);
+    font-weight: var(--text-size-medium-h4-weight);
+    text-transform: var(--text-size-medium-h4-transform);
+
+    @include media-breakpoint-up(sm) {
+      font-size: calc(var(--text-size-medium-h4-size) * var(--text-size-medium-scale-sm));
+      padding-bottom: calc(var(--text-size-medium-h4-padding) * var(--text-size-medium-scale-sm));
+    }
+
+    @include media-breakpoint-up(md) {
+      font-size: calc(var(--text-size-medium-h4-size) * var(--text-size-medium-scale-md));
+      padding-bottom: calc(var(--text-size-medium-h4-padding) * var(--text-size-medium-scale-md));
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: calc(var(--text-size-medium-h4-size) * var(--text-size-medium-scale-lg));
+      padding-bottom: calc(var(--text-size-medium-h4-padding) * var(--text-size-medium-scale-lg));
+    }
+
+    @include media-breakpoint-up(xl) {
+      font-size: calc(var(--text-size-medium-h4-size) * var(--text-size-medium-scale-xl));
+      padding-bottom: calc(var(--text-size-medium-h4-padding) * var(--text-size-medium-scale-xl));
+    }
+
+    @include media-breakpoint-up(xxl) {
+      font-size: calc(var(--text-size-medium-h4-size) * var(--text-size-medium-scale-xxl));
+      padding-bottom: calc(var(--text-size-medium-h4-padding) * var(--text-size-medium-scale-xxl));
+    }
+  }
+
+  p,
+  ul,
+  ol,
+  .p {
+    margin: 0;
+    font-size: calc(var(--text-size-medium-p-size) * var(--text-size-medium-scale-xs));
+    padding-bottom: calc(var(--text-size-medium-p-padding) * var(--text-size-medium-scale-xs));
+    line-height: var(--text-size-medium-p-line-height);
+    letter-spacing: var(--text-size-medium-p-letter-spacing);
+    font-weight: var(--text-size-medium-p-weight);
+    text-transform: var(--text-size-medium-p-transform);
+    //font-family: var(--font-copy);
+
+    @include media-breakpoint-up(sm) {
+      font-size: calc(var(--text-size-medium-p-size) * var(--text-size-medium-scale-sm));
+      padding-bottom: calc(var(--text-size-medium-p-padding) * var(--text-size-medium-scale-sm));
+    }
+
+    @include media-breakpoint-up(md) {
+      font-size: calc(var(--text-size-medium-p-size) * var(--text-size-medium-scale-md));
+      padding-bottom: calc(var(--text-size-medium-p-padding) * var(--text-size-medium-scale-md));
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: calc(var(--text-size-medium-p-size) * var(--text-size-medium-scale-lg));
+      padding-bottom: calc(var(--text-size-medium-p-padding) * var(--text-size-medium-scale-lg));
+    }
+
+    @include media-breakpoint-up(xl) {
+      font-size: calc(var(--text-size-medium-p-size) * var(--text-size-medium-scale-xl));
+      padding-bottom: calc(var(--text-size-medium-p-padding) * var(--text-size-medium-scale-xl));
+    }
+
+    @include media-breakpoint-up(xxl) {
+      font-size: calc(var(--text-size-medium-p-size) * var(--text-size-medium-scale-xxl));
+      padding-bottom: calc(var(--text-size-medium-p-padding) * var(--text-size-medium-scale-xxl));
+    }
+  }
+
+  blockquote {
+    p {
+      margin: 0;
+      font-size: calc(var(--text-size-medium-q-p-size) * var(--text-size-medium-scale-xs));
+      padding-bottom: calc(var(--text-size-medium-q-p-padding) * var(--text-size-medium-scale-xs));
+      line-height: var(--text-size-medium-q-p-line-height);
+      letter-spacing: var(--text-size-medium-q-p-letter-spacing);
+      font-weight: var(--text-size-medium-q-p-weight);
+      text-transform: var(--text-size-medium-q-p-transform);
+
+      @include media-breakpoint-up(sm) {
+        font-size: calc(var(--text-size-medium-q-p-size) * var(--text-size-medium-scale-sm));
+        padding-bottom: calc(var(--text-size-medium-q-p-padding) * var(--text-size-medium-scale-sm));
+      }
+
+      @include media-breakpoint-up(md) {
+        font-size: calc(var(--text-size-medium-q-p-size) * var(--text-size-medium-scale-md));
+        padding-bottom: calc(var(--text-size-medium-q-p-padding) * var(--text-size-medium-scale-md));
+      }
+
+      @include media-breakpoint-up(lg) {
+        font-size: calc(var(--text-size-medium-q-p-size) * var(--text-size-medium-scale-lg));
+        padding-bottom: calc(var(--text-size-medium-q-p-padding) * var(--text-size-medium-scale-lg));
+      }
+
+      @include media-breakpoint-up(xl) {
+        font-size: calc(var(--text-size-medium-q-p-size) * var(--text-size-medium-scale-xl));
+        padding-bottom: calc(var(--text-size-medium-q-p-padding) * var(--text-size-medium-scale-xl));
+      }
+
+      @include media-breakpoint-up(xxl) {
+        font-size: calc(var(--text-size-medium-q-p-size) * var(--text-size-medium-scale-xxl));
+        padding-bottom: calc(var(--text-size-medium-q-p-padding) * var(--text-size-medium-scale-xxl));
+      }
+    }
+
+    cite {
+      margin: 0;
+      font-size: calc(var(--text-size-medium-q-c-size) * var(--text-size-medium-scale-xs));
+      padding-bottom: calc(var(--text-size-medium-q-c-padding) * var(--text-size-medium-scale-xs));
+      line-height: var(--text-size-medium-q-c-line-height);
+      letter-spacing: var(--text-size-medium-q-c-letter-spacing);
+      font-weight: var(--text-size-medium-q-c-weight);
+      text-transform: var(--text-size-medium-q-c-transform);
+
+      @include media-breakpoint-up(sm) {
+        font-size: calc(var(--text-size-medium-q-c-size) * var(--text-size-medium-scale-sm));
+        padding-bottom: calc(var(--text-size-medium-q-c-padding) * var(--text-size-medium-scale-sm));
+      }
+
+      @include media-breakpoint-up(md) {
+        font-size: calc(var(--text-size-medium-q-c-size) * var(--text-size-medium-scale-md));
+        padding-bottom: calc(var(--text-size-medium-q-c-padding) * var(--text-size-medium-scale-md));
+      }
+
+      @include media-breakpoint-up(lg) {
+        font-size: calc(var(--text-size-medium-q-c-size) * var(--text-size-medium-scale-lg));
+        padding-bottom: calc(var(--text-size-medium-q-c-padding) * var(--text-size-medium-scale-lg));
+      }
+
+      @include media-breakpoint-up(xl) {
+        font-size: calc(var(--text-size-medium-q-c-size) * var(--text-size-medium-scale-xl));
+        padding-bottom: calc(var(--text-size-medium-q-c-padding) * var(--text-size-medium-scale-xl));
+      }
+
+      @include media-breakpoint-up(xxl) {
+        font-size: calc(var(--text-size-medium-q-c-size) * var(--text-size-medium-scale-xxl));
+        padding-bottom: calc(var(--text-size-medium-q-c-padding) * var(--text-size-medium-scale-xxl));
+      }
+    }
+  }
+
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p,
+  ul,
+  ol {
+    &:last-child {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  ul,
+  ol {
+    padding-left: 2rem;
+
+    &:last-child {
+      margin: 0;
+      padding: 0;
+      padding-left: 2rem;
+    }
+  }
+}

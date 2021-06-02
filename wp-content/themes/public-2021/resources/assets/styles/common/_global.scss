@@ -1,0 +1,19 @@
+body,
+html {
+  font-family: "Theinhardt", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+.page-black {
+  background: #1a1a1a;
+  color: #fff;
+}
+
+p {
+  &:last-child {
+    margin: 0;
+    padding: 0;
+  }
+}

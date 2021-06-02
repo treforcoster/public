@@ -1,0 +1,4 @@
+resources/assets/scripts/autoload/_swiper.js
+resources/assets/scripts/routes/common.js
+resources/assets/scripts/util/popup.js
+resources/assets/scripts/util/map.js

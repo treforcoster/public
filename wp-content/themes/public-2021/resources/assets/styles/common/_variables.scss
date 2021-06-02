@@ -1,0 +1,48 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+
+$theme-colors: (
+  primary: #525ddc
+);
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl:1600px,
+) !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl:1400px,
+) !default;
+
+// Grid columns
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns:                16 !default;
+$grid-gutter-width:           30px !default;
+
+.container-fluid {
+  padding-left: 1.56vw !important;
+  padding-right: 1.56vw !important;
+}
+
+.container-blog {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.col-inner {
+  padding: 1.56vw;
+  min-height: 6.25vw;
+}
