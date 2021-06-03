@@ -11,8 +11,20 @@
 
   <div id="page" class="about">
 
-  @include('partials.page-header')
-  @include('partials.content-page')
+    @if(have_rows('content'))
+      {{-- loop through the rows of data --}}
+      @while (have_rows('content')) @php(the_row())
+
+      @if(get_row_layout() == 'text')
+
+        @include('components.section-text')
+
+      @endif
+
+      @endwhile
+    @else
+      {{-- no layouts found --}}
+    @endif
 
   </div>
   @endwhile

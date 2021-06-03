@@ -7,7 +7,7 @@
 
     <div data-barba="wrapper">
 
-      <div class="wrap loaded-content container-fluid container-blog page-white" role="document" data-barba="container">
+      <div class="wrap loaded-content container-fluid page-white" role="document" data-barba="container">
             @yield('content')
       </div>
 

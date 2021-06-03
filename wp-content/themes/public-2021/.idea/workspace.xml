@@ -73,7 +73,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/assets/scripts/util" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/assets/styles/common" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -93,11 +93,11 @@
       <recent name="$PROJECT_DIR$/resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/assets/styles/common" />
+      <recent name="$PROJECT_DIR$/resources/views/components" />
       <recent name="$PROJECT_DIR$/resources/assets/scripts/util" />
       <recent name="$PROJECT_DIR$/dist/images" />
       <recent name="$PROJECT_DIR$/resources/assets/images" />
-      <recent name="$PROJECT_DIR$/resources/views" />
-      <recent name="$PROJECT_DIR$/resources/views/layouts" />
     </key>
   </component>
   <component name="RunManager">
@@ -146,5 +146,9 @@
       <screen x="0" y="25" width="2560" height="1343" />
     </state>
     <state x="675" y="492" key="#ESLint/0.25.2560.1343@0.25.2560.1343" timestamp="1622556844211" />
+    <state x="962" y="407" width="670" height="676" key="search.everywhere.popup" timestamp="1622713250906">
+      <screen x="0" y="25" width="2560" height="1343" />
+    </state>
+    <state x="962" y="407" width="670" height="676" key="search.everywhere.popup/0.25.2560.1343@0.25.2560.1343" timestamp="1622713250906" />
   </component>
 </project>

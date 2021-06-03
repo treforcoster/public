@@ -15,6 +15,10 @@
   padding: 1.56vw;
   min-height: 6.25vw; }
 
+/* line 50, resources/assets/styles/common/_variables.scss */
+.section {
+  padding-top: calc((100vw/24.5) * 3.5); }
+
 /** Import everything from autoload */
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -10994,6 +10998,375 @@ html {
 p:last-child {
   margin: 0;
   padding: 0; }
+
+/* line 1, resources/assets/styles/common/_text-size-large.scss */
+:root {
+  --text-size-large-h1-size: 2.75rem;
+  --text-size-large-h1-padding: 2.75rem;
+  --text-size-large-h1-line-height: 1.3;
+  --text-size-large-h1-letter-spacing: normal;
+  --text-size-large-h1-weight: 500;
+  --text-size-large-h1-transform: none;
+  /* -- */
+  --text-size-large-h2-size: 2.75rem;
+  --text-size-large-h2-padding: 2.75rem;
+  --text-size-large-h2-line-height: 1.3;
+  --text-size-large-h2-letter-spacing: normal;
+  --text-size-large-h2-weight: 500;
+  --text-size-large-h2-transform: none;
+  /* -- */
+  --text-size-large-h3-size: 2.75rem;
+  --text-size-large-h3-padding: 2.75rem;
+  --text-size-large-h3-line-height: 1.3;
+  --text-size-large-h3-letter-spacing: normal;
+  --text-size-large-h3-weight: 500;
+  --text-size-large-h3-transform: none;
+  /* -- */
+  --text-size-large-h4-size: 2.75rem;
+  --text-size-large-h4-padding: 2.75rem;
+  --text-size-large-h4-line-height: 1.3;
+  --text-size-large-h4-letter-spacing: normal;
+  --text-size-large-h4-weight: 500;
+  --text-size-large-h4-transform: none;
+  /* -- */
+  --text-size-large-p-size: 2.75rem;
+  --text-size-large-p-padding: 2.75rem;
+  --text-size-large-p-line-height: 1.3;
+  --text-size-large-p-letter-spacing: normal;
+  --text-size-large-p-weight: 400;
+  --text-size-large-p-transform: none;
+  /* -- */
+  --text-size-large-q-p-size: 2.75rem;
+  --text-size-large-q-p-padding: 2.75rem;
+  --text-size-large-q-p-line-height: 1.3;
+  --text-size-large-q-p-letter-spacing: normal;
+  --text-size-large-q-p-weight: 400;
+  --text-size-large-q-p-transform: none;
+  /* -- */
+  --text-size-large-q-c-size: 2.75rem;
+  --text-size-large-q-c-padding: 2.75rem;
+  --text-size-large-q-c-line-height: 1.3;
+  --text-size-large-q-c-letter-spacing: normal;
+  --text-size-large-q-c-weight: 400;
+  --text-size-large-q-c-transform: none;
+  /* -- */
+  --text-size-large-scale-xs: 1;
+  --text-size-large-scale-sm: 1;
+  --text-size-large-scale-md: 1;
+  --text-size-large-scale-lg: 1;
+  --text-size-large-scale-xl: 1;
+  --text-size-large-scale-xxl: 1;
+  /* -- */
+  /*
+  --text-size-large-scale-xs: 0.35;
+  --text-size-large-scale-sm: 0.45;
+  --text-size-large-scale-md: 0.63;
+  --text-size-large-scale-lg: 0.62;
+  --text-size-large-scale-xl: 0.74;
+  */
+  --text-size-large-scale-xs: 0.45;
+  --text-size-large-scale-sm: 0.65;
+  --text-size-large-scale-md: 0.58;
+  --text-size-large-scale-lg: 0.78;
+  --text-size-large-scale-xl: 0.9;
+  --text-size-large-scale-xxl: 1; }
+
+/* line 83, resources/assets/styles/common/_text-size-large.scss */
+.large h1 {
+  margin: 0;
+  font-size: calc(var(--text-size-large-h1-size) * var(--text-size-large-scale-xs));
+  padding-bottom: calc(var(--text-size-large-h1-padding) * var(--text-size-large-scale-xs));
+  line-height: var(--text-size-large-h1-line-height);
+  letter-spacing: var(--text-size-large-h1-letter-spacing);
+  font-weight: var(--text-size-large-h1-weight);
+  text-transform: var(--text-size-large-h1-transform); }
+  @media (min-width: 576px) {
+    /* line 83, resources/assets/styles/common/_text-size-large.scss */
+    .large h1 {
+      font-size: calc(var(--text-size-large-h1-size) * var(--text-size-large-scale-sm));
+      padding-bottom: calc(var(--text-size-large-h1-padding) * var(--text-size-large-scale-sm)); } }
+  @media (min-width: 768px) {
+    /* line 83, resources/assets/styles/common/_text-size-large.scss */
+    .large h1 {
+      font-size: calc(var(--text-size-large-h1-size) * var(--text-size-large-scale-md));
+      padding-bottom: calc(var(--text-size-large-h1-padding) * var(--text-size-large-scale-md)); } }
+  @media (min-width: 992px) {
+    /* line 83, resources/assets/styles/common/_text-size-large.scss */
+    .large h1 {
+      font-size: calc(var(--text-size-large-h1-size) * var(--text-size-large-scale-lg));
+      padding-bottom: calc(var(--text-size-large-h1-padding) * var(--text-size-large-scale-lg)); } }
+  @media (min-width: 1200px) {
+    /* line 83, resources/assets/styles/common/_text-size-large.scss */
+    .large h1 {
+      font-size: calc(var(--text-size-large-h1-size) * var(--text-size-large-scale-xl));
+      padding-bottom: calc(var(--text-size-large-h1-padding) * var(--text-size-large-scale-xl)); } }
+  @media (min-width: 1600px) {
+    /* line 83, resources/assets/styles/common/_text-size-large.scss */
+    .large h1 {
+      font-size: calc(var(--text-size-large-h1-size) * var(--text-size-large-scale-xxl));
+      padding-bottom: calc(var(--text-size-large-h1-padding) * var(--text-size-large-scale-xxl)); } }
+
+/* line 118, resources/assets/styles/common/_text-size-large.scss */
+.large h2,
+.large .h2 {
+  margin: 0;
+  font-size: calc(var(--text-size-large-h2-size) * var(--text-size-large-scale-xs));
+  padding-bottom: calc(var(--text-size-large-h2-padding) * var(--text-size-large-scale-xs));
+  line-height: var(--text-size-large-h2-line-height);
+  letter-spacing: var(--text-size-large-h2-letter-spacing);
+  font-weight: var(--text-size-large-h2-weight);
+  text-transform: var(--text-size-large-h2-transform); }
+  @media (min-width: 576px) {
+    /* line 118, resources/assets/styles/common/_text-size-large.scss */
+    .large h2,
+    .large .h2 {
+      font-size: calc(var(--text-size-large-h2-size) * var(--text-size-large-scale-sm));
+      padding-bottom: calc(var(--text-size-large-h2-padding) * var(--text-size-large-scale-sm)); } }
+  @media (min-width: 768px) {
+    /* line 118, resources/assets/styles/common/_text-size-large.scss */
+    .large h2,
+    .large .h2 {
+      font-size: calc(var(--text-size-large-h2-size) * var(--text-size-large-scale-md));
+      padding-bottom: calc(var(--text-size-large-h2-padding) * var(--text-size-large-scale-md)); } }
+  @media (min-width: 992px) {
+    /* line 118, resources/assets/styles/common/_text-size-large.scss */
+    .large h2,
+    .large .h2 {
+      font-size: calc(var(--text-size-large-h2-size) * var(--text-size-large-scale-lg));
+      padding-bottom: calc(var(--text-size-large-h2-padding) * var(--text-size-large-scale-lg)); } }
+  @media (min-width: 1200px) {
+    /* line 118, resources/assets/styles/common/_text-size-large.scss */
+    .large h2,
+    .large .h2 {
+      font-size: calc(var(--text-size-large-h2-size) * var(--text-size-large-scale-xl));
+      padding-bottom: calc(var(--text-size-large-h2-padding) * var(--text-size-large-scale-xl)); } }
+  @media (min-width: 1600px) {
+    /* line 118, resources/assets/styles/common/_text-size-large.scss */
+    .large h2,
+    .large .h2 {
+      font-size: calc(var(--text-size-large-h2-size) * var(--text-size-large-scale-xxl));
+      padding-bottom: calc(var(--text-size-large-h2-padding) * var(--text-size-large-scale-xxl)); } }
+
+/* line 154, resources/assets/styles/common/_text-size-large.scss */
+.large h3 {
+  margin: 0;
+  font-size: calc(var(--text-size-large-h3-size) * var(--text-size-large-scale-xs));
+  padding-bottom: calc(var(--text-size-large-h3-padding) * var(--text-size-large-scale-xs));
+  line-height: var(--text-size-large-h3-line-height);
+  letter-spacing: var(--text-size-large-h3-letter-spacing);
+  font-weight: var(--text-size-large-h3-weight);
+  text-transform: var(--text-size-large-h3-transform); }
+  @media (min-width: 576px) {
+    /* line 154, resources/assets/styles/common/_text-size-large.scss */
+    .large h3 {
+      font-size: calc(var(--text-size-large-h3-size) * var(--text-size-large-scale-sm));
+      padding-bottom: calc(var(--text-size-large-h3-padding) * var(--text-size-large-scale-sm)); } }
+  @media (min-width: 768px) {
+    /* line 154, resources/assets/styles/common/_text-size-large.scss */
+    .large h3 {
+      font-size: calc(var(--text-size-large-h3-size) * var(--text-size-large-scale-md));
+      padding-bottom: calc(var(--text-size-large-h3-padding) * var(--text-size-large-scale-md)); } }
+  @media (min-width: 992px) {
+    /* line 154, resources/assets/styles/common/_text-size-large.scss */
+    .large h3 {
+      font-size: calc(var(--text-size-large-h3-size) * var(--text-size-large-scale-lg));
+      padding-bottom: calc(var(--text-size-large-h3-padding) * var(--text-size-large-scale-lg)); } }
+  @media (min-width: 1200px) {
+    /* line 154, resources/assets/styles/common/_text-size-large.scss */
+    .large h3 {
+      font-size: calc(var(--text-size-large-h3-size) * var(--text-size-large-scale-xl));
+      padding-bottom: calc(var(--text-size-large-h3-padding) * var(--text-size-large-scale-xl)); } }
+  @media (min-width: 1600px) {
+    /* line 154, resources/assets/styles/common/_text-size-large.scss */
+    .large h3 {
+      font-size: calc(var(--text-size-large-h3-size) * var(--text-size-large-scale-xxl));
+      padding-bottom: calc(var(--text-size-large-h3-padding) * var(--text-size-large-scale-xxl)); } }
+
+/* line 189, resources/assets/styles/common/_text-size-large.scss */
+.large h4 {
+  margin: 0;
+  font-size: calc(var(--text-size-large-h4-size) * var(--text-size-large-scale-xs));
+  padding-bottom: calc(var(--text-size-large-h4-padding) * var(--text-size-large-scale-xs));
+  line-height: var(--text-size-large-h4-line-height);
+  letter-spacing: var(--text-size-large-h4-letter-spacing);
+  font-weight: var(--text-size-large-h4-weight);
+  text-transform: var(--text-size-large-h4-transform); }
+  @media (min-width: 576px) {
+    /* line 189, resources/assets/styles/common/_text-size-large.scss */
+    .large h4 {
+      font-size: calc(var(--text-size-large-h4-size) * var(--text-size-large-scale-sm));
+      padding-bottom: calc(var(--text-size-large-h4-padding) * var(--text-size-large-scale-sm)); } }
+  @media (min-width: 768px) {
+    /* line 189, resources/assets/styles/common/_text-size-large.scss */
+    .large h4 {
+      font-size: calc(var(--text-size-large-h4-size) * var(--text-size-large-scale-md));
+      padding-bottom: calc(var(--text-size-large-h4-padding) * var(--text-size-large-scale-md)); } }
+  @media (min-width: 992px) {
+    /* line 189, resources/assets/styles/common/_text-size-large.scss */
+    .large h4 {
+      font-size: calc(var(--text-size-large-h4-size) * var(--text-size-large-scale-lg));
+      padding-bottom: calc(var(--text-size-large-h4-padding) * var(--text-size-large-scale-lg)); } }
+  @media (min-width: 1200px) {
+    /* line 189, resources/assets/styles/common/_text-size-large.scss */
+    .large h4 {
+      font-size: calc(var(--text-size-large-h4-size) * var(--text-size-large-scale-xl));
+      padding-bottom: calc(var(--text-size-large-h4-padding) * var(--text-size-large-scale-xl)); } }
+  @media (min-width: 1600px) {
+    /* line 189, resources/assets/styles/common/_text-size-large.scss */
+    .large h4 {
+      font-size: calc(var(--text-size-large-h4-size) * var(--text-size-large-scale-xxl));
+      padding-bottom: calc(var(--text-size-large-h4-padding) * var(--text-size-large-scale-xxl)); } }
+
+/* line 224, resources/assets/styles/common/_text-size-large.scss */
+.large p,
+.large ul,
+.large ol,
+.large .p {
+  margin: 0;
+  font-size: calc(var(--text-size-large-p-size) * var(--text-size-large-scale-xs));
+  padding-bottom: calc(var(--text-size-large-p-padding) * var(--text-size-large-scale-xs));
+  line-height: var(--text-size-large-p-line-height);
+  letter-spacing: var(--text-size-large-p-letter-spacing);
+  font-weight: var(--text-size-large-p-weight);
+  text-transform: var(--text-size-large-p-transform); }
+  @media (min-width: 576px) {
+    /* line 224, resources/assets/styles/common/_text-size-large.scss */
+    .large p,
+    .large ul,
+    .large ol,
+    .large .p {
+      font-size: calc(var(--text-size-large-p-size) * var(--text-size-large-scale-sm));
+      padding-bottom: calc(var(--text-size-large-p-padding) * var(--text-size-large-scale-sm)); } }
+  @media (min-width: 768px) {
+    /* line 224, resources/assets/styles/common/_text-size-large.scss */
+    .large p,
+    .large ul,
+    .large ol,
+    .large .p {
+      font-size: calc(var(--text-size-large-p-size) * var(--text-size-large-scale-md));
+      padding-bottom: calc(var(--text-size-large-p-padding) * var(--text-size-large-scale-md)); } }
+  @media (min-width: 992px) {
+    /* line 224, resources/assets/styles/common/_text-size-large.scss */
+    .large p,
+    .large ul,
+    .large ol,
+    .large .p {
+      font-size: calc(var(--text-size-large-p-size) * var(--text-size-large-scale-lg));
+      padding-bottom: calc(var(--text-size-large-p-padding) * var(--text-size-large-scale-lg)); } }
+  @media (min-width: 1200px) {
+    /* line 224, resources/assets/styles/common/_text-size-large.scss */
+    .large p,
+    .large ul,
+    .large ol,
+    .large .p {
+      font-size: calc(var(--text-size-large-p-size) * var(--text-size-large-scale-xl));
+      padding-bottom: calc(var(--text-size-large-p-padding) * var(--text-size-large-scale-xl)); } }
+  @media (min-width: 1600px) {
+    /* line 224, resources/assets/styles/common/_text-size-large.scss */
+    .large p,
+    .large ul,
+    .large ol,
+    .large .p {
+      font-size: calc(var(--text-size-large-p-size) * var(--text-size-large-scale-xxl));
+      padding-bottom: calc(var(--text-size-large-p-padding) * var(--text-size-large-scale-xxl)); } }
+
+/* line 264, resources/assets/styles/common/_text-size-large.scss */
+.large blockquote p {
+  margin: 0;
+  font-size: calc(var(--text-size-large-q-p-size) * var(--text-size-large-scale-xs));
+  padding-bottom: calc(var(--text-size-large-q-p-padding) * var(--text-size-large-scale-xs));
+  line-height: var(--text-size-large-q-p-line-height);
+  letter-spacing: var(--text-size-large-q-p-letter-spacing);
+  font-weight: var(--text-size-large-q-p-weight);
+  text-transform: var(--text-size-large-q-p-transform); }
+  @media (min-width: 576px) {
+    /* line 264, resources/assets/styles/common/_text-size-large.scss */
+    .large blockquote p {
+      font-size: calc(var(--text-size-large-q-p-size) * var(--text-size-large-scale-sm));
+      padding-bottom: calc(var(--text-size-large-q-p-padding) * var(--text-size-large-scale-sm)); } }
+  @media (min-width: 768px) {
+    /* line 264, resources/assets/styles/common/_text-size-large.scss */
+    .large blockquote p {
+      font-size: calc(var(--text-size-large-q-p-size) * var(--text-size-large-scale-md));
+      padding-bottom: calc(var(--text-size-large-q-p-padding) * var(--text-size-large-scale-md)); } }
+  @media (min-width: 992px) {
+    /* line 264, resources/assets/styles/common/_text-size-large.scss */
+    .large blockquote p {
+      font-size: calc(var(--text-size-large-q-p-size) * var(--text-size-large-scale-lg));
+      padding-bottom: calc(var(--text-size-large-q-p-padding) * var(--text-size-large-scale-lg)); } }
+  @media (min-width: 1200px) {
+    /* line 264, resources/assets/styles/common/_text-size-large.scss */
+    .large blockquote p {
+      font-size: calc(var(--text-size-large-q-p-size) * var(--text-size-large-scale-xl));
+      padding-bottom: calc(var(--text-size-large-q-p-padding) * var(--text-size-large-scale-xl)); } }
+  @media (min-width: 1600px) {
+    /* line 264, resources/assets/styles/common/_text-size-large.scss */
+    .large blockquote p {
+      font-size: calc(var(--text-size-large-q-p-size) * var(--text-size-large-scale-xxl));
+      padding-bottom: calc(var(--text-size-large-q-p-padding) * var(--text-size-large-scale-xxl)); } }
+
+/* line 299, resources/assets/styles/common/_text-size-large.scss */
+.large blockquote cite {
+  margin: 0;
+  font-size: calc(var(--text-size-large-q-c-size) * var(--text-size-large-scale-xs));
+  padding-bottom: calc(var(--text-size-large-q-c-padding) * var(--text-size-large-scale-xs));
+  line-height: var(--text-size-large-q-c-line-height);
+  letter-spacing: var(--text-size-large-q-c-letter-spacing);
+  font-weight: var(--text-size-large-q-c-weight);
+  text-transform: var(--text-size-large-q-c-transform); }
+  @media (min-width: 576px) {
+    /* line 299, resources/assets/styles/common/_text-size-large.scss */
+    .large blockquote cite {
+      font-size: calc(var(--text-size-large-q-c-size) * var(--text-size-large-scale-sm));
+      padding-bottom: calc(var(--text-size-large-q-c-padding) * var(--text-size-large-scale-sm)); } }
+  @media (min-width: 768px) {
+    /* line 299, resources/assets/styles/common/_text-size-large.scss */
+    .large blockquote cite {
+      font-size: calc(var(--text-size-large-q-c-size) * var(--text-size-large-scale-md));
+      padding-bottom: calc(var(--text-size-large-q-c-padding) * var(--text-size-large-scale-md)); } }
+  @media (min-width: 992px) {
+    /* line 299, resources/assets/styles/common/_text-size-large.scss */
+    .large blockquote cite {
+      font-size: calc(var(--text-size-large-q-c-size) * var(--text-size-large-scale-lg));
+      padding-bottom: calc(var(--text-size-large-q-c-padding) * var(--text-size-large-scale-lg)); } }
+  @media (min-width: 1200px) {
+    /* line 299, resources/assets/styles/common/_text-size-large.scss */
+    .large blockquote cite {
+      font-size: calc(var(--text-size-large-q-c-size) * var(--text-size-large-scale-xl));
+      padding-bottom: calc(var(--text-size-large-q-c-padding) * var(--text-size-large-scale-xl)); } }
+  @media (min-width: 1600px) {
+    /* line 299, resources/assets/styles/common/_text-size-large.scss */
+    .large blockquote cite {
+      font-size: calc(var(--text-size-large-q-c-size) * var(--text-size-large-scale-xxl));
+      padding-bottom: calc(var(--text-size-large-q-c-padding) * var(--text-size-large-scale-xxl)); } }
+
+/* line 348, resources/assets/styles/common/_text-size-large.scss */
+.large .h1:last-child,
+.large .h2:last-child,
+.large .h3:last-child,
+.large .h4:last-child,
+.large .h5:last-child,
+.large h1:last-child,
+.large h2:last-child,
+.large h3:last-child,
+.large h4:last-child,
+.large h5:last-child,
+.large p:last-child,
+.large ul:last-child,
+.large ol:last-child {
+  margin: 0;
+  padding: 0; }
+
+/* line 354, resources/assets/styles/common/_text-size-large.scss */
+.large ul,
+.large ol {
+  padding-left: 2rem; }
+  /* line 358, resources/assets/styles/common/_text-size-large.scss */
+  .large ul:last-child,
+  .large ol:last-child {
+    margin: 0;
+    padding: 0;
+    padding-left: 2rem; }
 
 /* line 1, resources/assets/styles/common/_text-size-medium.scss */
 :root {
