@@ -128,7 +128,7 @@
                             {
                                 "field": "field_60a4b47874d62",
                                 "operator": "==",
-                                "value": "Image"
+                                "value": "Carousel"
                             }
                         ]
                     ],
@@ -223,5 +223,5 @@
     ],
     "active": true,
     "description": "",
-    "modified": 1622625356
+    "modified": 1622698204
 }

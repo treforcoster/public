@@ -4,9 +4,15 @@
   $postID = get_sub_field($postFormat);
   $post = get_post($postID);
   $content = get_field('content', $postID);
-  $meta = get_field('meta', $postID);
+  $meta = get_field('meta', $postID);?>
 
-  if ($content['content_type'] === "Image") {
+  <?php if ($meta['meta']['link']){?>
+
+  <a href="<?php echo $meta['meta']['link'];?>" target="_blank">
+
+  <?php }?>
+
+  <?php if ($content['content_type'] === "Image") {
   $image = $content['image'];
 
     if ($image) :
@@ -21,9 +27,7 @@
 
       ?>
 
-      <a href="<?php echo esc_url($url); ?>" title="<?php echo esc_attr($title); ?>">
         <img src="<?php echo esc_url($thumb); ?>" alt="<?php echo esc_attr($alt); ?>" />
-      </a>
 
     <?php endif;
 
@@ -36,11 +40,8 @@
  <?php } else if ($content['content_type'] === "Carousel") {?>
 
   <div class="carousel">
-    <?php// echo $content['carousel'] ?>
 
-
-    <?php
-    $images = $content['carousel'];
+    <?php $images = $content['carousel'];
     if( $images ): ?>
       <div class="swiper-container posts-swiper">
         <div class="swiper-wrapper">
@@ -60,9 +61,6 @@
       <div class="prev"></div>
       <div class="next"></div>
 
-
-
-
   </div>
 
   <?php } else if ($content['content_type'] === "Video") {?>
@@ -78,13 +76,7 @@
       playsinline
     >
       <source src="<?php echo $content['video'] ?>" type="video/mp4"></source>
-      <p class="vjs-no-js">
-        To view this video please enable JavaScript, and consider upgrading to a
-        web browser that
-        <a href="https://videojs.com/html5-video-support/" target="_blank">
-          supports HTML5 video
-        </a>
-      </p>
+
     </video>
 
   </div>
@@ -93,8 +85,14 @@
 
   <div class="title">
 
-  <h3><?php echo $meta['meta']['text']?></h3>
+    <h3><?php echo $meta['meta']['text']?></h3>
 
   </div>
+
+    <?php if ($meta['meta']['link']){?>
+
+    </a>
+
+  <?php }?>
 
 </article>
