@@ -15,10 +15,6 @@
   padding: 1.56vw;
   min-height: 6.25vw; }
 
-/* line 50, resources/assets/styles/common/_variables.scss */
-.section {
-  padding-top: calc((100vw/24.5) * 3.5); }
-
 /** Import everything from autoload */
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -10994,7 +10990,11 @@ html {
   background: #1a1a1a;
   color: #fff; }
 
-/* line 15, resources/assets/styles/common/_global.scss */
+/* line 14, resources/assets/styles/common/_global.scss */
+.page-white {
+  padding-top: calc((100vw/24.5) * 3.5); }
+
+/* line 19, resources/assets/styles/common/_global.scss */
 p:last-child {
   margin: 0;
   padding: 0; }
