@@ -10992,9 +10992,10 @@ html {
 
 /* line 14, resources/assets/styles/common/_global.scss */
 .page-white {
-  padding-top: calc((100vw/24.5) * 3.5); }
+  padding-top: calc((100vw/24.5) * 3.5);
+  padding-bottom: calc((100vw/24.5) * 3.5); }
 
-/* line 19, resources/assets/styles/common/_global.scss */
+/* line 20, resources/assets/styles/common/_global.scss */
 p:last-child {
   margin: 0;
   padding: 0; }
