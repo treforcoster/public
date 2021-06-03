@@ -1,0 +1,33 @@
+.section-logos-text {
+  .text-row {
+    padding-top: calc((100vw/24.5) * 3.5);
+  }
+
+  .logo-row {
+    padding-top: calc((100vw/24.5) * 3.5);
+    text-align: center;
+  }
+
+  img.small {
+    padding-bottom: calc((100vw/24.5) * 1.5);
+    margin: 0 auto;
+    width: 30%;
+    height: auto;
+  }
+
+  img.large {
+    padding-bottom: calc((100vw/24.5) * 1.5);
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+  }
+
+  @include media-breakpoint-up(lg) {
+    img.small,
+    img.large {
+      padding-bottom: 0;
+      width: 100%;
+      height: auto;
+    }
+  }
+}

@@ -12268,4 +12268,35 @@ body#tinymce {
 .nav-black.open #show-menu .fill {
   fill: #fff !important; }
 
+/* line 2, resources/assets/styles/components/_section-logos-text.scss */
+.section-logos-text .text-row {
+  padding-top: calc((100vw/24.5) * 3.5); }
+
+/* line 6, resources/assets/styles/components/_section-logos-text.scss */
+.section-logos-text .logo-row {
+  padding-top: calc((100vw/24.5) * 3.5);
+  text-align: center; }
+
+/* line 11, resources/assets/styles/components/_section-logos-text.scss */
+.section-logos-text img.small {
+  padding-bottom: calc((100vw/24.5) * 1.5);
+  margin: 0 auto;
+  width: 30%;
+  height: auto; }
+
+/* line 18, resources/assets/styles/components/_section-logos-text.scss */
+.section-logos-text img.large {
+  padding-bottom: calc((100vw/24.5) * 1.5);
+  margin: 0 auto;
+  width: 50%;
+  height: auto; }
+
+@media (min-width: 992px) {
+  /* line 26, resources/assets/styles/components/_section-logos-text.scss */
+  .section-logos-text img.small,
+  .section-logos-text img.large {
+    padding-bottom: 0;
+    width: 100%;
+    height: auto; } }
+
 /*# sourceMappingURL=main.css.map*/

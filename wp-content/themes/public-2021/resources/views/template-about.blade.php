@@ -21,6 +21,12 @@
 
       @endif
 
+      @if(get_row_layout() == 'logos_text')
+
+        @include('components.section-logos-text')
+
+      @endif
+
       @endwhile
     @else
       {{-- no layouts found --}}

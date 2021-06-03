@@ -73,7 +73,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/assets/styles/common" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/assets/styles/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -93,11 +93,11 @@
       <recent name="$PROJECT_DIR$/resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/assets/styles/common" />
+      <recent name="$PROJECT_DIR$/resources/assets/styles/components" />
       <recent name="$PROJECT_DIR$/resources/views/components" />
+      <recent name="$PROJECT_DIR$/resources/assets/styles/common" />
       <recent name="$PROJECT_DIR$/resources/assets/scripts/util" />
       <recent name="$PROJECT_DIR$/dist/images" />
-      <recent name="$PROJECT_DIR$/resources/assets/images" />
     </key>
   </component>
   <component name="RunManager">
@@ -150,5 +150,16 @@
       <screen x="0" y="25" width="2560" height="1343" />
     </state>
     <state x="962" y="407" width="670" height="676" key="search.everywhere.popup/0.25.2560.1343@0.25.2560.1343" timestamp="1622713250906" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/components/section-logos-text.blade.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
