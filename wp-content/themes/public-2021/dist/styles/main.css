@@ -11738,6 +11738,375 @@ p:last-child {
     padding: 0;
     padding-left: 2rem; }
 
+/* line 1, resources/assets/styles/common/_text-size-small.scss */
+:root {
+  --text-size-small-h1-size: 1.25rem;
+  --text-size-small-h1-padding: 1.25rem;
+  --text-size-small-h1-line-height: 1.1;
+  --text-size-small-h1-letter-spacing: normal;
+  --text-size-small-h1-weight: 500;
+  --text-size-small-h1-transform: none;
+  /* -- */
+  --text-size-small-h2-size: 1.25rem;
+  --text-size-small-h2-padding: 1.25rem;
+  --text-size-small-h2-line-height: 1.1;
+  --text-size-small-h2-letter-spacing: normal;
+  --text-size-small-h2-weight: 500;
+  --text-size-small-h2-transform: none;
+  /* -- */
+  --text-size-small-h3-size: 1.25rem;
+  --text-size-small-h3-padding: 1.25rem;
+  --text-size-small-h3-line-height: 1.1;
+  --text-size-small-h3-letter-spacing: normal;
+  --text-size-small-h3-weight: 500;
+  --text-size-small-h3-transform: none;
+  /* -- */
+  --text-size-small-h4-size: 1.25rem;
+  --text-size-small-h4-padding: 1.25rem;
+  --text-size-small-h4-line-height: 1.1;
+  --text-size-small-h4-letter-spacing: normal;
+  --text-size-small-h4-weight: 500;
+  --text-size-small-h4-transform: none;
+  /* -- */
+  --text-size-small-p-size: 1.25rem;
+  --text-size-small-p-padding: 1.25rem;
+  --text-size-small-p-line-height: 1.1;
+  --text-size-small-p-letter-spacing: normal;
+  --text-size-small-p-weight: 400;
+  --text-size-small-p-transform: none;
+  /* -- */
+  --text-size-small-q-p-size: 1.25rem;
+  --text-size-small-q-p-padding: 1.25rem;
+  --text-size-small-q-p-line-height: 1.1;
+  --text-size-small-q-p-letter-spacing: normal;
+  --text-size-small-q-p-weight: 400;
+  --text-size-small-q-p-transform: none;
+  /* -- */
+  --text-size-small-q-c-size: 1.25rem;
+  --text-size-small-q-c-padding: 1.25rem;
+  --text-size-small-q-c-line-height: 1.1;
+  --text-size-small-q-c-letter-spacing: normal;
+  --text-size-small-q-c-weight: 400;
+  --text-size-small-q-c-transform: none;
+  /* -- */
+  --text-size-small-scale-xs: 1;
+  --text-size-small-scale-sm: 1;
+  --text-size-small-scale-md: 1;
+  --text-size-small-scale-lg: 1;
+  --text-size-small-scale-xl: 1;
+  --text-size-small-scale-xxl: 1;
+  /* -- */
+  /*
+  --text-size-small-scale-xs: 0.35;
+  --text-size-small-scale-sm: 0.45;
+  --text-size-small-scale-md: 0.63;
+  --text-size-small-scale-lg: 0.62;
+  --text-size-small-scale-xl: 0.74;
+  */
+  --text-size-small-scale-xs: 0.45;
+  --text-size-small-scale-sm: 0.65;
+  --text-size-small-scale-md: 0.58;
+  --text-size-small-scale-lg: 0.78;
+  --text-size-small-scale-xl: 0.9;
+  --text-size-small-scale-xxl: 1; }
+
+/* line 83, resources/assets/styles/common/_text-size-small.scss */
+.small h1 {
+  margin: 0;
+  font-size: calc(var(--text-size-small-h1-size) * var(--text-size-small-scale-xs));
+  padding-bottom: calc(var(--text-size-small-h1-padding) * var(--text-size-small-scale-xs));
+  line-height: var(--text-size-small-h1-line-height);
+  letter-spacing: var(--text-size-small-h1-letter-spacing);
+  font-weight: var(--text-size-small-h1-weight);
+  text-transform: var(--text-size-small-h1-transform); }
+  @media (min-width: 576px) {
+    /* line 83, resources/assets/styles/common/_text-size-small.scss */
+    .small h1 {
+      font-size: calc(var(--text-size-small-h1-size) * var(--text-size-small-scale-sm));
+      padding-bottom: calc(var(--text-size-small-h1-padding) * var(--text-size-small-scale-sm)); } }
+  @media (min-width: 768px) {
+    /* line 83, resources/assets/styles/common/_text-size-small.scss */
+    .small h1 {
+      font-size: calc(var(--text-size-small-h1-size) * var(--text-size-small-scale-md));
+      padding-bottom: calc(var(--text-size-small-h1-padding) * var(--text-size-small-scale-md)); } }
+  @media (min-width: 992px) {
+    /* line 83, resources/assets/styles/common/_text-size-small.scss */
+    .small h1 {
+      font-size: calc(var(--text-size-small-h1-size) * var(--text-size-small-scale-lg));
+      padding-bottom: calc(var(--text-size-small-h1-padding) * var(--text-size-small-scale-lg)); } }
+  @media (min-width: 1200px) {
+    /* line 83, resources/assets/styles/common/_text-size-small.scss */
+    .small h1 {
+      font-size: calc(var(--text-size-small-h1-size) * var(--text-size-small-scale-xl));
+      padding-bottom: calc(var(--text-size-small-h1-padding) * var(--text-size-small-scale-xl)); } }
+  @media (min-width: 1600px) {
+    /* line 83, resources/assets/styles/common/_text-size-small.scss */
+    .small h1 {
+      font-size: calc(var(--text-size-small-h1-size) * var(--text-size-small-scale-xxl));
+      padding-bottom: calc(var(--text-size-small-h1-padding) * var(--text-size-small-scale-xxl)); } }
+
+/* line 118, resources/assets/styles/common/_text-size-small.scss */
+.small h2,
+.small .h2 {
+  margin: 0;
+  font-size: calc(var(--text-size-small-h2-size) * var(--text-size-small-scale-xs));
+  padding-bottom: calc(var(--text-size-small-h2-padding) * var(--text-size-small-scale-xs));
+  line-height: var(--text-size-small-h2-line-height);
+  letter-spacing: var(--text-size-small-h2-letter-spacing);
+  font-weight: var(--text-size-small-h2-weight);
+  text-transform: var(--text-size-small-h2-transform); }
+  @media (min-width: 576px) {
+    /* line 118, resources/assets/styles/common/_text-size-small.scss */
+    .small h2,
+    .small .h2 {
+      font-size: calc(var(--text-size-small-h2-size) * var(--text-size-small-scale-sm));
+      padding-bottom: calc(var(--text-size-small-h2-padding) * var(--text-size-small-scale-sm)); } }
+  @media (min-width: 768px) {
+    /* line 118, resources/assets/styles/common/_text-size-small.scss */
+    .small h2,
+    .small .h2 {
+      font-size: calc(var(--text-size-small-h2-size) * var(--text-size-small-scale-md));
+      padding-bottom: calc(var(--text-size-small-h2-padding) * var(--text-size-small-scale-md)); } }
+  @media (min-width: 992px) {
+    /* line 118, resources/assets/styles/common/_text-size-small.scss */
+    .small h2,
+    .small .h2 {
+      font-size: calc(var(--text-size-small-h2-size) * var(--text-size-small-scale-lg));
+      padding-bottom: calc(var(--text-size-small-h2-padding) * var(--text-size-small-scale-lg)); } }
+  @media (min-width: 1200px) {
+    /* line 118, resources/assets/styles/common/_text-size-small.scss */
+    .small h2,
+    .small .h2 {
+      font-size: calc(var(--text-size-small-h2-size) * var(--text-size-small-scale-xl));
+      padding-bottom: calc(var(--text-size-small-h2-padding) * var(--text-size-small-scale-xl)); } }
+  @media (min-width: 1600px) {
+    /* line 118, resources/assets/styles/common/_text-size-small.scss */
+    .small h2,
+    .small .h2 {
+      font-size: calc(var(--text-size-small-h2-size) * var(--text-size-small-scale-xxl));
+      padding-bottom: calc(var(--text-size-small-h2-padding) * var(--text-size-small-scale-xxl)); } }
+
+/* line 154, resources/assets/styles/common/_text-size-small.scss */
+.small h3 {
+  margin: 0;
+  font-size: calc(var(--text-size-small-h3-size) * var(--text-size-small-scale-xs));
+  padding-bottom: calc(var(--text-size-small-h3-padding) * var(--text-size-small-scale-xs));
+  line-height: var(--text-size-small-h3-line-height);
+  letter-spacing: var(--text-size-small-h3-letter-spacing);
+  font-weight: var(--text-size-small-h3-weight);
+  text-transform: var(--text-size-small-h3-transform); }
+  @media (min-width: 576px) {
+    /* line 154, resources/assets/styles/common/_text-size-small.scss */
+    .small h3 {
+      font-size: calc(var(--text-size-small-h3-size) * var(--text-size-small-scale-sm));
+      padding-bottom: calc(var(--text-size-small-h3-padding) * var(--text-size-small-scale-sm)); } }
+  @media (min-width: 768px) {
+    /* line 154, resources/assets/styles/common/_text-size-small.scss */
+    .small h3 {
+      font-size: calc(var(--text-size-small-h3-size) * var(--text-size-small-scale-md));
+      padding-bottom: calc(var(--text-size-small-h3-padding) * var(--text-size-small-scale-md)); } }
+  @media (min-width: 992px) {
+    /* line 154, resources/assets/styles/common/_text-size-small.scss */
+    .small h3 {
+      font-size: calc(var(--text-size-small-h3-size) * var(--text-size-small-scale-lg));
+      padding-bottom: calc(var(--text-size-small-h3-padding) * var(--text-size-small-scale-lg)); } }
+  @media (min-width: 1200px) {
+    /* line 154, resources/assets/styles/common/_text-size-small.scss */
+    .small h3 {
+      font-size: calc(var(--text-size-small-h3-size) * var(--text-size-small-scale-xl));
+      padding-bottom: calc(var(--text-size-small-h3-padding) * var(--text-size-small-scale-xl)); } }
+  @media (min-width: 1600px) {
+    /* line 154, resources/assets/styles/common/_text-size-small.scss */
+    .small h3 {
+      font-size: calc(var(--text-size-small-h3-size) * var(--text-size-small-scale-xxl));
+      padding-bottom: calc(var(--text-size-small-h3-padding) * var(--text-size-small-scale-xxl)); } }
+
+/* line 189, resources/assets/styles/common/_text-size-small.scss */
+.small h4 {
+  margin: 0;
+  font-size: calc(var(--text-size-small-h4-size) * var(--text-size-small-scale-xs));
+  padding-bottom: calc(var(--text-size-small-h4-padding) * var(--text-size-small-scale-xs));
+  line-height: var(--text-size-small-h4-line-height);
+  letter-spacing: var(--text-size-small-h4-letter-spacing);
+  font-weight: var(--text-size-small-h4-weight);
+  text-transform: var(--text-size-small-h4-transform); }
+  @media (min-width: 576px) {
+    /* line 189, resources/assets/styles/common/_text-size-small.scss */
+    .small h4 {
+      font-size: calc(var(--text-size-small-h4-size) * var(--text-size-small-scale-sm));
+      padding-bottom: calc(var(--text-size-small-h4-padding) * var(--text-size-small-scale-sm)); } }
+  @media (min-width: 768px) {
+    /* line 189, resources/assets/styles/common/_text-size-small.scss */
+    .small h4 {
+      font-size: calc(var(--text-size-small-h4-size) * var(--text-size-small-scale-md));
+      padding-bottom: calc(var(--text-size-small-h4-padding) * var(--text-size-small-scale-md)); } }
+  @media (min-width: 992px) {
+    /* line 189, resources/assets/styles/common/_text-size-small.scss */
+    .small h4 {
+      font-size: calc(var(--text-size-small-h4-size) * var(--text-size-small-scale-lg));
+      padding-bottom: calc(var(--text-size-small-h4-padding) * var(--text-size-small-scale-lg)); } }
+  @media (min-width: 1200px) {
+    /* line 189, resources/assets/styles/common/_text-size-small.scss */
+    .small h4 {
+      font-size: calc(var(--text-size-small-h4-size) * var(--text-size-small-scale-xl));
+      padding-bottom: calc(var(--text-size-small-h4-padding) * var(--text-size-small-scale-xl)); } }
+  @media (min-width: 1600px) {
+    /* line 189, resources/assets/styles/common/_text-size-small.scss */
+    .small h4 {
+      font-size: calc(var(--text-size-small-h4-size) * var(--text-size-small-scale-xxl));
+      padding-bottom: calc(var(--text-size-small-h4-padding) * var(--text-size-small-scale-xxl)); } }
+
+/* line 224, resources/assets/styles/common/_text-size-small.scss */
+.small p,
+.small ul,
+.small ol,
+.small .p {
+  margin: 0;
+  font-size: calc(var(--text-size-small-p-size) * var(--text-size-small-scale-xs));
+  padding-bottom: calc(var(--text-size-small-p-padding) * var(--text-size-small-scale-xs));
+  line-height: var(--text-size-small-p-line-height);
+  letter-spacing: var(--text-size-small-p-letter-spacing);
+  font-weight: var(--text-size-small-p-weight);
+  text-transform: var(--text-size-small-p-transform); }
+  @media (min-width: 576px) {
+    /* line 224, resources/assets/styles/common/_text-size-small.scss */
+    .small p,
+    .small ul,
+    .small ol,
+    .small .p {
+      font-size: calc(var(--text-size-small-p-size) * var(--text-size-small-scale-sm));
+      padding-bottom: calc(var(--text-size-small-p-padding) * var(--text-size-small-scale-sm)); } }
+  @media (min-width: 768px) {
+    /* line 224, resources/assets/styles/common/_text-size-small.scss */
+    .small p,
+    .small ul,
+    .small ol,
+    .small .p {
+      font-size: calc(var(--text-size-small-p-size) * var(--text-size-small-scale-md));
+      padding-bottom: calc(var(--text-size-small-p-padding) * var(--text-size-small-scale-md)); } }
+  @media (min-width: 992px) {
+    /* line 224, resources/assets/styles/common/_text-size-small.scss */
+    .small p,
+    .small ul,
+    .small ol,
+    .small .p {
+      font-size: calc(var(--text-size-small-p-size) * var(--text-size-small-scale-lg));
+      padding-bottom: calc(var(--text-size-small-p-padding) * var(--text-size-small-scale-lg)); } }
+  @media (min-width: 1200px) {
+    /* line 224, resources/assets/styles/common/_text-size-small.scss */
+    .small p,
+    .small ul,
+    .small ol,
+    .small .p {
+      font-size: calc(var(--text-size-small-p-size) * var(--text-size-small-scale-xl));
+      padding-bottom: calc(var(--text-size-small-p-padding) * var(--text-size-small-scale-xl)); } }
+  @media (min-width: 1600px) {
+    /* line 224, resources/assets/styles/common/_text-size-small.scss */
+    .small p,
+    .small ul,
+    .small ol,
+    .small .p {
+      font-size: calc(var(--text-size-small-p-size) * var(--text-size-small-scale-xxl));
+      padding-bottom: calc(var(--text-size-small-p-padding) * var(--text-size-small-scale-xxl)); } }
+
+/* line 264, resources/assets/styles/common/_text-size-small.scss */
+.small blockquote p {
+  margin: 0;
+  font-size: calc(var(--text-size-small-q-p-size) * var(--text-size-small-scale-xs));
+  padding-bottom: calc(var(--text-size-small-q-p-padding) * var(--text-size-small-scale-xs));
+  line-height: var(--text-size-small-q-p-line-height);
+  letter-spacing: var(--text-size-small-q-p-letter-spacing);
+  font-weight: var(--text-size-small-q-p-weight);
+  text-transform: var(--text-size-small-q-p-transform); }
+  @media (min-width: 576px) {
+    /* line 264, resources/assets/styles/common/_text-size-small.scss */
+    .small blockquote p {
+      font-size: calc(var(--text-size-small-q-p-size) * var(--text-size-small-scale-sm));
+      padding-bottom: calc(var(--text-size-small-q-p-padding) * var(--text-size-small-scale-sm)); } }
+  @media (min-width: 768px) {
+    /* line 264, resources/assets/styles/common/_text-size-small.scss */
+    .small blockquote p {
+      font-size: calc(var(--text-size-small-q-p-size) * var(--text-size-small-scale-md));
+      padding-bottom: calc(var(--text-size-small-q-p-padding) * var(--text-size-small-scale-md)); } }
+  @media (min-width: 992px) {
+    /* line 264, resources/assets/styles/common/_text-size-small.scss */
+    .small blockquote p {
+      font-size: calc(var(--text-size-small-q-p-size) * var(--text-size-small-scale-lg));
+      padding-bottom: calc(var(--text-size-small-q-p-padding) * var(--text-size-small-scale-lg)); } }
+  @media (min-width: 1200px) {
+    /* line 264, resources/assets/styles/common/_text-size-small.scss */
+    .small blockquote p {
+      font-size: calc(var(--text-size-small-q-p-size) * var(--text-size-small-scale-xl));
+      padding-bottom: calc(var(--text-size-small-q-p-padding) * var(--text-size-small-scale-xl)); } }
+  @media (min-width: 1600px) {
+    /* line 264, resources/assets/styles/common/_text-size-small.scss */
+    .small blockquote p {
+      font-size: calc(var(--text-size-small-q-p-size) * var(--text-size-small-scale-xxl));
+      padding-bottom: calc(var(--text-size-small-q-p-padding) * var(--text-size-small-scale-xxl)); } }
+
+/* line 299, resources/assets/styles/common/_text-size-small.scss */
+.small blockquote cite {
+  margin: 0;
+  font-size: calc(var(--text-size-small-q-c-size) * var(--text-size-small-scale-xs));
+  padding-bottom: calc(var(--text-size-small-q-c-padding) * var(--text-size-small-scale-xs));
+  line-height: var(--text-size-small-q-c-line-height);
+  letter-spacing: var(--text-size-small-q-c-letter-spacing);
+  font-weight: var(--text-size-small-q-c-weight);
+  text-transform: var(--text-size-small-q-c-transform); }
+  @media (min-width: 576px) {
+    /* line 299, resources/assets/styles/common/_text-size-small.scss */
+    .small blockquote cite {
+      font-size: calc(var(--text-size-small-q-c-size) * var(--text-size-small-scale-sm));
+      padding-bottom: calc(var(--text-size-small-q-c-padding) * var(--text-size-small-scale-sm)); } }
+  @media (min-width: 768px) {
+    /* line 299, resources/assets/styles/common/_text-size-small.scss */
+    .small blockquote cite {
+      font-size: calc(var(--text-size-small-q-c-size) * var(--text-size-small-scale-md));
+      padding-bottom: calc(var(--text-size-small-q-c-padding) * var(--text-size-small-scale-md)); } }
+  @media (min-width: 992px) {
+    /* line 299, resources/assets/styles/common/_text-size-small.scss */
+    .small blockquote cite {
+      font-size: calc(var(--text-size-small-q-c-size) * var(--text-size-small-scale-lg));
+      padding-bottom: calc(var(--text-size-small-q-c-padding) * var(--text-size-small-scale-lg)); } }
+  @media (min-width: 1200px) {
+    /* line 299, resources/assets/styles/common/_text-size-small.scss */
+    .small blockquote cite {
+      font-size: calc(var(--text-size-small-q-c-size) * var(--text-size-small-scale-xl));
+      padding-bottom: calc(var(--text-size-small-q-c-padding) * var(--text-size-small-scale-xl)); } }
+  @media (min-width: 1600px) {
+    /* line 299, resources/assets/styles/common/_text-size-small.scss */
+    .small blockquote cite {
+      font-size: calc(var(--text-size-small-q-c-size) * var(--text-size-small-scale-xxl));
+      padding-bottom: calc(var(--text-size-small-q-c-padding) * var(--text-size-small-scale-xxl)); } }
+
+/* line 348, resources/assets/styles/common/_text-size-small.scss */
+.small .h1:last-child,
+.small .h2:last-child,
+.small .h3:last-child,
+.small .h4:last-child,
+.small .h5:last-child,
+.small h1:last-child,
+.small h2:last-child,
+.small h3:last-child,
+.small h4:last-child,
+.small h5:last-child,
+.small p:last-child,
+.small ul:last-child,
+.small ol:last-child {
+  margin: 0;
+  padding: 0; }
+
+/* line 354, resources/assets/styles/common/_text-size-small.scss */
+.small ul,
+.small ol {
+  padding-left: 2rem; }
+  /* line 358, resources/assets/styles/common/_text-size-small.scss */
+  .small ul:last-child,
+  .small ol:last-child {
+    margin: 0;
+    padding: 0;
+    padding-left: 2rem; }
+
 /* line 5, resources/assets/styles/components/_comments.scss */
 .comment-list ol {
   list-style: none; }
@@ -11783,6 +12152,33 @@ p:last-child {
 
 /** Captions */
 /** Text meant only for screen readers */
+/* line 1, resources/assets/styles/layouts/_footer.scss */
+.content-info {
+  background: #000;
+  color: #fff;
+  padding-top: calc((100vw / 24.5) / 2);
+  padding-bottom: calc((100vw / 24.5) / 2); }
+  /* line 7, resources/assets/styles/layouts/_footer.scss */
+  .content-info .footer-logo {
+    padding-bottom: calc((100vw / 24.5) / 4); }
+    /* line 10, resources/assets/styles/layouts/_footer.scss */
+    .content-info .footer-logo svg {
+      width: 36px;
+      height: auto;
+      position: relative;
+      margin-left: -6px; }
+  /* line 18, resources/assets/styles/layouts/_footer.scss */
+  .content-info .social-wrapper {
+    text-align: right; }
+    /* line 21, resources/assets/styles/layouts/_footer.scss */
+    .content-info .social-wrapper .social {
+      display: inline-block;
+      margin-left: calc((100vw / 24.5) / 4); }
+      /* line 25, resources/assets/styles/layouts/_footer.scss */
+      .content-info .social-wrapper .social svg {
+        width: 64px;
+        height: 65px; }
+
 /* line 1, resources/assets/styles/layouts/_tinymce.scss */
 body#tinymce {
   margin: 12px !important; }

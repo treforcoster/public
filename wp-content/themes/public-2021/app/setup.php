@@ -11,8 +11,8 @@ use Roots\Sage\Template\BladeProvider;
  * Theme assets
  */
 add_action('wp_enqueue_scripts', function () {
-    wp_enqueue_style('sage/main.css', asset_path('styles/main.css?v=03d062021'), false, null);
-    wp_enqueue_script('sage/main.js', asset_path('scripts/main.js?v=03d062021'), ['jquery'], null, true);
+    wp_enqueue_style('sage/main.css', asset_path('styles/main.css?v=04062021'), false, null);
+    wp_enqueue_script('sage/main.js', asset_path('scripts/main.js?v=04062021'), ['jquery'], null, true);
 
     if (is_single() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
@@ -94,9 +94,18 @@ add_action('widgets_init', function () {
         'id'            => 'sidebar-primary'
     ] + $config);
     register_sidebar([
-        'name'          => __('Footer', 'sage'),
-        'id'            => 'sidebar-footer'
-    ] + $config);
+            'name'          => __('Footer Area 1', 'sage'),
+            'id'            => 'sidebar-footer-1'
+        ] + $config);
+    register_sidebar([
+            'name'          => __('Footer Area 2', 'sage'),
+            'id'            => 'sidebar-footer-2'
+        ] + $config);
+    register_sidebar([
+            'name'          => __('Footer Area 3', 'sage'),
+            'id'            => 'sidebar-footer-3'
+        ] + $config);
+
 });
 
 /**
