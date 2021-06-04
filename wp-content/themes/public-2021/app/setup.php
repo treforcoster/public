@@ -101,10 +101,7 @@ add_action('widgets_init', function () {
             'name'          => __('Footer Area 2', 'sage'),
             'id'            => 'sidebar-footer-2'
         ] + $config);
-    register_sidebar([
-            'name'          => __('Footer Area 3', 'sage'),
-            'id'            => 'sidebar-footer-3'
-        ] + $config);
+    
 
 });
 
