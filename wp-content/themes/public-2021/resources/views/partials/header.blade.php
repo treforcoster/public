@@ -17,7 +17,7 @@
 
     <div class="menu-wrapper">
 
-      <h3>Menu</h3>
+      <!--<h3>Menu</h3>-->
 
       <?php
       if (has_nav_menu('primary_navigation')) :
