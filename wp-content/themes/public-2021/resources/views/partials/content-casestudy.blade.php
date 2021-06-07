@@ -93,12 +93,16 @@
         <div class="casestudy-title">
 
           <div class="row justify-content-between">
-            <div class="col-lg-12">
+            <div class="col-lg-10 col-lg-11 col-xxl-11">
+              <div class="vertical-spacing-mobile-bottom vertical-spacing-mobile-top vertical-spacing-desktop-bottom vertical-spacing-desktop-top">
               <h2>{!! the_field('title', $post->ID) !!}</h2>
+              </div>
             </div>
 
-            <div class="col-lg-3">
-              <div class="h2 more-info">More information +</div>
+            <div class="col-lg-5 col-xl-4 col-xxl-4">
+              <div class="vertical-spacing-mobile-bottom vertical-spacing-desktop-bottom vertical-spacing-desktop-top">
+              <div class="h2 more-info ">More information +</div>
+              </div>
             </div>
 
           </div>

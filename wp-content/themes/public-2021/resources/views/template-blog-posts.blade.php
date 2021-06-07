@@ -22,24 +22,24 @@
 
         <div class="row align-items-end">
 
-          <div class="col-lg-6">
+          <div class="col-13 offset-3 col-lg-6 offset-lg-1 order-lg-2">
 
             <?php
-            $postFormat = 'b';
-            $imageSize = 'blog-image-2';
-            $postClass = "blog-post-2 loop-2";
+            $postFormat = 'a';
+            $imageSize = 'blog-image-1';
+            $postClass = "blog-post-1 loop-2 mobile-align-left";
             ?>
 
             @include('partials.post')
 
           </div>
 
-          <div class="col-lg-6 offset-lg-1">
+          <div class="col-13 col-lg-6 order-lg-1">
 
             <?php
-            $postFormat = 'a';
-            $imageSize = 'blog-image-1';
-            $postClass = "blog-post-1 loop-2";
+            $postFormat = 'b';
+            $imageSize = 'blog-image-2';
+            $postClass = "blog-post-2 loop-2 mobile-align-right desktop-align-right";
             ?>
 
             @include('partials.post')
@@ -50,24 +50,24 @@
 
         <div class="row">
 
-          <div class="col-lg-12 offset-lg-4">
+          <div class="col-13 offset-3 col-lg-12 offset-lg-4">
 
             <?php
             $postFormat = 'c';
             $imageSize = 'blog-image-3';
-            $postClass = "blog-post-3 loop-2";
+            $postClass = "blog-post-3 loop-2 mobile-align-left";
             ?>
 
             @include('partials.post')
 
           </div>
 
-          <div class="col-lg-9 offset-lg-3">
+          <div class="col-13 col-lg-9 offset-lg-3">
 
             <?php
             $postFormat = 'd';
             $imageSize = 'blog-image-4';
-            $postClass = "blog-post-4 loop-2";
+            $postClass = "blog-post-4 loop-2 mobile-align-right desktop-align-left";
             ?>
 
             @include('partials.post')
@@ -81,48 +81,52 @@
 
     <div class="row align-items-end">
 
-        <div class="col-lg-6 offset-lg-3">
-
-          <?php
-          $postFormat = 'a';
-          $imageSize = 'blog-image-1';
-          $postClass = "blog-post-1 loop-1";
-          ?>
-
-          @include('partials.post')
-
-        </div>
-
-        <div class="col-lg-6 offset-lg-1">
+        <div class="col-13 offset-3 col-lg-6 offset-lg-1 order-lg-2">
 
           <?php
           $postFormat = 'b';
           $imageSize = 'blog-image-2';
-          $postClass = "blog-post-2 loop-1";
+          $postClass = "blog-post-2 loop-1 mobile-align-left";
           ?>
 
           @include('partials.post')
 
         </div>
 
-        <div class="col-lg-12">
+        <div class="col-13 col-lg-6 offset-lg-3 order-lg-1">
+
+          <?php
+          $postFormat = 'a';
+          $imageSize = 'blog-image-1';
+          $postClass = "blog-post-1 loop-1 mobile-align-right";
+          ?>
+
+          @include('partials.post')
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-13 offset-3 col-lg-12 offset-lg-0">
 
           <?php
           $postFormat = 'c';
           $imageSize = 'blog-image-3';
-          $postClass = "blog-post-3 loop-1";
+          $postClass = "blog-post-3 loop-1 mobile-align-left desktop-align-right";
           ?>
 
           @include('partials.post')
 
         </div>
 
-        <div class="col-lg-9 offset-4">
+        <div class="col-13 col-lg-9 offset-lg-4">
 
           <?php
           $postFormat = 'd';
           $imageSize = 'blog-image-4';
-          $postClass = "blog-post-4 loop-1";
+          $postClass = "blog-post-4 loop-1 mobile-align-right desktop-align-left";
           ?>
 
           @include('partials.post')

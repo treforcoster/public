@@ -20,7 +20,7 @@
 
   <div class="row justify-content-end">
 
-    <div class="col-lg-13">
+    <div class="col-lg-15 col-xl-14 col-xxl-13">
 
       @include('partials.content-casestudy')
 

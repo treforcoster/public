@@ -22,3 +22,27 @@ p {
     padding: 0;
   }
 }
+
+.vertical-spacing-mobile-top {
+  @include media-breakpoint-down(md) {
+    padding-top: calc(100vw / 24.5) !important;
+  }
+}
+
+.vertical-spacing-mobile-bottom {
+  @include media-breakpoint-down(md) {
+    padding-bottom: calc(100vw / 24.5) !important;
+  }
+}
+
+.vertical-spacing-desktop-top {
+  @include media-breakpoint-up(lg) {
+    padding-top: calc(100vw / 64) !important;
+  }
+}
+
+.vertical-spacing-desktop-bottom {
+  @include media-breakpoint-up(lg) {
+    padding-bottom: calc(100vw / 64) !important;
+  }
+}

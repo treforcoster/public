@@ -55,9 +55,9 @@
   --text-size-medium-q-c-transform: none;
 
   /* -- */
-  --text-size-medium-scale-xs: 1;
-  --text-size-medium-scale-sm: 1;
-  --text-size-medium-scale-md: 1;
+  --text-size-medium-scale-xs: 1.8/2;
+  --text-size-medium-scale-sm: 1.8/2;
+  --text-size-medium-scale-md: 1.8/2;
   --text-size-medium-scale-lg: 1;
   --text-size-medium-scale-xl: 1;
   --text-size-medium-scale-xxl: 1;
@@ -71,12 +71,6 @@
   --text-size-medium-scale-lg: 0.62;
   --text-size-medium-scale-xl: 0.74;
   */
-  --text-size-medium-scale-xs: 0.45;
-  --text-size-medium-scale-sm: 0.65;
-  --text-size-medium-scale-md: 0.58;
-  --text-size-medium-scale-lg: 0.78;
-  --text-size-medium-scale-xl: 0.9;
-  --text-size-medium-scale-xxl: 1;
 }
 
 .medium {

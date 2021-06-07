@@ -7,7 +7,11 @@
   }
 
   .title {
-    padding-top: calc(100vw / 64);
+    padding-top: calc(100vw / 24.5);
+
+    @include media-breakpoint-up(lg) {
+      padding-top: calc(100vw / 64);
+    }
   }
 
   &.loop-1 {
@@ -22,7 +26,6 @@
     &.blog-post-3 {
       h3 {
         width: 100%;
-        text-align: right;
       }
     }
 
@@ -39,7 +42,6 @@
     &.blog-post-2 {
       h3 {
         width: 100%;
-        text-align: right;
       }
     }
 
@@ -49,6 +51,30 @@
 
     &.blog-post-4 {
       //padding-top: calc((100vw / 16) * 3);
+    }
+  }
+
+  &.mobile-align-right {
+    @include media-breakpoint-down(md) {
+      text-align: right;
+    }
+  }
+
+  &.mobile-align-left {
+    @include media-breakpoint-down(md) {
+      text-align: left;
+    }
+  }
+
+  &.desktop-align-right {
+    @include media-breakpoint-up(lg) {
+      text-align: right;
+    }
+  }
+
+  &.desktop-align-left {
+    @include media-breakpoint-up(lg) {
+      text-align: left;
     }
   }
 

@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36c75b6a-1b39-4f06-bb4c-c005cf1fdc1c" name="Default Changelist" comment="" />
+    <list default="true" id="36c75b6a-1b39-4f06-bb4c-c005cf1fdc1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/all-in-one-wp-migration/storage/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache-loader/b0a9e57a985cddf64b20c2447e97f869.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/b0a9e57a985cddf64b20c2447e97f869.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache-loader/bffa5017b7bf2a731fa7a4b8494b731f.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/bffa5017b7bf2a731fa7a4b8494b731f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/public-2021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/public-2021.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/setup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/customizer.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/customizer.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/styles/common/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/common/_global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/styles/common/_text-size-large.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/common/_text-size-large.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/styles/common/_text-size-medium.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/common/_text-size-medium.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/styles/common/_text-size-small.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/common/_text-size-small.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/styles/components/_blog-post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/components/_blog-post.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/styles/components/_casestudy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/components/_casestudy.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/styles/components/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/components/_menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/full-width-white.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/full-width-white.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/content-casestudy.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/content-casestudy.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/template-blog-posts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template-blog-posts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/template-case-studies.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template-case-studies.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +49,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -65,6 +91,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ryOQTG9CIQdLb4Ughw8Lmssk3s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -72,6 +99,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/assets/styles/components" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -83,7 +111,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
-    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v6.11.0/bin/node" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
@@ -138,8 +166,12 @@
       <workItem from="1621950746530" duration="3421000" />
       <workItem from="1622284480415" duration="3187000" />
       <workItem from="1622373345918" duration="2529000" />
+      <workItem from="1623040486434" duration="5274000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="675" y="492" key="#ESLint" timestamp="1622556844211">
