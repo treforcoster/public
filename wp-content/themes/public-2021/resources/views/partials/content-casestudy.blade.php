@@ -116,7 +116,7 @@
               {!! the_field('content', $post->ID) !!}
             </div>
 
-            <div class="col-lg-3">
+            <div class="col-lg-5 col-xl-4 col-xxl-4">
 
               <ul class="categories">
                <?php $post_categories = wp_get_post_categories($post->ID);
