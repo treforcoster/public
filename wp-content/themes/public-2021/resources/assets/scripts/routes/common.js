@@ -1,3 +1,4 @@
+import LogoAnimation from "../util/logoAnimation";
 import PostsGallery from "../util/postsGallery";
 import PostsVideo from "../util/postsVideo";
 import CasestudyGallery from "../util/casestudyGallery";
@@ -92,6 +93,7 @@ export default {
     },
     finalize() {
         // JavaScript to be fired on all pages, after page specific JS is fired
+        const logoAnimation = new LogoAnimation();
         const postsVideo = new PostsVideo();
         const postsGallery = new PostsGallery();
         const casestudyGallery = new CasestudyGallery();

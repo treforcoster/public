@@ -11000,23 +11000,31 @@ p:last-child {
   margin: 0;
   padding: 0; }
 
+/* line 26, resources/assets/styles/common/_global.scss */
+#logo-trigger {
+  position: absolute;
+  left: 0;
+  top: 60%;
+  width: 0;
+  height: 100px; }
+
 @media (max-width: 991.98px) {
-  /* line 26, resources/assets/styles/common/_global.scss */
+  /* line 35, resources/assets/styles/common/_global.scss */
   .vertical-spacing-mobile-top {
     padding-top: calc(100vw / 24.5) !important; } }
 
 @media (max-width: 991.98px) {
-  /* line 32, resources/assets/styles/common/_global.scss */
+  /* line 41, resources/assets/styles/common/_global.scss */
   .vertical-spacing-mobile-bottom {
     padding-bottom: calc(100vw / 24.5) !important; } }
 
 @media (min-width: 992px) {
-  /* line 38, resources/assets/styles/common/_global.scss */
+  /* line 47, resources/assets/styles/common/_global.scss */
   .vertical-spacing-desktop-top {
     padding-top: calc(100vw / 64) !important; } }
 
 @media (min-width: 992px) {
-  /* line 44, resources/assets/styles/common/_global.scss */
+  /* line 53, resources/assets/styles/common/_global.scss */
   .vertical-spacing-desktop-bottom {
     padding-bottom: calc(100vw / 64) !important; } }
 
@@ -12524,6 +12532,9 @@ body#tinymce {
   #show-menu svg {
     width: calc((100vw/24.5) * 2);
     height: calc((100vw/24.5) * 2); }
+    /* line 123, resources/assets/styles/components/_menu.scss */
+    #show-menu svg .fill {
+      mix-blend-mode: difference; }
   @media (min-width: 992px) {
     /* line 99, resources/assets/styles/components/_menu.scss */
     #show-menu {
@@ -12531,11 +12542,11 @@ body#tinymce {
       right: 50px;
       width: 74px;
       height: 74px; }
-      /* line 130, resources/assets/styles/components/_menu.scss */
+      /* line 134, resources/assets/styles/components/_menu.scss */
       #show-menu svg {
         width: 74px;
         height: 74px; } }
-  /* line 136, resources/assets/styles/components/_menu.scss */
+  /* line 140, resources/assets/styles/components/_menu.scss */
   #show-menu .fill {
     fill: #fff;
     -webkit-transition: fill 0.4s ease-in-out;
@@ -12543,7 +12554,7 @@ body#tinymce {
     -ms-transition: fill 0.4s ease-in-out;
     -o-transition: fill 0.4s ease-in-out;
     transition: fill 0.4s ease-in-out; }
-  /* line 146, resources/assets/styles/components/_menu.scss */
+  /* line 150, resources/assets/styles/components/_menu.scss */
   #show-menu.open .fill {
     fill: #fff;
     -webkit-transition: fill 0.4s ease-in-out;
@@ -12552,7 +12563,7 @@ body#tinymce {
     -o-transition: fill 0.4s ease-in-out;
     transition: fill 0.4s ease-in-out; }
   @media (min-width: 768px) {
-    /* line 158, resources/assets/styles/components/_menu.scss */
+    /* line 162, resources/assets/styles/components/_menu.scss */
     #show-menu.black-nav .fill {
       fill: #fff;
       -webkit-transition: fill 0.4s ease-in-out;
@@ -12560,7 +12571,7 @@ body#tinymce {
       -ms-transition: fill 0.4s ease-in-out;
       -o-transition: fill 0.4s ease-in-out;
       transition: fill 0.4s ease-in-out; } }
-  /* line 169, resources/assets/styles/components/_menu.scss */
+  /* line 173, resources/assets/styles/components/_menu.scss */
   #show-menu.open {
     color: #fff;
     -webkit-transition: color 0.4s ease-in-out;
@@ -12569,7 +12580,7 @@ body#tinymce {
     -o-transition: color 0.4s ease-in-out;
     transition: color 0.4s ease-in-out; }
 
-/* line 179, resources/assets/styles/components/_menu.scss */
+/* line 183, resources/assets/styles/components/_menu.scss */
 #menu-bar {
   width: 100%;
   position: fixed;
@@ -12580,11 +12591,11 @@ body#tinymce {
   -ms-transition: top 0.4s ease-in-out;
   -o-transition: top 0.4s ease-in-out;
   transition: top 0.4s ease-in-out; }
-  /* line 190, resources/assets/styles/components/_menu.scss */
+  /* line 194, resources/assets/styles/components/_menu.scss */
   #menu-bar #circle-canvas {
     position: fixed;
     z-index: 10000; }
-  /* line 195, resources/assets/styles/components/_menu.scss */
+  /* line 199, resources/assets/styles/components/_menu.scss */
   #menu-bar .menu-wrapper {
     position: fixed;
     width: 100%;
@@ -12597,13 +12608,13 @@ body#tinymce {
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d; }
-    /* line 208, resources/assets/styles/components/_menu.scss */
+    /* line 212, resources/assets/styles/components/_menu.scss */
     #menu-bar .menu-wrapper h3 {
       font-size: 112px;
       color: #fff;
       padding-bottom: 45px;
       margin: 0; }
-    /* line 215, resources/assets/styles/components/_menu.scss */
+    /* line 219, resources/assets/styles/components/_menu.scss */
     #menu-bar .menu-wrapper ul {
       position: relative;
       top: 50%;
@@ -12614,12 +12625,12 @@ body#tinymce {
       padding: 0;
       margin: 0;
       text-align: center; }
-      /* line 226, resources/assets/styles/components/_menu.scss */
+      /* line 230, resources/assets/styles/components/_menu.scss */
       #menu-bar .menu-wrapper ul li {
         font-size: 112px;
         line-height: 1;
         width: auto; }
-        /* line 231, resources/assets/styles/components/_menu.scss */
+        /* line 235, resources/assets/styles/components/_menu.scss */
         #menu-bar .menu-wrapper ul li a {
           position: relative;
           display: inline-block;
@@ -12629,7 +12640,7 @@ body#tinymce {
           font-size: 112px;
           font-weight: 500;
           margin-top: 0; }
-          /* line 241, resources/assets/styles/components/_menu.scss */
+          /* line 245, resources/assets/styles/components/_menu.scss */
           #menu-bar .menu-wrapper ul li a::before {
             content: "";
             width: 50px;
@@ -12663,10 +12674,10 @@ body#tinymce {
               bottom: -5px;
               height: 2px;
             } */ }
-          /* line 277, resources/assets/styles/components/_menu.scss */
+          /* line 281, resources/assets/styles/components/_menu.scss */
           #menu-bar .menu-wrapper ul li a:hover {
             text-decoration: none; }
-            /* line 280, resources/assets/styles/components/_menu.scss */
+            /* line 284, resources/assets/styles/components/_menu.scss */
             #menu-bar .menu-wrapper ul li a:hover::before {
               opacity: 1;
               animation: blink 0.5s infinite 0.3s; }
@@ -12678,44 +12689,44 @@ body#tinymce {
     opacity: 0; }
   100% {
     opacity: 1; } }
-          /* line 300, resources/assets/styles/components/_menu.scss */
+          /* line 304, resources/assets/styles/components/_menu.scss */
           #menu-bar .menu-wrapper ul li a:focus {
             text-decoration: none; }
-        /* line 307, resources/assets/styles/components/_menu.scss */
+        /* line 311, resources/assets/styles/components/_menu.scss */
         #menu-bar .menu-wrapper ul li.active a::before {
           opacity: 1;
           width: 100%;
           left: 0; }
-      /* line 317, resources/assets/styles/components/_menu.scss */
+      /* line 321, resources/assets/styles/components/_menu.scss */
       #menu-bar .menu-wrapper ul li + li a {
         margin-left: 30%;
         margin-top: calc((100vw / 49) * 4); }
-      /* line 324, resources/assets/styles/components/_menu.scss */
+      /* line 328, resources/assets/styles/components/_menu.scss */
       #menu-bar .menu-wrapper ul li + li + li a {
         margin-left: -30%;
         margin-top: calc((100vw / 49) * 1); }
 
-/* line 339, resources/assets/styles/components/_menu.scss */
+/* line 343, resources/assets/styles/components/_menu.scss */
 .nav-white #logo .logo-fill {
   fill: #fff !important; }
 
-/* line 345, resources/assets/styles/components/_menu.scss */
+/* line 349, resources/assets/styles/components/_menu.scss */
 .nav-white #show-menu .fill {
   fill: #fff !important; }
 
-/* line 353, resources/assets/styles/components/_menu.scss */
+/* line 357, resources/assets/styles/components/_menu.scss */
 .nav-black #logo .logo-fill {
   fill: #000 !important; }
 
-/* line 359, resources/assets/styles/components/_menu.scss */
+/* line 363, resources/assets/styles/components/_menu.scss */
 .nav-black #show-menu .fill {
   fill: #000 !important; }
 
-/* line 366, resources/assets/styles/components/_menu.scss */
+/* line 370, resources/assets/styles/components/_menu.scss */
 .nav-black.open #logo .logo-fill {
   fill: #fff !important; }
 
-/* line 372, resources/assets/styles/components/_menu.scss */
+/* line 376, resources/assets/styles/components/_menu.scss */
 .nav-black.open #show-menu .fill {
   fill: #fff !important; }
 

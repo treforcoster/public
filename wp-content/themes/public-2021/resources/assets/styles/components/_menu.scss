@@ -119,6 +119,10 @@ $mobileToggleY: calc((100vw/24.5));
   svg {
     width: $mobileToggleHeight;
     height: $mobileToggleHeight;
+
+    .fill {
+      mix-blend-mode: difference;
+    }
   }
 
   @include media-breakpoint-up(lg) {

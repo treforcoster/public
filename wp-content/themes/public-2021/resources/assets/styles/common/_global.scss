@@ -23,6 +23,15 @@ p {
   }
 }
 
+#logo-trigger {
+  position: absolute;
+  left: 0;
+  top: 60%;
+  width: 0;
+  height: 100px;
+  // background: #f00;
+}
+
 .vertical-spacing-mobile-top {
   @include media-breakpoint-down(md) {
     padding-top: calc(100vw / 24.5) !important;
