@@ -125,12 +125,17 @@ class Menu {
 
         let self = this;
 
-        let pos = $('#show-menu').position();
+        //let pos = $('#show-menu').position();
         //let oTop = $('#show-menu').offset().top;
-        let oLeft = $('#show-menu').offset().left;
+        let offsetLeft = $('#show-menu').offset().left;
+        let width = $('#show-menu').width;
 
-        console.log('pos.left ', pos.left)
-        console.log('oLeft ', oLeft)
+        //console.log('pos.left ', pos.left)
+        console.log('oLeft ', offsetLeft)
+
+        let x = (offsetLeft + width);
+
+        console.log('x ', x)
 
         self.circle.x = self.width - (37 +50);
         self.circle.y = 37 + 40;

@@ -86927,12 +86927,17 @@ Menu.prototype.setCircleCanvas = function setCircleCanvas () {
 
     var self = this;
 
-    var pos = $('#show-menu').position();
+    //let pos = $('#show-menu').position();
     //let oTop = $('#show-menu').offset().top;
-    var oLeft = $('#show-menu').offset().left;
+    var offsetLeft = $('#show-menu').offset().left;
+    var width = $('#show-menu').width;
 
-    console.log('pos.left ', pos.left)
-    console.log('oLeft ', oLeft)
+    //console.log('pos.left ', pos.left)
+    console.log('oLeft ', offsetLeft)
+
+    var x = (offsetLeft + width);
+
+    console.log('x ', x)
 
     self.circle.x = self.width - (37 +50);
     self.circle.y = 37 + 40;

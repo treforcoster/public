@@ -2,28 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36c75b6a-1b39-4f06-bb4c-c005cf1fdc1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../plugins/all-in-one-wp-migration/storage/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache-loader/17ac904cc19e1a3534f728bfac1f8173.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/17ac904cc19e1a3534f728bfac1f8173.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache-loader/2d096e7c1fdb6733512944599e3f93dc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/2d096e7c1fdb6733512944599e3f93dc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache-loader/b0a9e57a985cddf64b20c2447e97f869.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/b0a9e57a985cddf64b20c2447e97f869.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/bffa5017b7bf2a731fa7a4b8494b731f.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/bffa5017b7bf2a731fa7a4b8494b731f.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/public-2021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/public-2021.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/setup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/customizer.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/customizer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/scripts/customizer.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/customizer.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/scripts/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/styles/common/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/common/_global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/styles/common/_text-size-large.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/common/_text-size-large.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/styles/common/_text-size-medium.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/common/_text-size-medium.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/styles/common/_text-size-small.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/common/_text-size-small.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/scripts/util/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/scripts/util/menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/assets/styles/components/_blog-post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/components/_blog-post.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/styles/components/_casestudy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/components/_casestudy.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/assets/styles/components/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/components/_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/full-width-white.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/full-width-white.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/content-casestudy.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/content-casestudy.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/template-blog-posts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template-blog-posts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/template-case-studies.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template-case-studies.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +157,10 @@
       <workItem from="1621950746530" duration="3421000" />
       <workItem from="1622284480415" duration="3187000" />
       <workItem from="1622373345918" duration="2529000" />
-      <workItem from="1623040486434" duration="5274000" />
+      <workItem from="1623040486434" duration="6989000" />
+      <workItem from="1623133985332" duration="5400000" />
+      <workItem from="1623187669397" duration="64000" />
+      <workItem from="1623228651797" duration="49000" />
     </task>
     <servers />
   </component>
