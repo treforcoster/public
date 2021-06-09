@@ -7,11 +7,18 @@
 
     <div data-barba="wrapper">
 
-      <div class="wrap loaded-content container-fluid page-white" role="document" data-barba="container">
-            @yield('content')
+      <div class="wrap" role="document" data-barba="container">
+
+        <div class="loaded-content container-fluid page-white">
+
+          @yield('content')
+
+        </div>
+
+        @include('partials.footer')
       </div>
 
-      @include('partials.footer')
+
 
     </div>
 

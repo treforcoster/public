@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36c75b6a-1b39-4f06-bb4c-c005cf1fdc1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/assets/scripts/util/logoAnimation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/9fdf337956e9d551590e5b065b687037.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/9fdf337956e9d551590e5b065b687037.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/b0a9e57a985cddf64b20c2447e97f869.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/b0a9e57a985cddf64b20c2447e97f869.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/setup.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/scripts/customizer.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/customizer.js" afterDir="false" />
@@ -13,10 +10,8 @@
       <change beforePath="$PROJECT_DIR$/dist/scripts/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/main.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/styles/main.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/styles/main.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/scripts/routes/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/scripts/routes/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/styles/common/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/common/_global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/styles/components/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/components/_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/full-width-black.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/full-width-black.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/full-width-white.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/full-width-white.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +157,7 @@
       <workItem from="1623040486434" duration="6989000" />
       <workItem from="1623133985332" duration="5400000" />
       <workItem from="1623187669397" duration="64000" />
-      <workItem from="1623228651797" duration="6499000" />
+      <workItem from="1623228651797" duration="7369000" />
     </task>
     <servers />
   </component>
