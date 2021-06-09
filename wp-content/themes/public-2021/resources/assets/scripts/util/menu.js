@@ -124,21 +124,14 @@ class Menu {
     setCircleCanvas() {
 
         let self = this;
-
-        //let pos = $('#show-menu').position();
-        //let oTop = $('#show-menu').offset().top;
         let offsetLeft = $('#show-menu').offset().left;
-        let width = $('#show-menu').width;
+        let offsetTop = $('#show-menu').offset().top;
+        let width = $('#show-menu').width();
+        let x = (offsetLeft + (width/2));
+        let y = (offsetTop + (width/2));
 
-        //console.log('pos.left ', pos.left)
-        console.log('oLeft ', offsetLeft)
-
-        let x = (offsetLeft + width);
-
-        console.log('x ', x)
-
-        self.circle.x = self.width - (37 +50);
-        self.circle.y = 37 + 40;
+        self.circle.x = x;
+        self.circle.y = y;
 
     }
 
