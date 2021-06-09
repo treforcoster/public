@@ -11395,49 +11395,49 @@ p:last-child {
 :root {
   --text-size-medium-h1-size: 1.6875rem;
   --text-size-medium-h1-padding: 2rem;
-  --text-size-medium-h1-line-height: 1;
+  --text-size-medium-h1-line-height: 1.11;
   --text-size-medium-h1-letter-spacing: normal;
   --text-size-medium-h1-weight: 500;
   --text-size-medium-h1-transform: none;
   /* -- */
   --text-size-medium-h2-size: 1.6875rem;
   --text-size-medium-h2-padding: 1.6875rem;
-  --text-size-medium-h2-line-height: 1;
+  --text-size-medium-h2-line-height: 1.11;
   --text-size-medium-h2-letter-spacing: normal;
   --text-size-medium-h2-weight: 500;
   --text-size-medium-h2-transform: none;
   /* -- */
   --text-size-medium-h3-size: 1.25rem;
   --text-size-medium-h3-padding: 0.5rem;
-  --text-size-medium-h3-line-height: 1;
+  --text-size-medium-h3-line-height: 1.11;
   --text-size-medium-h3-letter-spacing: normal;
   --text-size-medium-h3-weight: 500;
   --text-size-medium-h3-transform: none;
   /* -- */
   --text-size-medium-h4-size: 1.25rem;
   --text-size-medium-h4-padding: 0.5rem;
-  --text-size-medium-h4-line-height: 1;
+  --text-size-medium-h4-line-height: 1.11;
   --text-size-medium-h4-letter-spacing: normal;
   --text-size-medium-h4-weight: 500;
   --text-size-medium-h4-transform: none;
   /* -- */
   --text-size-medium-p-size: 1.6875rem;
   --text-size-medium-p-padding: 1.6875rem;
-  --text-size-medium-p-line-height: 1.5;
+  --text-size-medium-p-line-height: 1.11;
   --text-size-medium-p-letter-spacing: normal;
   --text-size-medium-p-weight: 400;
   --text-size-medium-p-transform: none;
   /* -- */
   --text-size-medium-q-p-size: 1.33rem;
   --text-size-medium-q-p-padding: 1rem;
-  --text-size-medium-q-p-line-height: 1.14;
+  --text-size-medium-q-p-line-height: 1.11;
   --text-size-medium-q-p-letter-spacing: normal;
   --text-size-medium-q-p-weight: 400;
   --text-size-medium-q-p-transform: none;
   /* -- */
   --text-size-medium-q-c-size: 1rem;
   --text-size-medium-q-c-padding: 1rem;
-  --text-size-medium-q-c-line-height: 1.5;
+  --text-size-medium-q-c-line-height: 1.11;
   --text-size-medium-q-c-letter-spacing: normal;
   --text-size-medium-q-c-weight: 400;
   --text-size-medium-q-c-transform: none;
