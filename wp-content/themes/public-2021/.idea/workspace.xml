@@ -8,10 +8,6 @@
       <change beforePath="$PROJECT_DIR$/dist/scripts/customizer.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/customizer.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/scripts/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles/main.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/full-width-black.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/full-width-black.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/full-width-white.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/full-width-white.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +153,7 @@
       <workItem from="1623040486434" duration="6989000" />
       <workItem from="1623133985332" duration="5400000" />
       <workItem from="1623187669397" duration="64000" />
-      <workItem from="1623228651797" duration="7369000" />
+      <workItem from="1623228651797" duration="7745000" />
     </task>
     <servers />
   </component>
