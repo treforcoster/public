@@ -88684,10 +88684,12 @@ Menu.prototype.setCircleCanvas = function setCircleCanvas () {
 
     var self = this;
     var offsetLeft = $('#show-menu').offset().left;
-    var offsetTop = $('#show-menu').offset().top;
+    var posTop = $('#show-menu').position().top;
     var width = $('#show-menu').width();
     var x = (offsetLeft + (width/2));
-    var y = (offsetTop + (width/2));
+    var y = (posTop + (width/2));
+
+    console.log('offsetTop ', posTop)
 
     self.circle.x = x;
     self.circle.y = y;
