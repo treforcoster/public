@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36c75b6a-1b39-4f06-bb4c-c005cf1fdc1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.cache-loader/2d096e7c1fdb6733512944599e3f93dc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/2d096e7c1fdb6733512944599e3f93dc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/b0a9e57a985cddf64b20c2447e97f869.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/b0a9e57a985cddf64b20c2447e97f869.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/setup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/customizer.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/customizer.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/scripts/util/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/scripts/util/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/acf-json/group_608e810acdc6b.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/acf-json/group_608e810acdc6b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/content-casestudy.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/content-casestudy.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +151,9 @@
       <workItem from="1623040486434" duration="6989000" />
       <workItem from="1623133985332" duration="5400000" />
       <workItem from="1623187669397" duration="64000" />
-      <workItem from="1623228651797" duration="9184000" />
+      <workItem from="1623228651797" duration="10492000" />
+      <workItem from="1623319136298" duration="199000" />
+      <workItem from="1623407099533" duration="902000" />
     </task>
     <servers />
   </component>

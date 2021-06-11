@@ -29,6 +29,14 @@
 
                         </div>
 
+                          <?php }else if ($type === 'gif'){ ?>
+
+                          <div class="swiper-slide" data-slide-type="gif">
+
+                            <?php $image = get_sub_field('gif');?>
+                            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                          </div>
+
                       <?php } else if ($type === 'embed'){?>
 
                         <div class="swiper-slide" data-slide-type="embed">
