@@ -57,6 +57,9 @@
                   id="video-<?php echo $id;?>"
                   class="video-js"
                   preload="auto"
+                  autoplay
+                  muted
+                  playsinline
                   poster="<?php the_sub_field('poster'); ?>"
                   data-setup='{}'>
                   <source src="<?php the_sub_field('video'); ?>" type="video/mp4"></source>
@@ -143,6 +146,9 @@
                   id="video-<?php echo $id;?>"
                   class="video-js"
                   preload="auto"
+                  autoplay
+                  muted
+                  playsinline
                   poster="<?php the_sub_field('poster'); ?>"
                   data-setup='{}'>
                   <source src="<?php the_sub_field('video'); ?>" type="video/mp4"></source>

@@ -134,6 +134,10 @@ class CasestudyGallery {
                   playVideo(videoPlayer);
                 }, 500)
 
+
+                //$(window ).scroll(function() {
+                  //playVideo(videoPlayer);
+                //});
                 //$('video', currentSlide).ready(function(){
                    // var myPlayer = this;
 

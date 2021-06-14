@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36c75b6a-1b39-4f06-bb4c-c005cf1fdc1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/assets/scripts/util/casestudyGalleryMobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/9fdf337956e9d551590e5b065b687037.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/9fdf337956e9d551590e5b065b687037.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/b0a9e57a985cddf64b20c2447e97f869.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/b0a9e57a985cddf64b20c2447e97f869.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/bffa5017b7bf2a731fa7a4b8494b731f.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/bffa5017b7bf2a731fa7a4b8494b731f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache-loader/9bacb4f907787ef3e2d2433645a0df6f.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/9bacb4f907787ef3e2d2433645a0df6f.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/setup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/customizer.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/customizer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/scripts/customizer.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/customizer.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/scripts/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/acf-json/group_608e810acdc6b.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/acf-json/group_608e810acdc6b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/scripts/routes/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/scripts/routes/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/styles/components/_casestudy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/components/_casestudy.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/scripts/util/casestudyGallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/scripts/util/casestudyGallery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/partials/content-casestudy.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/content-casestudy.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +158,7 @@
       <workItem from="1623228651797" duration="10492000" />
       <workItem from="1623319136298" duration="199000" />
       <workItem from="1623407099533" duration="1776000" />
-      <workItem from="1623565438261" duration="8515000" />
+      <workItem from="1623565438261" duration="9896000" />
     </task>
     <servers />
   </component>
