@@ -4,84 +4,170 @@
 
       <div class="col">
 
+        <div class="casestudy-mobile-gallery">
+
+          <?php
+
+          // Check rows exists.
+          if( have_rows('gallery_mobile', $post->ID) ): ?>
+
+          <div class="swiper-container gallery-mobile-swiper">
+            <div class="swiper-wrapper">
+
+              <?php   while( have_rows('gallery_mobile', $post->ID) ) : the_row(); ?>
+
+              <?php $type = get_sub_field('slide_type'); ?>
+
+
+
+              <?php if ($type === 'image'){ ?>
+
+              <div class="swiper-slide" data-slide-type="image">
+
+                <?php $image = get_sub_field('image');?>
+                <img src="<?php echo esc_url($image['sizes']['gallery-mobile-image']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+
+              </div>
+
+              <?php }else if ($type === 'gif'){ ?>
+
+              <div class="swiper-slide" data-slide-type="gif">
+
+                <?php $image = get_sub_field('gif');?>
+                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+              </div>
+
+              <?php } else if ($type === 'embed'){?>
+
+              <div class="swiper-slide" data-slide-type="embed">
+
+                <div class="videoWrapper">
+                  <?php the_sub_field('embed'); ?>
+                </div>
+
+              </div>
+
+              <?php } else if ($type === 'video'){?>
+
+              <?php $id =  uniqid() ?>
+
+              <div class="swiper-slide" data-slide-type="video" data-id="video-<?php echo $id;?>">
+
+                <video
+                  id="video-<?php echo $id;?>"
+                  class="video-js"
+                  preload="auto"
+                  poster="<?php the_sub_field('poster'); ?>"
+                  data-setup='{}'>
+                  <source src="<?php the_sub_field('video'); ?>" type="video/mp4"></source>
+                  <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a
+                    web browser that
+                    <a href="https://videojs.com/html5-video-support/" target="_blank">
+                      supports HTML5 video
+                    </a>
+                  </p>
+                </video>
+
+              </div>
+
+
+              <?php }?>
+
+
+              <?php endwhile; ?>
+            </div>
+          </div>
+
+          <?php else :
+            // Do something...
+          endif; ?>
+
+
+          <div class="prev"></div>
+          <div class="next"></div>
+
+
+        </div>
+
         <div class="casestudy-gallery">
 
-        <?php
+          <?php
 
-        // Check rows exists.
-        if( have_rows('gallery', $post->ID) ): ?>
+          // Check rows exists.
+          if( have_rows('gallery', $post->ID) ): ?>
 
-                  <div class="swiper-container gallery-swiper">
-                    <div class="swiper-wrapper">
+          <div class="swiper-container gallery-swiper">
+            <div class="swiper-wrapper">
 
-          <?php   while( have_rows('gallery', $post->ID) ) : the_row(); ?>
+              <?php   while( have_rows('gallery', $post->ID) ) : the_row(); ?>
 
-                      <?php $type = get_sub_field('slide_type'); ?>
-
-
-
-                      <?php if ($type === 'image'){ ?>
-
-                        <div class="swiper-slide" data-slide-type="image">
-
-                          <?php $image = get_sub_field('image');?>
-                          <img src="<?php echo esc_url($image['sizes']['gallery-image']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-
-                        </div>
-
-                          <?php }else if ($type === 'gif'){ ?>
-
-                          <div class="swiper-slide" data-slide-type="gif">
-
-                            <?php $image = get_sub_field('gif');?>
-                            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-                          </div>
-
-                      <?php } else if ($type === 'embed'){?>
-
-                        <div class="swiper-slide" data-slide-type="embed">
-
-                          <div class="videoWrapper">
-                            <?php the_sub_field('embed'); ?>
-                          </div>
-
-                        </div>
-
-                      <?php } else if ($type === 'video'){?>
-
-                      <?php $id =  uniqid() ?>
-
-                      <div class="swiper-slide" data-slide-type="video" data-id="video-<?php echo $id;?>">
-
-                        <video
-                          id="video-<?php echo $id;?>"
-                          class="video-js"
-                          preload="auto"
-                          poster="<?php the_sub_field('poster'); ?>"
-                          data-setup='{}'>
-                          <source src="<?php the_sub_field('video'); ?>" type="video/mp4"></source>
-                          <p class="vjs-no-js">
-                            To view this video please enable JavaScript, and consider upgrading to a
-                            web browser that
-                            <a href="https://videojs.com/html5-video-support/" target="_blank">
-                              supports HTML5 video
-                            </a>
-                          </p>
-                        </video>
-
-                      </div>
+              <?php $type = get_sub_field('slide_type'); ?>
 
 
-                      <?php }?>
+
+              <?php if ($type === 'image'){ ?>
+
+              <div class="swiper-slide" data-slide-type="image">
+
+                <?php $image = get_sub_field('image');?>
+                <img src="<?php echo esc_url($image['sizes']['gallery-image']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+
+              </div>
+
+              <?php }else if ($type === 'gif'){ ?>
+
+              <div class="swiper-slide" data-slide-type="gif">
+
+                <?php $image = get_sub_field('gif');?>
+                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+              </div>
+
+              <?php } else if ($type === 'embed'){?>
+
+              <div class="swiper-slide" data-slide-type="embed">
+
+                <div class="videoWrapper">
+                  <?php the_sub_field('embed'); ?>
+                </div>
+
+              </div>
+
+              <?php } else if ($type === 'video'){?>
+
+              <?php $id =  uniqid() ?>
+
+              <div class="swiper-slide" data-slide-type="video" data-id="video-<?php echo $id;?>">
+
+                <video
+                  id="video-<?php echo $id;?>"
+                  class="video-js"
+                  preload="auto"
+                  poster="<?php the_sub_field('poster'); ?>"
+                  data-setup='{}'>
+                  <source src="<?php the_sub_field('video'); ?>" type="video/mp4"></source>
+                  <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a
+                    web browser that
+                    <a href="https://videojs.com/html5-video-support/" target="_blank">
+                      supports HTML5 video
+                    </a>
+                  </p>
+                </video>
+
+              </div>
 
 
-           <?php endwhile; ?>
-                    </div>
-                  </div>
+              <?php }?>
 
-        <?php else :
+
+              <?php endwhile; ?>
+            </div>
+          </div>
+
+          <?php else :
             // Do something...
-        endif; ?>
+          endif; ?>
 
 
           <div class="prev"></div>

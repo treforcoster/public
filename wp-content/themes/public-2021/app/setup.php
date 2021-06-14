@@ -11,8 +11,8 @@ use Roots\Sage\Template\BladeProvider;
  * Theme assets
  */
 add_action('wp_enqueue_scripts', function () {
-    wp_enqueue_style('sage/main.css', asset_path('styles/main.css?v=14062021'), false, null);
-    wp_enqueue_script('sage/main.js', asset_path('scripts/main.js?v=14062021'), ['jquery'], null, true);
+    wp_enqueue_style('sage/main.css', asset_path('styles/main.css?v=14a062021'), false, null);
+    wp_enqueue_script('sage/main.js', asset_path('scripts/main.js?v=14a062021'), ['jquery'], null, true);
 
     if (is_single() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
@@ -34,6 +34,7 @@ add_action('after_setup_theme', function () {
     add_theme_support('soil-relative-urls');
 
     add_image_size('gallery-image', 1600, 900, true);
+    add_image_size('gallery-mobile-image', 1130, 1390, true);
 
     add_image_size('blog-image-1', 940, 790, true);
     add_image_size('blog-image-2', 940, 1240, true);

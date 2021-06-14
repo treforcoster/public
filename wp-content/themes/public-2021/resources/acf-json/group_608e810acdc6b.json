@@ -4,7 +4,7 @@
     "fields": [
         {
             "key": "field_608e8150c1c65",
-            "label": "Gallery",
+            "label": "Gallery Desktop",
             "name": "gallery",
             "type": "repeater",
             "instructions": "",
@@ -133,18 +133,128 @@
                     },
                     "default_value": "",
                     "placeholder": ""
+                }
+            ]
+        },
+        {
+            "key": "field_60c723ae36a96",
+            "label": "Gallery Mobile",
+            "name": "gallery_mobile",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_60c723af36a97",
+                    "label": "Slide type",
+                    "name": "slide_type",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "choices": {
+                        "image": "image",
+                        "video": "video",
+                        "gif": "gif"
+                    },
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "save_other_choice": 0,
+                    "default_value": "",
+                    "layout": "horizontal",
+                    "return_format": "value"
                 },
                 {
-                    "key": "field_60b4e356befd8",
-                    "label": "Poster",
-                    "name": "poster",
+                    "key": "field_60c723af36a98",
+                    "label": "Image",
+                    "name": "image",
                     "type": "image",
-                    "instructions": "Display image used before starting video.\r\nPlease upload at least 1600x900.",
+                    "instructions": "Please upload an image at least 1130x1390",
                     "required": 0,
                     "conditional_logic": [
                         [
                             {
-                                "field": "field_60b4b8c7cefc8",
+                                "field": "field_60c723af36a97",
+                                "operator": "==",
+                                "value": "image"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "gallery-mobile-image",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_60c723af36a99",
+                    "label": "Gif",
+                    "name": "gif",
+                    "type": "image",
+                    "instructions": "Please upload an image of exactly 1130x1390",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_60c723af36a97",
+                                "operator": "==",
+                                "value": "gif"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "full",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_60c723af36a9a",
+                    "label": "Video",
+                    "name": "video",
+                    "type": "url",
+                    "instructions": "Enter external video URL",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_60c723af36a97",
                                 "operator": "==",
                                 "value": "video"
                             }
@@ -155,16 +265,8 @@
                         "class": "small-label",
                         "id": ""
                     },
-                    "return_format": "array",
-                    "preview_size": "gallery-image",
-                    "library": "all",
-                    "min_width": "",
-                    "min_height": "",
-                    "min_size": "",
-                    "max_width": "",
-                    "max_height": "",
-                    "max_size": "",
-                    "mime_types": ""
+                    "default_value": "",
+                    "placeholder": ""
                 }
             ]
         },
@@ -226,5 +328,5 @@
     ],
     "active": true,
     "description": "",
-    "modified": 1623416887
+    "modified": 1623664567
 }

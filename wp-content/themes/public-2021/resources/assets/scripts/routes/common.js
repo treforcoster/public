@@ -2,6 +2,7 @@ import LogoAnimation from "../util/logoAnimation";
 import PostsGallery from "../util/postsGallery";
 import PostsVideo from "../util/postsVideo";
 import CasestudyGallery from "../util/casestudyGallery";
+import CasestudyGalleryMobile from "../util/casestudyGalleryMobile";
 import CasestudyCollapse from "../util/casestudyCollapse";
 import barba from '@barba/core';
 import gsap from 'gsap';
@@ -86,6 +87,7 @@ export default {
 
               //alert('casestudies')
               const casestudyGallery = new CasestudyGallery();
+              const casestudyGalleryMobile = new CasestudyGalleryMobile();
               const casestudyCollapse = new CasestudyCollapse();
 
             }
@@ -97,6 +99,7 @@ export default {
         const postsVideo = new PostsVideo();
         const postsGallery = new PostsGallery();
         const casestudyGallery = new CasestudyGallery();
+        const casestudyGalleryMobile = new CasestudyGalleryMobile();
         const casestudyCollapse = new CasestudyCollapse();
 
     },

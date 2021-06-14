@@ -1,8 +1,121 @@
 .casestudy {
   padding-bottom: 3.375rem;
 
+  .casestudy-mobile-gallery {
+    position: relative;
+    display: block;
+
+    @include media-breakpoint-up(lg) {
+      display: none;
+    }
+
+    .video-js {
+      width: 100%;
+      height: 0;
+      padding-top: 84%;
+
+      video {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 101%;
+      }
+    }
+
+    .prev,
+    .next {
+      display: none;
+    }
+
+    .swiper-container {
+      width: 100%;
+      height: auto;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      width: auto;
+    }
+
+    .swiper-pagination-bullets {
+      bottom: -5px;
+      left: 0;
+      width: 100%;
+    }
+
+    .swiper-pagination-bullet {
+      width: 10px;
+      height: 10px;
+      display: inline-block;
+      border-radius: 100%;
+      background: #fff;
+      opacity: 0.5;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .swiper-pagination-bullet-active {
+      opacity: 1;
+      background: var(--theme-primary-colour) !important;
+    }
+
+    .swiper-pagination-clickable .swiper-pagination-bullet {
+      cursor: pointer;
+    }
+
+    .swiper-pagination-bullets .swiper-pagination-bullet {
+      margin: 0 4px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
   .casestudy-gallery {
     position: relative;
+    display: none;
+
+    @include media-breakpoint-up(lg) {
+      display: block;
+    }
+
+    .video-js {
+      width: 100%;
+      height: 0;
+      padding-top: 56%;
+
+      video {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 101%;
+      }
+    }
 
     .prev,
     .next {
@@ -133,22 +246,6 @@
       padding: 0;
       list-style: none;
       color: #808080;
-    }
-  }
-
-  .video-js {
-    width: 100%;
-    height: 0;
-    padding-top: 56%;
-
-    video {
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 101%;
     }
   }
 }
