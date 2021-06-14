@@ -88402,49 +88402,53 @@ module.exports = Array.isArray || function (arr) {
 
 var CasestudyGallery = function CasestudyGallery(){
 
-    //console.log('GalleryCarousel')
 
 
-    var VIDEO_PLAYING_STATE = {
-      'PLAYING': 'PLAYING',
-      'PAUSE': 'PAUSE',
-    }
-  // eslint-disable-next-line no-unused-vars
-    var videoPlayStatus = VIDEO_PLAYING_STATE.PAUSE
-  // eslint-disable-next-line no-unused-vars
-    var timeout = null;
+      var swiperContainer = '.casestudy-gallery';
 
+      $(swiperContainer).each(function ( index ) {
 
-  var swiperContainer = '.casestudy-gallery';
+          var VIDEO_PLAYING_STATE = {
+            'PLAYING': 'PLAYING',
+            'PAUSE': 'PAUSE',
+          }
+          // eslint-disable-next-line no-unused-vars
+          var videoPlayStatus = VIDEO_PLAYING_STATE.PAUSE
+          // eslint-disable-next-line no-unused-vars
+          var timeout = null;
 
-  $(swiperContainer).each(function ( index ) {
+          console.log('casestudy-gallery GalleryCarousel')
 
-    console.log('casestudy-gallery GalleryCarousel')
+          var player
 
-      var player
+          $('video', this).each(function (  ) {
 
-      $('video', this).each(function (  ) {
+            var $id = $(this).attr('id')
+            var options = {};
 
-        var $id = $(this).attr('id')
-        var options = {};
+            console.log('video set up', $id)
 
-        player = __WEBPACK_IMPORTED_MODULE_1_video_js_dist_video_js___default()($id, options);
-        //player.on('ended', function () {
-        //  next()
-        //})
-        player.pause();
-      });
+            player = __WEBPACK_IMPORTED_MODULE_1_video_js_dist_video_js___default()($id, options);
+            //player.on('ended', function () {
+            //  next()
+            //})
+            player.pause();
 
+            player.on('play', function() {
+              console.log('playing', this.id);
+            });
 
+            console.log('----------- video set up pause')
+          });
 
-        var swiperID = 'gallery-' + index;
-        var swiperIDHash = '#gallery-' + index;
+          var swiperID = 'gallery-' + index;
+          var swiperIDHash = '#gallery-' + index;
 
-    $('.gallery-swiper',this).attr('id', swiperID);
+           $('.gallery-swiper',this).attr('id', swiperID);
 
-      //let postSwiper = new Swiper(swiperIDHash, {
+          //let postSwiper = new Swiper(swiperIDHash, {
 
-        var caseStudySwiper = new __WEBPACK_IMPORTED_MODULE_0__autoload_swiper___default.a(swiperIDHash, {
+          var caseStudySwiper = new __WEBPACK_IMPORTED_MODULE_0__autoload_swiper___default.a(swiperIDHash, {
             speed: 500,
             loop: true,
             //autoplay: {
@@ -88456,49 +88460,121 @@ var CasestudyGallery = function CasestudyGallery(){
                         setTimeout(function () {
                             window.dispatchEvent(new Event('resize'))
                         }, 200)
+
+                      checkSlideType(this);
                     },
                 },
 
             });
 
-      $('.next', this).click(function() {
-        caseStudySwiper.slideNext();
-      });
+          $('.next', this).click(function() {
+            caseStudySwiper.slideNext();
+          });
 
-      $('.prev', this).click(function() {
-        caseStudySwiper.slidePrev();
-      });
+          $('.prev', this).click(function() {
+            caseStudySwiper.slidePrev();
+          });
 
-      caseStudySwiper.on('slideChangeTransitionEnd', function () {
+          caseStudySwiper.on('slideChangeTransitionEnd', function () {
 
-        var index = caseStudySwiper.activeIndex
-        var currentSlide =   $(caseStudySwiper.slides[index])
-        var currentSlideType = currentSlide.data('slide-type')
+            //console.log('caseStudySwiper slideChangeTransitionEnd')
 
-        // incase user click next before video ended
-        if (videoPlayStatus === VIDEO_PLAYING_STATE.PLAYING) {
-          player.pause()
-        }
+            var index = caseStudySwiper.activeIndex
+            var currentSlide =   $(caseStudySwiper.slides[index])
+            var currentSlideType = currentSlide.data('slide-type')
 
-        clearTimeout(timeout)
+            // incase user click next before video ended
+            if (videoPlayStatus === VIDEO_PLAYING_STATE.PLAYING) {
+              player.pause()
+            }
 
-        switch (currentSlideType) {
-          case 'image':
-            //runNext()
-            break;
-          case 'video':
-            //player.currentTime(0)
-            player.play()
+            clearTimeout(timeout)
+
+            switch (currentSlideType) {
+              case 'image':
+                //runNext()
+                break;
+              case 'video':
+                player.currentTime(0)
+                player.play()
+                videoPlayStatus = VIDEO_PLAYING_STATE.PLAYING
+                break;
+              default:
+                throw new Error('invalid slide type');
+            }
+
+        });
+
+        function checkSlideType(s){
+
+          console.log('caseStudySwiper init')
+
+          // eslint-disable-next-line no-unused-vars
+          var index = s.activeIndex
+
+          console.log('index ', index)
+          var currentSlide =   $(s.slides[index])
+          var currentSlideType = currentSlide.data('slide-type')
+
+          if (currentSlideType === 'video'){
+            console.log('first slide is video')
+
+            console.log('currentSlide', currentSlide.parent().parent().attr('id'))
+
+            var videoPlayer = $('video', currentSlide)
+
+            //VideoJS($(videoPlayer)[0]).play();
+
+            //setTimeout(playVideo, 500)
+
+            setTimeout(function() {
+              playVideo(videoPlayer);
+            }, 500)
+
+            //$('video', currentSlide).ready(function(){
+               // var myPlayer = this;
+
+                // EXAMPLE: Start playing the video.
+               // myPlayer.play();
+
+             // });
+
+            //let myPlayer = VideoJS(id);
+
+            //myPlayer.ready(function(){
+               //let myPlayer = this;
+
+              // EXAMPLE: Start playing the video.
+             ///  myPlayer.play();
+              //console.log('--------------- video play', myPlayer)
+            //});
+
+            //console.log('player id', id)
+
+            //myPlayer.currentTime(0)
+            //myPlayer.play()
             videoPlayStatus = VIDEO_PLAYING_STATE.PLAYING
-            break;
-          default:
-            throw new Error('invalid slide type');
+          } else if (currentSlideType === 'image'){
+            console.log('first slide is image')
+          }
+
         }
 
-        });
+        function playVideo(v) {
+          console.log('------------------ playVideo')
+          //VideoJS($(v)[0]).play();
 
-        });
+          __WEBPACK_IMPORTED_MODULE_1_video_js_dist_video_js___default()($(v)[0]).ready(function(){
+              var myPlayer = this;
 
+              // EXAMPLE: Start playing the video.
+               myPlayer.play();
+
+              });
+
+        }
+
+      });
     };
 
     /* harmony default export */ __webpack_exports__["a"] = (CasestudyGallery);
