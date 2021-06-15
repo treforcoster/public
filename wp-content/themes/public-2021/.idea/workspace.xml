@@ -3,6 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="36c75b6a-1b39-4f06-bb4c-c005cf1fdc1c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/setup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/arrow-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/customizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/customizer.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/styles/common/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/common/_global.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/partials/content-casestudy.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/content-casestudy.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +163,7 @@
       <workItem from="1623319136298" duration="199000" />
       <workItem from="1623407099533" duration="1776000" />
       <workItem from="1623565438261" duration="11428000" />
-      <workItem from="1623766203514" duration="732000" />
+      <workItem from="1623766203514" duration="1371000" />
     </task>
     <servers />
   </component>

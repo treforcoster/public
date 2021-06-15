@@ -44,6 +44,18 @@ p {
   }
 }
 
+.vertical-spacing-mobile-top-x2 {
+  @include media-breakpoint-down(md) {
+    padding-top: calc((100vw / 24.5) * 2) !important;
+  }
+}
+
+.vertical-spacing-mobile-bottom-x2 {
+  @include media-breakpoint-down(md) {
+    padding-bottom: calc((100vw / 24.5) * 2) !important;
+  }
+}
+
 .vertical-spacing-desktop-top {
   @include media-breakpoint-up(lg) {
     padding-top: calc(100vw / 64) !important;
