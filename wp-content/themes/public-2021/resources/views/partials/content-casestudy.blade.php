@@ -58,6 +58,7 @@
                   class="video-js"
                   preload="auto"
                   autoplay
+                  loop
                   muted
                   playsinline
                   poster="<?php the_sub_field('poster'); ?>"
@@ -148,6 +149,7 @@
                   preload="auto"
                   autoplay
                   muted
+                  loop
                   playsinline
                   poster="<?php the_sub_field('poster'); ?>"
                   data-setup='{}'>
