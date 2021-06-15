@@ -215,7 +215,9 @@
 
           <div class="row justify-content-between">
             <div class="col-lg-9">
+              <div class="text-content vertical-spacing-mobile-bottom">
               {!! the_field('content', $post->ID) !!}
+              </div>
             </div>
 
             <div class="col-lg-5 col-xl-4 col-xxl-4">
