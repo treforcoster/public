@@ -12208,8 +12208,9 @@ body#tinymce {
     .casestudy .casestudy-mobile-gallery .video-js {
       width: 100%;
       height: 0;
-      padding-top: 84%; }
-      /* line 17, resources/assets/styles/components/_casestudy.scss */
+      padding-top: 84%;
+      background-color: transparent; }
+      /* line 18, resources/assets/styles/components/_casestudy.scss */
       .casestudy .casestudy-mobile-gallery .video-js video {
         position: absolute;
         top: 0;
@@ -12218,15 +12219,15 @@ body#tinymce {
         left: 0;
         width: 100%;
         height: 101%; }
-    /* line 28, resources/assets/styles/components/_casestudy.scss */
+    /* line 29, resources/assets/styles/components/_casestudy.scss */
     .casestudy .casestudy-mobile-gallery .prev,
     .casestudy .casestudy-mobile-gallery .next {
       display: none; }
-    /* line 33, resources/assets/styles/components/_casestudy.scss */
+    /* line 34, resources/assets/styles/components/_casestudy.scss */
     .casestudy .casestudy-mobile-gallery .swiper-container {
       width: 100%;
       height: auto; }
-    /* line 38, resources/assets/styles/components/_casestudy.scss */
+    /* line 39, resources/assets/styles/components/_casestudy.scss */
     .casestudy .casestudy-mobile-gallery .swiper-slide {
       text-align: center;
       font-size: 18px;
@@ -12245,12 +12246,12 @@ body#tinymce {
       -webkit-align-items: center;
       align-items: center;
       width: auto; }
-    /* line 58, resources/assets/styles/components/_casestudy.scss */
+    /* line 59, resources/assets/styles/components/_casestudy.scss */
     .casestudy .casestudy-mobile-gallery .swiper-pagination-bullets {
       bottom: -5px;
       left: 0;
       width: 100%; }
-    /* line 64, resources/assets/styles/components/_casestudy.scss */
+    /* line 65, resources/assets/styles/components/_casestudy.scss */
     .casestudy .casestudy-mobile-gallery .swiper-pagination-bullet {
       width: 10px;
       height: 10px;
@@ -12258,37 +12259,38 @@ body#tinymce {
       border-radius: 100%;
       background: #fff;
       opacity: 0.5; }
-      /* line 72, resources/assets/styles/components/_casestudy.scss */
+      /* line 73, resources/assets/styles/components/_casestudy.scss */
       .casestudy .casestudy-mobile-gallery .swiper-pagination-bullet:focus {
         outline: none; }
-    /* line 77, resources/assets/styles/components/_casestudy.scss */
+    /* line 78, resources/assets/styles/components/_casestudy.scss */
     .casestudy .casestudy-mobile-gallery .swiper-pagination-bullet-active {
       opacity: 1;
       background: var(--theme-primary-colour) !important; }
-    /* line 82, resources/assets/styles/components/_casestudy.scss */
+    /* line 83, resources/assets/styles/components/_casestudy.scss */
     .casestudy .casestudy-mobile-gallery .swiper-pagination-clickable .swiper-pagination-bullet {
       cursor: pointer; }
-    /* line 86, resources/assets/styles/components/_casestudy.scss */
+    /* line 87, resources/assets/styles/components/_casestudy.scss */
     .casestudy .casestudy-mobile-gallery .swiper-pagination-bullets .swiper-pagination-bullet {
       margin: 0 4px; }
-    /* line 90, resources/assets/styles/components/_casestudy.scss */
+    /* line 91, resources/assets/styles/components/_casestudy.scss */
     .casestudy .casestudy-mobile-gallery img {
       width: 100%;
       height: auto; }
-  /* line 96, resources/assets/styles/components/_casestudy.scss */
+  /* line 97, resources/assets/styles/components/_casestudy.scss */
   .casestudy .casestudy-gallery {
     position: relative;
     display: none; }
     @media (min-width: 992px) {
-      /* line 96, resources/assets/styles/components/_casestudy.scss */
+      /* line 97, resources/assets/styles/components/_casestudy.scss */
       .casestudy .casestudy-gallery {
         display: block; } }
-    /* line 104, resources/assets/styles/components/_casestudy.scss */
+    /* line 105, resources/assets/styles/components/_casestudy.scss */
     .casestudy .casestudy-gallery .video-js {
       width: 100%;
       height: 0;
-      padding-top: 56%; }
-      /* line 109, resources/assets/styles/components/_casestudy.scss */
+      padding-top: 56%;
+      background-color: transparent; }
+      /* line 111, resources/assets/styles/components/_casestudy.scss */
       .casestudy .casestudy-gallery .video-js video {
         position: absolute;
         top: 0;
@@ -12297,12 +12299,12 @@ body#tinymce {
         left: 0;
         width: 100%;
         height: 101%; }
-    /* line 120, resources/assets/styles/components/_casestudy.scss */
+    /* line 122, resources/assets/styles/components/_casestudy.scss */
     .casestudy .casestudy-gallery .prev,
     .casestudy .casestudy-gallery .next {
       display: none; }
     @media (min-width: 992px) {
-      /* line 126, resources/assets/styles/components/_casestudy.scss */
+      /* line 128, resources/assets/styles/components/_casestudy.scss */
       .casestudy .casestudy-gallery .prev {
         display: block;
         z-index: 1000;
@@ -12314,10 +12316,10 @@ body#tinymce {
         background: #fff;
         opacity: 0;
         cursor: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' width='62' height='34' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 62 34' style='enable-background:new 0 0 62 34;' xml:space='preserve'%3E%3Cpolygon points='17.8,0.1 20.7,2.9 8.4,15.1 61.1,15.1 61.1,19.1 8.7,19.1 20.7,31.1 17.8,33.9 0.9,17 '/%3E%3C/svg%3E%0A") 62 34, pointer; }
-        /* line 138, resources/assets/styles/components/_casestudy.scss */
+        /* line 140, resources/assets/styles/components/_casestudy.scss */
         .casestudy .casestudy-gallery .prev:hover {
           opacity: 0; }
-      /* line 143, resources/assets/styles/components/_casestudy.scss */
+      /* line 145, resources/assets/styles/components/_casestudy.scss */
       .casestudy .casestudy-gallery .next {
         display: block;
         z-index: 1000;
@@ -12329,14 +12331,14 @@ body#tinymce {
         background: #fff;
         opacity: 0;
         cursor: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' width='62' height='34' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 62 34' style='enable-background:new 0 0 62 34;' xml:space='preserve'%3E%3Cpolygon points='44.2,0.1 41.3,2.9 53.6,15.1 0.9,15.1 0.9,19.1 53.3,19.1 41.3,31.1 44.2,33.9 61.1,17 '/%3E%3C/svg%3E") 62 34, pointer; }
-        /* line 155, resources/assets/styles/components/_casestudy.scss */
+        /* line 157, resources/assets/styles/components/_casestudy.scss */
         .casestudy .casestudy-gallery .next:hover {
           opacity: 0; } }
-    /* line 161, resources/assets/styles/components/_casestudy.scss */
+    /* line 163, resources/assets/styles/components/_casestudy.scss */
     .casestudy .casestudy-gallery .swiper-container {
       width: 100%;
       height: auto; }
-    /* line 166, resources/assets/styles/components/_casestudy.scss */
+    /* line 168, resources/assets/styles/components/_casestudy.scss */
     .casestudy .casestudy-gallery .swiper-slide {
       text-align: center;
       font-size: 18px;
@@ -12356,12 +12358,12 @@ body#tinymce {
       -webkit-align-items: center;
       align-items: center;
       width: auto; }
-    /* line 188, resources/assets/styles/components/_casestudy.scss */
+    /* line 190, resources/assets/styles/components/_casestudy.scss */
     .casestudy .casestudy-gallery .swiper-pagination-bullets {
       bottom: -5px;
       left: 0;
       width: 100%; }
-    /* line 194, resources/assets/styles/components/_casestudy.scss */
+    /* line 196, resources/assets/styles/components/_casestudy.scss */
     .casestudy .casestudy-gallery .swiper-pagination-bullet {
       width: 10px;
       height: 10px;
@@ -12369,36 +12371,36 @@ body#tinymce {
       border-radius: 100%;
       background: #fff;
       opacity: 0.5; }
-      /* line 202, resources/assets/styles/components/_casestudy.scss */
+      /* line 204, resources/assets/styles/components/_casestudy.scss */
       .casestudy .casestudy-gallery .swiper-pagination-bullet:focus {
         outline: none; }
-    /* line 207, resources/assets/styles/components/_casestudy.scss */
+    /* line 209, resources/assets/styles/components/_casestudy.scss */
     .casestudy .casestudy-gallery .swiper-pagination-bullet-active {
       opacity: 1;
       background: var(--theme-primary-colour) !important; }
-    /* line 212, resources/assets/styles/components/_casestudy.scss */
+    /* line 214, resources/assets/styles/components/_casestudy.scss */
     .casestudy .casestudy-gallery .swiper-pagination-clickable .swiper-pagination-bullet {
       cursor: pointer; }
-    /* line 216, resources/assets/styles/components/_casestudy.scss */
+    /* line 218, resources/assets/styles/components/_casestudy.scss */
     .casestudy .casestudy-gallery .swiper-pagination-bullets .swiper-pagination-bullet {
       margin: 0 4px; }
-    /* line 220, resources/assets/styles/components/_casestudy.scss */
+    /* line 222, resources/assets/styles/components/_casestudy.scss */
     .casestudy .casestudy-gallery img {
       width: 100%;
       height: auto; }
-  /* line 231, resources/assets/styles/components/_casestudy.scss */
+  /* line 233, resources/assets/styles/components/_casestudy.scss */
   .casestudy .more-info {
     cursor: pointer; }
-  /* line 235, resources/assets/styles/components/_casestudy.scss */
+  /* line 237, resources/assets/styles/components/_casestudy.scss */
   .casestudy .content {
     height: 0;
     overflow: hidden; }
-  /* line 240, resources/assets/styles/components/_casestudy.scss */
+  /* line 242, resources/assets/styles/components/_casestudy.scss */
   .casestudy .categories {
     padding: 0;
     margin: 0;
     padding-left: 0 !important; }
-    /* line 245, resources/assets/styles/components/_casestudy.scss */
+    /* line 247, resources/assets/styles/components/_casestudy.scss */
     .casestudy .categories li {
       padding: 0;
       list-style: none;
