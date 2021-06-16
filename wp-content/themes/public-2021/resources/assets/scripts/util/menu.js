@@ -66,6 +66,9 @@ class Menu {
 
         console.log('animateShowMenu')
 
+        // kill twweens here
+        gsap.globalTimeline.clear()
+
         self.menuVisible = true;
 
         self.$nav.addClass('open')
@@ -80,6 +83,7 @@ class Menu {
         let self = this;
 
         console.log('animateCloseMenu')
+        gsap.globalTimeline.clear()
 
         self.menuVisible =! self.menuVisible
 

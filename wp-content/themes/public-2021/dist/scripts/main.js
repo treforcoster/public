@@ -88910,6 +88910,9 @@ Menu.prototype.animateShowMenu = function animateShowMenu () {
 
     console.log('animateShowMenu')
 
+    // kill twweens here
+    __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].globalTimeline.clear()
+
     self.menuVisible = true;
 
     self.$nav.addClass('open')
@@ -88924,6 +88927,7 @@ Menu.prototype.animateCloseMenu = function animateCloseMenu () {
     var self = this;
 
     console.log('animateCloseMenu')
+    __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].globalTimeline.clear()
 
     self.menuVisible =! self.menuVisible
 
