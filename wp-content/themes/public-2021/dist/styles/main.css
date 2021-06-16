@@ -11038,6 +11038,33 @@ p:last-child {
   .vertical-spacing-desktop-bottom {
     padding-bottom: calc(100vw / 64) !important; } }
 
+/* line 71, resources/assets/styles/common/_global.scss */
+.rect-overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 10000; }
+  /* line 79, resources/assets/styles/common/_global.scss */
+  .rect-overlay svg {
+    width: 100vw;
+    height: 100vh; }
+
+/* line 85, resources/assets/styles/common/_global.scss */
+.circ-overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 10001;
+  mix-blend-mode: difference; }
+  /* line 94, resources/assets/styles/common/_global.scss */
+  .circ-overlay svg {
+    width: 100vw;
+    height: 100vh; }
+
 /* line 1, resources/assets/styles/common/_text-size-large.scss */
 :root {
   --text-size-large-h1-size: 2.75rem;
@@ -12856,5 +12883,18 @@ body#tinymce {
     padding-bottom: 0;
     width: 100%;
     height: auto; } }
+
+/* line 1, resources/assets/styles/components/_anim-overlay.scss */
+.anim-overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 10000; }
+  /* line 9, resources/assets/styles/components/_anim-overlay.scss */
+  .anim-overlay svg {
+    width: 100vw;
+    height: 100vh; }
 
 /*# sourceMappingURL=main.css.map*/

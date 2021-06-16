@@ -4,8 +4,10 @@ import PostsVideo from "../util/postsVideo";
 import CasestudyGallery from "../util/casestudyGallery";
 import CasestudyGalleryMobile from "../util/casestudyGalleryMobile";
 import CasestudyCollapse from "../util/casestudyCollapse";
+import AnimOverlay from "../util/animOverlay";
 import barba from '@barba/core';
 import gsap from 'gsap';
+import { CSSPlugin } from 'gsap/CSSPlugin.js';
 import Menu from "../util/menu";
 
 export default {
@@ -14,6 +16,8 @@ export default {
         // JavaScript to be fired on all pages
 
         const menu = new Menu();
+
+
 
         barba.init({
             preventRunning: true,
@@ -83,6 +87,8 @@ export default {
              // alert('blog')
               const postsGallery = new PostsGallery();
 
+              gsap.to('#circle', {x: '+=300'});
+
             } else if ($page.hasClass( 'casestudies' )){
 
               //alert('casestudies')
@@ -94,6 +100,7 @@ export default {
           }
     },
     finalize() {
+      console.log('--------------------- AnimOverlay')
         // JavaScript to be fired on all pages, after page specific JS is fired
         const logoAnimation = new LogoAnimation();
         const postsVideo = new PostsVideo();
@@ -101,6 +108,8 @@ export default {
         const casestudyGallery = new CasestudyGallery();
         const casestudyGalleryMobile = new CasestudyGalleryMobile();
         const casestudyCollapse = new CasestudyCollapse();
+        const animOverlay = new AnimOverlay();
+
 
     },
 };

@@ -33,7 +33,7 @@
       </div>
       <div class="col-8">
         <div class="row justify-content-end">
-          <div class="col-sm-4">
+          <div class="col-sm-16">
             <div class="social-wrapper">
 
               <a class="social" href="https://www.linkedin.com/company/public-london/" target="_blank">

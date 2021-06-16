@@ -67,3 +67,32 @@ p {
     padding-bottom: calc(100vw / 64) !important;
   }
 }
+
+.rect-overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+
+  svg {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.circ-overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 10001;
+  mix-blend-mode: difference;
+
+  svg {
+    width: 100vw;
+    height: 100vh;
+  }
+}
