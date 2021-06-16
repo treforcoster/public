@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36c75b6a-1b39-4f06-bb4c-c005cf1fdc1c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.cache-loader/5f6440afea969a7c2163e8a54d94f2e3.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/5f6440afea969a7c2163e8a54d94f2e3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/setup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/customizer.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/customizer.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/scripts/util/animOverlay.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/scripts/util/animOverlay.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +158,8 @@
       <workItem from="1623319136298" duration="199000" />
       <workItem from="1623407099533" duration="1776000" />
       <workItem from="1623565438261" duration="11428000" />
-      <workItem from="1623766203514" duration="12573000" />
+      <workItem from="1623766203514" duration="13057000" />
+      <workItem from="1623852921071" duration="1306000" />
     </task>
     <servers />
   </component>

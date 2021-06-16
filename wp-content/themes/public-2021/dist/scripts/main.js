@@ -88846,7 +88846,7 @@ var CasestudyCollapse = function CasestudyCollapse(){
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_gsap__ = __webpack_require__(1);
+/* WEBPACK VAR INJECTION */(function($) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_gsap__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_gsap_CSSPlugin_js__ = __webpack_require__(4);
 
 
@@ -88857,27 +88857,41 @@ var AnimOverlay = function AnimOverlay() {
 
     console.log('--------------------- AnimOverlay')
 
-
-    var width = window.innerWidth;
-    var height = window.innerHeight;
-
-    var circleRadius = 37;
-
-    console.log('circleRadius ', circleRadius)
-
-    var viewBoxAttributes = '0 0 ' + width + ' ' + height;
+    var width, height, viewBoxAttributes
+    var circleRadius = 37
     var overlay = '#anim-overlay';
     var shape = document.getElementById('anim-overlay-svg');
-    shape.setAttribute('viewBox', viewBoxAttributes);
 
-    __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].set(overlay,{ autoAlpha: 0})
+    function setSizes() {
 
-    __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].set('#mask',{ attr:{width:width, height:height} })
-    __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].set('#mask-rect',{ attr:{width:width, height:height} })
-    __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].set('#rect',{ attr:{width:width, height:height} })
-    __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].set('#circle',{ attr:{r:circleRadius} })
+      var showWidth = $('#show-menu').width()
 
-    __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].set('#circle',{ cx: 100, cy: 100});
+      circleRadius = showWidth/2;
+
+      console.log('--------------------- showWidth' , showWidth)
+
+      width = window.innerWidth;
+      height = window.innerHeight;
+      viewBoxAttributes = '0 0 ' + width + ' ' + height;
+
+      shape.setAttribute('viewBox', viewBoxAttributes);
+
+      __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].set(overlay, {autoAlpha: 0})
+      __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].set('#mask', {attr: {width: width, height: height}})
+      __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].set('#mask-rect', {attr: {width: width, height: height}})
+      __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].set('#rect', {attr: {width: width, height: height}})
+      __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].set('#circle', {attr: {r: circleRadius}})
+      __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].set('#circle', {cx: 100, cy: 100});
+
+      //animateDot();
+
+    }
+
+    setTimeout(setSizes, 500);
+
+    $( window ).resize(function() {
+      setSizes();
+    });
 
   var xPosition = circleRadius+4;
   var yPosition = circleRadius+4;
@@ -88891,11 +88905,11 @@ var AnimOverlay = function AnimOverlay() {
 
   function animateDot (){
 
-    if(xPosition + circleRadius >= window.innerWidth || xPosition -circleRadius <= 0){
+    if(xPosition + circleRadius >= width || xPosition -circleRadius <= 0){
       xSpeed = -xSpeed;
 
     }
-    if(yPosition + circleRadius >= window.innerHeight || yPosition -circleRadius<= 0){
+    if(yPosition + circleRadius >= height || yPosition -circleRadius<= 0){
       ySpeed = -ySpeed;
 
     }
@@ -88909,7 +88923,7 @@ var AnimOverlay = function AnimOverlay() {
 
   }
 
-  animateDot();
+  animateDot()
 
   var timeout;
 
@@ -88923,13 +88937,17 @@ var AnimOverlay = function AnimOverlay() {
   }
 
   function showOverlay() {
-    __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].to(overlay,{ autoAlpha: 1})
+
+    if (width > 991) {
+      __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].to(overlay, {autoAlpha: 1})
+    }
   }
 
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (AnimOverlay);
 
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
 /* 27 */
