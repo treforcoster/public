@@ -95,6 +95,9 @@ class CasestudyGalleryMobile {
                   case 'image':
                     //runNext()
                     break;
+                  case 'gif':
+                    //runNext()
+                    break;
                   case 'video':
                     player.currentTime(0)
                     player.play()
@@ -157,6 +160,8 @@ class CasestudyGalleryMobile {
                 videoPlayStatus = VIDEO_PLAYING_STATE.PLAYING
               } else if (currentSlideType === 'image'){
                 console.log('first slide is image')
+              }  else if (currentSlideType === 'gif'){
+                console.log('first slide is gif')
               }
 
             }

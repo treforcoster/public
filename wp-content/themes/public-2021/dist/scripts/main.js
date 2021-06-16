@@ -88498,6 +88498,9 @@ var CasestudyGallery = function CasestudyGallery(){
               case 'image':
                 //runNext()
                 break;
+              case 'gif':
+                //runNext()
+                break;
               case 'video':
                 player.currentTime(0)
                 player.play()
@@ -88564,6 +88567,8 @@ var CasestudyGallery = function CasestudyGallery(){
             videoPlayStatus = VIDEO_PLAYING_STATE.PLAYING
           } else if (currentSlideType === 'image'){
             console.log('first slide is image')
+          } else if (currentSlideType === 'gif'){
+            console.log('first slide is gif')
           }
 
         }
@@ -88693,6 +88698,9 @@ var CasestudyGalleryMobile = function CasestudyGalleryMobile(){
               case 'image':
                 //runNext()
                 break;
+              case 'gif':
+                //runNext()
+                break;
               case 'video':
                 player.currentTime(0)
                 player.play()
@@ -88755,6 +88763,8 @@ var CasestudyGalleryMobile = function CasestudyGalleryMobile(){
             videoPlayStatus = VIDEO_PLAYING_STATE.PLAYING
           } else if (currentSlideType === 'image'){
             console.log('first slide is image')
+          }  else if (currentSlideType === 'gif'){
+            console.log('first slide is gif')
           }
 
         }
