@@ -3,13 +3,14 @@ $menuSize : 112px;
 $menuWeight: 500;
 $menuColour : #fff;
 $menuLH : 1;
-$menuFontFamily: "TheinhardtM", sans-serif;
 
 $mobileLogoHeight: calc((100vw/24.5) * 2.5);
 $mobileToggleHeight: calc((100vw/24.5) * 2);
 $mobileToggleY: calc((100vw/24.5));
 
 #nav {
+  font-family: "TheinhardtM", sans-serif;
+
   .menu-wrapper {
     z-index: 11000;
   }
@@ -242,7 +243,7 @@ $mobileToggleY: calc((100vw/24.5));
           font-size: $menuSize;
           font-weight: $menuWeight;
           margin-top: 0;
-          font-family: $menuFontFamily;
+          font-family: "TheinhardtM", sans-serif;
 
           &::before {
             content: "";
