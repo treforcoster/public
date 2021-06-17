@@ -27,5 +27,9 @@
 
     @php wp_footer() @endphp
 
+    @include('components.loading-animation')
+
+    @include('components.anim-overlay')
+
   </body>
 </html>

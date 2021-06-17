@@ -12891,9 +12891,50 @@ body#tinymce {
   height: 100vh;
   top: 0;
   left: 0;
-  z-index: 10000; }
+  z-index: 10010; }
   /* line 9, resources/assets/styles/components/_anim-overlay.scss */
   .anim-overlay svg {
+    width: 100vw;
+    height: 100vh; }
+
+/* line 1, resources/assets/styles/components/_loading-animation.scss */
+.loading-animation {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  background: #000;
+  display: flex;
+  align-content: center;
+  justify-items: center; }
+  /* line 17, resources/assets/styles/components/_loading-animation.scss */
+  .loading-animation .logo-fill {
+    fill: #fff; }
+  /* line 21, resources/assets/styles/components/_loading-animation.scss */
+  .loading-animation #loading-logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: auto;
+    height: calc((100vw/24.5) * 2.5); }
+    /* line 29, resources/assets/styles/components/_loading-animation.scss */
+    .loading-animation #loading-logo svg {
+      width: auto;
+      height: calc((100vw/24.5) * 2.5); }
+    @media (min-width: 992px) {
+      /* line 21, resources/assets/styles/components/_loading-animation.scss */
+      .loading-animation #loading-logo {
+        width: 244px;
+        height: 79px; }
+        /* line 38, resources/assets/styles/components/_loading-animation.scss */
+        .loading-animation #loading-logo svg {
+          width: 244px;
+          height: 79px; } }
+  /* line 45, resources/assets/styles/components/_loading-animation.scss */
+  .loading-animation svg {
     width: 100vw;
     height: 100vh; }
 

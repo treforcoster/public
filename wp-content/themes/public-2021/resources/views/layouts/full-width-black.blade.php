@@ -24,7 +24,9 @@
    <!-- @include('partials.footer') -->
     @php wp_footer() @endphp
 
-    @include('partials.anim-overlay')
+    @include('components.loading-animation')
+
+    @include('components.anim-overlay')
 
   </body>
 </html>

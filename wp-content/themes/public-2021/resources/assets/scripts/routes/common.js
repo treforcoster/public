@@ -5,6 +5,7 @@ import CasestudyGallery from "../util/casestudyGallery";
 import CasestudyGalleryMobile from "../util/casestudyGalleryMobile";
 import CasestudyCollapse from "../util/casestudyCollapse";
 import AnimOverlay from "../util/animOverlay";
+import LoadingAnimation from "../util/loadingAnimation";
 import barba from '@barba/core';
 import gsap from 'gsap';
 import { CSSPlugin } from 'gsap/CSSPlugin.js';
@@ -109,6 +110,7 @@ export default {
         const casestudyGalleryMobile = new CasestudyGalleryMobile();
         const casestudyCollapse = new CasestudyCollapse();
         const animOverlay = new AnimOverlay();
+        const loadingAnimation = new LoadingAnimation();
 
 
     },
