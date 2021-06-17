@@ -27,17 +27,18 @@
 
     @font-face {
       font-family: "TheinhardtM";
-      src: url(<?php echo get_template_directory_uri();?>"/fonts/Theinhardt-Medium.woff2") format("woff2"), url(<?php echo get_template_directory_uri();?>"/fonts/Theinhardt-Medium.woff") format("woff");
+      src: url(<?php echo get_stylesheet_directory_uri() . '/assets/fonts/Theinhardt-Medium.woff2';?>) format("woff2"), url(<?php echo get_stylesheet_directory_uri() . '/assets/fonts/Theinhardt-Medium.woff';?>) format("woff");
       font-weight: 500;
       font-style: normal;
     }
 
     @font-face {
       font-family: "TheinhardtR";
-      src: url(<?php echo get_template_directory_uri();?>"/fonts/Theinhardt-Regular.woff2") format("woff2"),  url(<?php echo get_template_directory_uri();?>"/fonts/Theinhardt-Regular.woff") format("woff");
+      src: url(<?php echo get_stylesheet_directory_uri() . '/assets/fonts/Theinhardt-Regular.woff2';?>) format("woff2"),  url(<?php echo get_stylesheet_directory_uri() . '/assets/fonts/Theinhardt-Regular.woff';?>) format("woff");
       font-weight: 400;
       font-style: normal;
     }
+
 
   </style>
 
