@@ -10980,27 +10980,37 @@ button.swiper-pagination-bullet {
 /* line 1, resources/assets/styles/common/_global.scss */
 body,
 html {
-  font-family: "Theinhardt", sans-serif;
+  font-family: "TheinhardtR", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden; }
+  /* line 8, resources/assets/styles/common/_global.scss */
+  body h1,
+  body h2,
+  body h3,
+  body h4,
+  html h1,
+  html h2,
+  html h3,
+  html h4 {
+    font-family: "TheinhardtM", sans-serif; }
 
-/* line 9, resources/assets/styles/common/_global.scss */
+/* line 16, resources/assets/styles/common/_global.scss */
 .page-black {
   background: #1a1a1a;
   color: #fff; }
 
-/* line 14, resources/assets/styles/common/_global.scss */
+/* line 21, resources/assets/styles/common/_global.scss */
 .page-white {
   padding-top: calc((100vw/24.5) * 3.5);
   padding-bottom: calc((100vw/24.5) * 3.5); }
 
-/* line 20, resources/assets/styles/common/_global.scss */
+/* line 27, resources/assets/styles/common/_global.scss */
 p:last-child {
   margin: 0;
   padding: 0; }
 
-/* line 26, resources/assets/styles/common/_global.scss */
+/* line 33, resources/assets/styles/common/_global.scss */
 #logo-trigger {
   position: absolute;
   left: 0;
@@ -11009,36 +11019,36 @@ p:last-child {
   height: 100px; }
 
 @media (max-width: 991.98px) {
-  /* line 35, resources/assets/styles/common/_global.scss */
+  /* line 42, resources/assets/styles/common/_global.scss */
   .vertical-spacing-mobile-top {
     padding-top: calc(100vw / 24.5) !important; } }
 
 @media (max-width: 991.98px) {
-  /* line 41, resources/assets/styles/common/_global.scss */
+  /* line 48, resources/assets/styles/common/_global.scss */
   .vertical-spacing-mobile-bottom {
     padding-bottom: calc(100vw / 24.5) !important; } }
 
 @media (max-width: 991.98px) {
-  /* line 47, resources/assets/styles/common/_global.scss */
+  /* line 54, resources/assets/styles/common/_global.scss */
   .vertical-spacing-mobile-top-x2 {
     padding-top: calc((100vw / 24.5) * 2) !important; } }
 
 @media (max-width: 991.98px) {
-  /* line 53, resources/assets/styles/common/_global.scss */
+  /* line 60, resources/assets/styles/common/_global.scss */
   .vertical-spacing-mobile-bottom-x2 {
     padding-bottom: calc((100vw / 24.5) * 2) !important; } }
 
 @media (min-width: 992px) {
-  /* line 59, resources/assets/styles/common/_global.scss */
+  /* line 66, resources/assets/styles/common/_global.scss */
   .vertical-spacing-desktop-top {
     padding-top: calc(100vw / 64) !important; } }
 
 @media (min-width: 992px) {
-  /* line 65, resources/assets/styles/common/_global.scss */
+  /* line 72, resources/assets/styles/common/_global.scss */
   .vertical-spacing-desktop-bottom {
     padding-bottom: calc(100vw / 64) !important; } }
 
-/* line 71, resources/assets/styles/common/_global.scss */
+/* line 78, resources/assets/styles/common/_global.scss */
 .rect-overlay {
   position: fixed;
   width: 100vw;
@@ -11046,12 +11056,12 @@ p:last-child {
   top: 0;
   left: 0;
   z-index: 10000; }
-  /* line 79, resources/assets/styles/common/_global.scss */
+  /* line 86, resources/assets/styles/common/_global.scss */
   .rect-overlay svg {
     width: 100vw;
     height: 100vh; }
 
-/* line 85, resources/assets/styles/common/_global.scss */
+/* line 92, resources/assets/styles/common/_global.scss */
 .circ-overlay {
   position: fixed;
   width: 100vw;
@@ -11060,7 +11070,7 @@ p:last-child {
   left: 0;
   z-index: 10001;
   mix-blend-mode: difference; }
-  /* line 94, resources/assets/styles/common/_global.scss */
+  /* line 101, resources/assets/styles/common/_global.scss */
   .circ-overlay svg {
     width: 100vw;
     height: 100vh; }
@@ -11434,28 +11444,28 @@ p:last-child {
   --text-size-medium-h1-padding: 2rem;
   --text-size-medium-h1-line-height: 1.11;
   --text-size-medium-h1-letter-spacing: normal;
-  --text-size-medium-h1-weight: 500;
+  --text-size-medium-h1-weight: 400;
   --text-size-medium-h1-transform: none;
   /* -- */
   --text-size-medium-h2-size: 1.6875rem;
   --text-size-medium-h2-padding: 1.6875rem;
   --text-size-medium-h2-line-height: 1.11;
   --text-size-medium-h2-letter-spacing: normal;
-  --text-size-medium-h2-weight: 500;
+  --text-size-medium-h2-weight: 400;
   --text-size-medium-h2-transform: none;
   /* -- */
   --text-size-medium-h3-size: 1.25rem;
   --text-size-medium-h3-padding: 0.5rem;
   --text-size-medium-h3-line-height: 1.11;
   --text-size-medium-h3-letter-spacing: normal;
-  --text-size-medium-h3-weight: 500;
+  --text-size-medium-h3-weight: 400;
   --text-size-medium-h3-transform: none;
   /* -- */
   --text-size-medium-h4-size: 1.25rem;
   --text-size-medium-h4-padding: 0.5rem;
   --text-size-medium-h4-line-height: 1.11;
   --text-size-medium-h4-letter-spacing: normal;
-  --text-size-medium-h4-weight: 500;
+  --text-size-medium-h4-weight: 400;
   --text-size-medium-h4-transform: none;
   /* -- */
   --text-size-medium-p-size: 1.6875rem;
