@@ -89088,7 +89088,7 @@ var AnimOverlay = function AnimOverlay() {
     __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].to(overlay,{ autoAlpha: 0})
     timeout = setTimeout(function(){
       showOverlay()
-      }, 15000);
+      }, 50000);
   }
 
   function showOverlay() {

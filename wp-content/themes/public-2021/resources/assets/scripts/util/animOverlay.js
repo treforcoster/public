@@ -85,7 +85,7 @@ class AnimOverlay {
       gsap.to(overlay,{ autoAlpha: 0})
       timeout = setTimeout(function(){
         showOverlay()
-        }, 15000);
+        }, 50000);
     }
 
     function showOverlay() {
