@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36c75b6a-1b39-4f06-bb4c-c005cf1fdc1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fonts/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Theinhardt-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Theinhardt-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Theinhardt-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Theinhardt-Regular.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/setup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/styles/common/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/common/_fonts.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +87,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -97,11 +103,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$/resources/assets/styles/components" />
       <recent name="$PROJECT_DIR$/resources/views/components" />
       <recent name="$PROJECT_DIR$/resources/assets/scripts/util" />
-      <recent name="$PROJECT_DIR$/resources/views/partials" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views/components" />
@@ -156,7 +162,7 @@
       <workItem from="1623565438261" duration="11428000" />
       <workItem from="1623766203514" duration="13057000" />
       <workItem from="1623852921071" duration="11012000" />
-      <workItem from="1623941295858" duration="980000" />
+      <workItem from="1623941295858" duration="1593000" />
     </task>
     <servers />
   </component>
