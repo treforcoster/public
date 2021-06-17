@@ -2,48 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36c75b6a-1b39-4f06-bb4c-c005cf1fdc1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/assets/scripts/util/loadingAnimation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/styles/components/_loading-animation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/loading-animation.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/049096bd86a51fae657b8208a5caadbc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/049096bd86a51fae657b8208a5caadbc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/088a7ddca5a1f918ca70d859733ce340.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/088a7ddca5a1f918ca70d859733ce340.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/17ac904cc19e1a3534f728bfac1f8173.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/17ac904cc19e1a3534f728bfac1f8173.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/2d096e7c1fdb6733512944599e3f93dc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/2d096e7c1fdb6733512944599e3f93dc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/30231d00036ed41809873af6e3d3b756.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/30231d00036ed41809873af6e3d3b756.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/5f49d327843d583652032b0f374fefe1.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/5f49d327843d583652032b0f374fefe1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/5f6440afea969a7c2163e8a54d94f2e3.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/5f6440afea969a7c2163e8a54d94f2e3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/67a2e25945c61f452a9cf9070de55b1e.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/67a2e25945c61f452a9cf9070de55b1e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/7a0a1e9252c135a25484bf701e5dcdd0.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/7a0a1e9252c135a25484bf701e5dcdd0.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/7b5c65c7f4eb95dc94afd183daa4c9ee.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/7b5c65c7f4eb95dc94afd183daa4c9ee.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/7d3b2676962161f3f1474278b699b126.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/7d3b2676962161f3f1474278b699b126.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/9b68436256a6dfd2948f3b8e9b984e6f.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/9b68436256a6dfd2948f3b8e9b984e6f.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/9bacb4f907787ef3e2d2433645a0df6f.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/9bacb4f907787ef3e2d2433645a0df6f.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/9fdf337956e9d551590e5b065b687037.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/9fdf337956e9d551590e5b065b687037.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/a74d75cc9b98566ac26cc440a8edd8cd.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/a74d75cc9b98566ac26cc440a8edd8cd.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/b0a9e57a985cddf64b20c2447e97f869.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/b0a9e57a985cddf64b20c2447e97f869.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/bf223050aef4bf5599b17a72ceb834e1.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/bf223050aef4bf5599b17a72ceb834e1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/bffa5017b7bf2a731fa7a4b8494b731f.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/bffa5017b7bf2a731fa7a4b8494b731f.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/c913942c5b12e0ef3bdd3033881747ed.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/c913942c5b12e0ef3bdd3033881747ed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/de0d3a523b1ecbf8dfd6db6fdf2e8f12.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/de0d3a523b1ecbf8dfd6db6fdf2e8f12.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-loader/fd123ca9d118c14e30ed116e1d8d4007.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/fd123ca9d118c14e30ed116e1d8d4007.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/all-in-one-wp-migration/storage/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/setup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/customizer.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/customizer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/customizer.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/customizer.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/scripts/routes/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/scripts/routes/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/scripts/util/animOverlay.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/scripts/util/animOverlay.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/styles/components/_anim-overlay.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/components/_anim-overlay.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/full-width-black.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/full-width-black.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/full-width-white.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/full-width-white.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/full-width.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/full-width.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/anim-overlay.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/anim-overlay.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/styles/common/_text-size-medium.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/common/_text-size-medium.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +156,7 @@
       <workItem from="1623407099533" duration="1776000" />
       <workItem from="1623565438261" duration="11428000" />
       <workItem from="1623766203514" duration="13057000" />
-      <workItem from="1623852921071" duration="8435000" />
+      <workItem from="1623852921071" duration="11012000" />
     </task>
     <servers />
   </component>

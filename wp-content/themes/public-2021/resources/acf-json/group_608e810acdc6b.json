@@ -19,7 +19,7 @@
             "min": 0,
             "max": 0,
             "layout": "block",
-            "button_label": "",
+            "button_label": "Add desktop slide",
             "sub_fields": [
                 {
                     "key": "field_60b4b8c7cefc8",
@@ -153,7 +153,7 @@
             "min": 0,
             "max": 0,
             "layout": "block",
-            "button_label": "",
+            "button_label": "Add mobile slide",
             "sub_fields": [
                 {
                     "key": "field_60c723af36a97",
@@ -328,5 +328,5 @@
     ],
     "active": true,
     "description": "",
-    "modified": 1623664567
+    "modified": 1623941017
 }
