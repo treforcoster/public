@@ -89008,6 +89008,7 @@ var CasestudyCollapse = function CasestudyCollapse(){
 
 var AnimOverlay = function AnimOverlay() {
     __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].registerPlugin(__WEBPACK_IMPORTED_MODULE_1_gsap_CSSPlugin_js__["a" /* CSSPlugin */]);
+    __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].ticker.fps(30);
 
 
     console.log('--------------------- AnimOverlay')
@@ -89074,16 +89075,16 @@ var AnimOverlay = function AnimOverlay() {
 
     update();
 
-    requestAnimationFrame(animateDot);
+    //requestAnimationFrame(animateDot);
 
   }
 
-  animateDot()
+  //animateDot()
 
   var timeout;
 
   document.onmousemove = function(){
-
+    __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].ticker.remove(animateDot);
     clearTimeout(timeout);
     __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].to(overlay,{ autoAlpha: 0})
     timeout = setTimeout(function(){
@@ -89092,7 +89093,7 @@ var AnimOverlay = function AnimOverlay() {
   }
 
   function showOverlay() {
-
+    __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].ticker.add(animateDot);
     if (width > 991) {
       __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].to(overlay, {autoAlpha: 1})
     }
@@ -89155,6 +89156,10 @@ var LoadingAnimation = function LoadingAnimation() {
 
   p.to('.loading-dash', {opacity:1, duration: 0.1})
     .to('.loading-dash', {opacity:0, duration: 0.1}, '+=0.15')
+    .to('.loading-dash', {opacity:1, duration: 0.1}, '+=0.15')
+    .to('.loading-dash', {opacity:0, duration: 0.1}, '+=0.15')
+    .to('.loading-dash', {opacity:1, duration: 0.1}, '+=0.15')
+    .to('.loading-dash', {opacity:0, duration: 0.1}, '+=0.15')
     .to('.loading-dash', {opacity:1, duration: 0.1}, '+=0.15');
 
 
@@ -89162,14 +89167,13 @@ var LoadingAnimation = function LoadingAnimation() {
 
   show
     .to('.loading-u', {opacity:1, duration: 0.1},'+=1')
-    .to('.loading-b', {opacity:1, duration: 0.1}, '+=0.15')
-    .to('.loading-l', {opacity:1, duration: 0.1}, '+=0.15')
-    .to('.loading-i', {opacity:1, duration: 0.1}, '+=0.15')
-    .to('.loading-c', {opacity:1, duration: 0.1}, '+=0.15')
-    .addPause('+=2.5')
+    .to('.loading-b', {opacity:1, duration: 0.1}, '+=0.04')
+    .to('.loading-l', {opacity:1, duration: 0.1}, '+=0.04')
+    .to('.loading-i', {opacity:1, duration: 0.1}, '+=0.04')
+    .to('.loading-c', {opacity:1, duration: 0.1}, '+=0.04')
+    .addPause('+=2')
   //gsap.to('.loading-dash', {delay:0.5, duration: 0.1, opacity: 1, repeat: -1, yoyo: true});
-
-
+    
   function hideLoader() {
 
     __WEBPACK_IMPORTED_MODULE_0_gsap__["b" /* gsap */].to('#loading-animation', {autoAlpha:0})

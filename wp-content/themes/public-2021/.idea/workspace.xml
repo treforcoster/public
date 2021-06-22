@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36c75b6a-1b39-4f06-bb4c-c005cf1fdc1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/assets/scripts/util/animOverlay-bu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/all-in-one-wp-migration/storage/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache-loader/14419646a8b7a3ca7ea3b26115cef6d8.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/14419646a8b7a3ca7ea3b26115cef6d8.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache-loader/5f6440afea969a7c2163e8a54d94f2e3.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/5f6440afea969a7c2163e8a54d94f2e3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache-loader/b0a9e57a985cddf64b20c2447e97f869.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-loader/b0a9e57a985cddf64b20c2447e97f869.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/setup.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/scripts/customizer.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/customizer.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/scripts/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/main.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/assets/scripts/util/animOverlay.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/scripts/util/animOverlay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/scripts/util/loadingAnimation.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/scripts/util/loadingAnimation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +90,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/assets/scripts/util" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -102,11 +106,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/assets/scripts/util" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$/resources/assets/styles/components" />
       <recent name="$PROJECT_DIR$/resources/views/components" />
-      <recent name="$PROJECT_DIR$/resources/assets/scripts/util" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views/components" />
@@ -161,7 +165,9 @@
       <workItem from="1623565438261" duration="11428000" />
       <workItem from="1623766203514" duration="13057000" />
       <workItem from="1623852921071" duration="11012000" />
-      <workItem from="1623941295858" duration="3970000" />
+      <workItem from="1623941295858" duration="4901000" />
+      <workItem from="1623993531745" duration="647000" />
+      <workItem from="1624339940424" duration="1326000" />
     </task>
     <servers />
   </component>

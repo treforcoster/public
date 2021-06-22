@@ -5,7 +5,6 @@ class AnimOverlay {
 
   constructor() {
       gsap.registerPlugin(CSSPlugin);
-      gsap.ticker.fps(30);
 
 
       console.log('--------------------- AnimOverlay')
@@ -72,16 +71,16 @@ class AnimOverlay {
 
       update();
 
-      //requestAnimationFrame(animateDot);
+      requestAnimationFrame(animateDot);
 
     }
 
-    //animateDot()
+    animateDot()
 
     let timeout;
 
     document.onmousemove = function(){
-      gsap.ticker.remove(animateDot);
+
       clearTimeout(timeout);
       gsap.to(overlay,{ autoAlpha: 0})
       timeout = setTimeout(function(){
@@ -90,7 +89,7 @@ class AnimOverlay {
     }
 
     function showOverlay() {
-      gsap.ticker.add(animateDot);
+
       if (width > 991) {
         gsap.to(overlay, {autoAlpha: 1})
       }

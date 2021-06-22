@@ -43,6 +43,10 @@ class LoadingAnimation {
 
     p.to('.loading-dash', {opacity:1, duration: 0.1})
       .to('.loading-dash', {opacity:0, duration: 0.1}, '+=0.15')
+      .to('.loading-dash', {opacity:1, duration: 0.1}, '+=0.15')
+      .to('.loading-dash', {opacity:0, duration: 0.1}, '+=0.15')
+      .to('.loading-dash', {opacity:1, duration: 0.1}, '+=0.15')
+      .to('.loading-dash', {opacity:0, duration: 0.1}, '+=0.15')
       .to('.loading-dash', {opacity:1, duration: 0.1}, '+=0.15');
 
 
@@ -50,14 +54,13 @@ class LoadingAnimation {
 
     show
       .to('.loading-u', {opacity:1, duration: 0.1},'+=1')
-      .to('.loading-b', {opacity:1, duration: 0.1}, '+=0.15')
-      .to('.loading-l', {opacity:1, duration: 0.1}, '+=0.15')
-      .to('.loading-i', {opacity:1, duration: 0.1}, '+=0.15')
-      .to('.loading-c', {opacity:1, duration: 0.1}, '+=0.15')
-      .addPause('+=2.5')
+      .to('.loading-b', {opacity:1, duration: 0.1}, '+=0.04')
+      .to('.loading-l', {opacity:1, duration: 0.1}, '+=0.04')
+      .to('.loading-i', {opacity:1, duration: 0.1}, '+=0.04')
+      .to('.loading-c', {opacity:1, duration: 0.1}, '+=0.04')
+      .addPause('+=2')
     //gsap.to('.loading-dash', {delay:0.5, duration: 0.1, opacity: 1, repeat: -1, yoyo: true});
-
-
+    
     function hideLoader() {
 
       gsap.to('#loading-animation', {autoAlpha:0})
