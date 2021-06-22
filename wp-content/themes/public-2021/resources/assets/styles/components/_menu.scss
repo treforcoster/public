@@ -1,5 +1,6 @@
 $transition :0.4s;
-$menuSize : 112px;
+$menuSizeMobile : 15.071vw;
+$menuSizeDesktop : 112px;
 $menuWeight: 500;
 $menuColour : #fff;
 $menuLH : 1;
@@ -212,7 +213,7 @@ $mobileToggleY: calc((100vw/24.5));
     transform-style: preserve-3d;
 
     h3 {
-      font-size: $menuSize;
+      font-size: $menuSizeDesktop;
       color: $menuColour;
       padding-bottom: 45px;
       margin: 0;
@@ -224,13 +225,11 @@ $mobileToggleY: calc((100vw/24.5));
       transform: translateY(-50%);
       list-style: none;
       color: #000;
-      font-size: $menuSize;
       padding: 0;
       margin: 0;
       text-align: center;
 
       li {
-        font-size: $menuSize;
         line-height: $menuLH;
         width: auto;
 
@@ -240,7 +239,12 @@ $mobileToggleY: calc((100vw/24.5));
           color: $menuColour;
           text-decoration: none;
           line-height: $menuLH;
-          font-size: $menuSize;
+          font-size: $menuSizeMobile;
+
+          @include media-breakpoint-up(lg) {
+            font-size: $menuSizeDesktop;
+          }
+
           font-weight: $menuWeight;
           margin-top: 0;
           font-family: "TheinhardtM", sans-serif;

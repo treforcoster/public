@@ -20235,19 +20235,19 @@ body#tinymce {
   text-decoration: none;
 }
 
-/* line 11, resources/assets/styles/components/_menu.scss */
+/* line 12, resources/assets/styles/components/_menu.scss */
 
 #nav {
   font-family: "TheinhardtM", sans-serif;
 }
 
-/* line 14, resources/assets/styles/components/_menu.scss */
+/* line 15, resources/assets/styles/components/_menu.scss */
 
 #nav .menu-wrapper {
   z-index: 11000;
 }
 
-/* line 18, resources/assets/styles/components/_menu.scss */
+/* line 19, resources/assets/styles/components/_menu.scss */
 
 #nav .social-wrapper {
   position: absolute;
@@ -20258,14 +20258,14 @@ body#tinymce {
 }
 
 @media (min-width: 768px) {
-  /* line 18, resources/assets/styles/components/_menu.scss */
+  /* line 19, resources/assets/styles/components/_menu.scss */
 
   #nav .social-wrapper {
     bottom: 30px;
   }
 }
 
-/* line 30, resources/assets/styles/components/_menu.scss */
+/* line 31, resources/assets/styles/components/_menu.scss */
 
 #nav .social-wrapper .social {
   display: inline-block;
@@ -20275,26 +20275,26 @@ body#tinymce {
   margin-right: 22px;
 }
 
-/* line 37, resources/assets/styles/components/_menu.scss */
+/* line 38, resources/assets/styles/components/_menu.scss */
 
 #nav .social-wrapper .social a {
   display: block;
 }
 
-/* line 41, resources/assets/styles/components/_menu.scss */
+/* line 42, resources/assets/styles/components/_menu.scss */
 
 #nav .social-wrapper .social svg {
   width: 28px;
   height: 28px;
 }
 
-/* line 45, resources/assets/styles/components/_menu.scss */
+/* line 46, resources/assets/styles/components/_menu.scss */
 
 #nav .social-wrapper .social svg .social-icon {
   fill: #000;
 }
 
-/* line 52, resources/assets/styles/components/_menu.scss */
+/* line 53, resources/assets/styles/components/_menu.scss */
 
 #nav #logo {
   float: left;
@@ -20306,7 +20306,7 @@ body#tinymce {
   height: calc((100vw/24.5) * 2.5);
 }
 
-/* line 61, resources/assets/styles/components/_menu.scss */
+/* line 62, resources/assets/styles/components/_menu.scss */
 
 #nav #logo svg {
   width: auto;
@@ -20314,7 +20314,7 @@ body#tinymce {
 }
 
 @media (min-width: 992px) {
-  /* line 52, resources/assets/styles/components/_menu.scss */
+  /* line 53, resources/assets/styles/components/_menu.scss */
 
   #nav #logo {
     top: 35px;
@@ -20323,7 +20323,7 @@ body#tinymce {
     height: 79px;
   }
 
-  /* line 72, resources/assets/styles/components/_menu.scss */
+  /* line 73, resources/assets/styles/components/_menu.scss */
 
   #nav #logo svg {
     width: 244px;
@@ -20332,7 +20332,7 @@ body#tinymce {
   }
 }
 
-/* line 79, resources/assets/styles/components/_menu.scss */
+/* line 80, resources/assets/styles/components/_menu.scss */
 
 #nav #logo .logo-fill {
   fill: #fff;
@@ -20343,7 +20343,7 @@ body#tinymce {
   transition: fill 0.4s ease-in-out;
 }
 
-/* line 89, resources/assets/styles/components/_menu.scss */
+/* line 90, resources/assets/styles/components/_menu.scss */
 
 #nav #logo.open .logo-fill {
   fill: #fff;
@@ -20354,7 +20354,7 @@ body#tinymce {
   transition: fill 0.4s ease-in-out;
 }
 
-/* line 101, resources/assets/styles/components/_menu.scss */
+/* line 102, resources/assets/styles/components/_menu.scss */
 
 #show-menu {
   position: absolute;
@@ -20377,21 +20377,21 @@ body#tinymce {
   height: calc((100vw/24.5) * 2);
 }
 
-/* line 121, resources/assets/styles/components/_menu.scss */
+/* line 122, resources/assets/styles/components/_menu.scss */
 
 #show-menu svg {
   width: calc((100vw/24.5) * 2);
   height: calc((100vw/24.5) * 2);
 }
 
-/* line 125, resources/assets/styles/components/_menu.scss */
+/* line 126, resources/assets/styles/components/_menu.scss */
 
 #show-menu svg .fill {
   mix-blend-mode: difference;
 }
 
 @media (min-width: 992px) {
-  /* line 101, resources/assets/styles/components/_menu.scss */
+  /* line 102, resources/assets/styles/components/_menu.scss */
 
   #show-menu {
     top: 40px;
@@ -20400,7 +20400,7 @@ body#tinymce {
     height: 74px;
   }
 
-  /* line 136, resources/assets/styles/components/_menu.scss */
+  /* line 137, resources/assets/styles/components/_menu.scss */
 
   #show-menu svg {
     width: 74px;
@@ -20408,7 +20408,7 @@ body#tinymce {
   }
 }
 
-/* line 142, resources/assets/styles/components/_menu.scss */
+/* line 143, resources/assets/styles/components/_menu.scss */
 
 #show-menu .fill {
   fill: #fff;
@@ -20419,7 +20419,7 @@ body#tinymce {
   transition: fill 0.4s ease-in-out;
 }
 
-/* line 152, resources/assets/styles/components/_menu.scss */
+/* line 153, resources/assets/styles/components/_menu.scss */
 
 #show-menu.open .fill {
   fill: #fff;
@@ -20431,7 +20431,7 @@ body#tinymce {
 }
 
 @media (min-width: 768px) {
-  /* line 164, resources/assets/styles/components/_menu.scss */
+  /* line 165, resources/assets/styles/components/_menu.scss */
 
   #show-menu.black-nav .fill {
     fill: #fff;
@@ -20443,7 +20443,7 @@ body#tinymce {
   }
 }
 
-/* line 175, resources/assets/styles/components/_menu.scss */
+/* line 176, resources/assets/styles/components/_menu.scss */
 
 #show-menu.open {
   color: #fff;
@@ -20454,7 +20454,7 @@ body#tinymce {
   transition: color 0.4s ease-in-out;
 }
 
-/* line 185, resources/assets/styles/components/_menu.scss */
+/* line 186, resources/assets/styles/components/_menu.scss */
 
 #menu-bar {
   width: 100%;
@@ -20468,14 +20468,14 @@ body#tinymce {
   transition: top 0.4s ease-in-out;
 }
 
-/* line 196, resources/assets/styles/components/_menu.scss */
+/* line 197, resources/assets/styles/components/_menu.scss */
 
 #menu-bar #circle-canvas {
   position: fixed;
   z-index: 10000;
 }
 
-/* line 201, resources/assets/styles/components/_menu.scss */
+/* line 202, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper {
   position: fixed;
@@ -20491,7 +20491,7 @@ body#tinymce {
   transform-style: preserve-3d;
 }
 
-/* line 214, resources/assets/styles/components/_menu.scss */
+/* line 215, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper h3 {
   font-size: 112px;
@@ -20500,7 +20500,7 @@ body#tinymce {
   margin: 0;
 }
 
-/* line 221, resources/assets/styles/components/_menu.scss */
+/* line 222, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper ul {
   position: relative;
@@ -20508,7 +20508,6 @@ body#tinymce {
   transform: translateY(-50%);
   list-style: none;
   color: #000;
-  font-size: 112px;
   padding: 0;
   margin: 0;
   text-align: center;
@@ -20517,12 +20516,11 @@ body#tinymce {
 /* line 232, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper ul li {
-  font-size: 112px;
   line-height: 1;
   width: auto;
 }
 
-/* line 237, resources/assets/styles/components/_menu.scss */
+/* line 236, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper ul li a {
   position: relative;
@@ -20530,13 +20528,21 @@ body#tinymce {
   color: #fff;
   text-decoration: none;
   line-height: 1;
-  font-size: 112px;
+  font-size: 15.071vw;
   font-weight: 500;
   margin-top: 0;
   font-family: "TheinhardtM", sans-serif;
 }
 
-/* line 248, resources/assets/styles/components/_menu.scss */
+@media (min-width: 992px) {
+  /* line 236, resources/assets/styles/components/_menu.scss */
+
+  #menu-bar .menu-wrapper ul li a {
+    font-size: 112px;
+  }
+}
+
+/* line 252, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper ul li a::before {
   content: "";
@@ -20573,13 +20579,13 @@ body#tinymce {
             } */
 }
 
-/* line 284, resources/assets/styles/components/_menu.scss */
+/* line 288, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper ul li a:hover {
   text-decoration: none;
 }
 
-/* line 287, resources/assets/styles/components/_menu.scss */
+/* line 291, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper ul li a:hover::before {
   opacity: 1;
@@ -20600,13 +20606,13 @@ body#tinymce {
   }
 }
 
-/* line 307, resources/assets/styles/components/_menu.scss */
+/* line 311, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper ul li a:focus {
   text-decoration: none;
 }
 
-/* line 314, resources/assets/styles/components/_menu.scss */
+/* line 318, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper ul li.active a::before {
   opacity: 1;
@@ -20614,51 +20620,51 @@ body#tinymce {
   left: 0;
 }
 
-/* line 324, resources/assets/styles/components/_menu.scss */
+/* line 328, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper ul li + li a {
   margin-left: 30%;
   margin-top: calc((100vw / 49) * 4);
 }
 
-/* line 331, resources/assets/styles/components/_menu.scss */
+/* line 335, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper ul li + li + li a {
   margin-left: -30%;
   margin-top: calc((100vw / 49) * 1);
 }
 
-/* line 346, resources/assets/styles/components/_menu.scss */
+/* line 350, resources/assets/styles/components/_menu.scss */
 
 .nav-white #logo .logo-fill {
   fill: #fff !important;
 }
 
-/* line 352, resources/assets/styles/components/_menu.scss */
+/* line 356, resources/assets/styles/components/_menu.scss */
 
 .nav-white #show-menu .fill {
   fill: #fff !important;
 }
 
-/* line 360, resources/assets/styles/components/_menu.scss */
+/* line 364, resources/assets/styles/components/_menu.scss */
 
 .nav-black #logo .logo-fill {
   fill: #000 !important;
 }
 
-/* line 366, resources/assets/styles/components/_menu.scss */
+/* line 370, resources/assets/styles/components/_menu.scss */
 
 .nav-black #show-menu .fill {
   fill: #000 !important;
 }
 
-/* line 373, resources/assets/styles/components/_menu.scss */
+/* line 377, resources/assets/styles/components/_menu.scss */
 
 .nav-black.open #logo .logo-fill {
   fill: #fff !important;
 }
 
-/* line 379, resources/assets/styles/components/_menu.scss */
+/* line 383, resources/assets/styles/components/_menu.scss */
 
 .nav-black.open #show-menu .fill {
   fill: #fff !important;
