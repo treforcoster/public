@@ -4,19 +4,12 @@
 
 /* line 35, resources/assets/styles/common/_variables.scss */
 
-.container-fluid {
-  padding-left: 1.56vw !important;
-  padding-right: 1.56vw !important;
-}
-
-/* line 40, resources/assets/styles/common/_variables.scss */
-
 .container-blog {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
-/* line 45, resources/assets/styles/common/_variables.scss */
+/* line 40, resources/assets/styles/common/_variables.scss */
 
 .col-inner {
   padding: 1.56vw;
@@ -17922,18 +17915,43 @@ html h4 {
 /* line 21, resources/assets/styles/common/_global.scss */
 
 .page-white {
-  padding-top: calc((100vw/24.5) * 3.5);
-  padding-bottom: calc((100vw/24.5) * 3.5);
+  padding-top: calc((100vw / 24.5) * 7);
+  padding-bottom: calc((100vw / 24.5) * 3.5);
 }
 
-/* line 27, resources/assets/styles/common/_global.scss */
+@media (min-width: 992px) {
+  /* line 21, resources/assets/styles/common/_global.scss */
+
+  .page-white {
+    padding-top: calc((100vw / 24.5) * 3.5);
+    padding-bottom: calc((100vw / 24.5) * 3.5);
+  }
+}
+
+/* line 31, resources/assets/styles/common/_global.scss */
+
+.container-fluid {
+  padding-left: calc((100vw / 24.5) * 1) !important;
+  padding-right: calc((100vw / 24.5) * 1) !important;
+}
+
+@media (min-width: 992px) {
+  /* line 31, resources/assets/styles/common/_global.scss */
+
+  .container-fluid {
+    padding-left: calc((100vw / 24.5) * 0.5) !important;
+    padding-right: calc((100vw / 24.5) * 0.5) !important;
+  }
+}
+
+/* line 42, resources/assets/styles/common/_global.scss */
 
 p:last-child {
   margin: 0;
   padding: 0;
 }
 
-/* line 33, resources/assets/styles/common/_global.scss */
+/* line 48, resources/assets/styles/common/_global.scss */
 
 #logo-trigger {
   position: absolute;
@@ -17944,7 +17962,7 @@ p:last-child {
 }
 
 @media (max-width: 991.98px) {
-  /* line 42, resources/assets/styles/common/_global.scss */
+  /* line 57, resources/assets/styles/common/_global.scss */
 
   .vertical-spacing-mobile-top {
     padding-top: calc(100vw / 24.5) !important;
@@ -17952,7 +17970,7 @@ p:last-child {
 }
 
 @media (max-width: 991.98px) {
-  /* line 48, resources/assets/styles/common/_global.scss */
+  /* line 63, resources/assets/styles/common/_global.scss */
 
   .vertical-spacing-mobile-bottom {
     padding-bottom: calc(100vw / 24.5) !important;
@@ -17960,7 +17978,7 @@ p:last-child {
 }
 
 @media (max-width: 991.98px) {
-  /* line 54, resources/assets/styles/common/_global.scss */
+  /* line 69, resources/assets/styles/common/_global.scss */
 
   .vertical-spacing-mobile-top-x2 {
     padding-top: calc((100vw / 24.5) * 2) !important;
@@ -17968,7 +17986,7 @@ p:last-child {
 }
 
 @media (max-width: 991.98px) {
-  /* line 60, resources/assets/styles/common/_global.scss */
+  /* line 75, resources/assets/styles/common/_global.scss */
 
   .vertical-spacing-mobile-bottom-x2 {
     padding-bottom: calc((100vw / 24.5) * 2) !important;
@@ -17976,7 +17994,7 @@ p:last-child {
 }
 
 @media (min-width: 992px) {
-  /* line 66, resources/assets/styles/common/_global.scss */
+  /* line 81, resources/assets/styles/common/_global.scss */
 
   .vertical-spacing-desktop-top {
     padding-top: calc(100vw / 64) !important;
@@ -17984,14 +18002,14 @@ p:last-child {
 }
 
 @media (min-width: 992px) {
-  /* line 72, resources/assets/styles/common/_global.scss */
+  /* line 87, resources/assets/styles/common/_global.scss */
 
   .vertical-spacing-desktop-bottom {
     padding-bottom: calc(100vw / 64) !important;
   }
 }
 
-/* line 78, resources/assets/styles/common/_global.scss */
+/* line 93, resources/assets/styles/common/_global.scss */
 
 .rect-overlay {
   position: fixed;
@@ -18002,14 +18020,14 @@ p:last-child {
   z-index: 10000;
 }
 
-/* line 86, resources/assets/styles/common/_global.scss */
+/* line 101, resources/assets/styles/common/_global.scss */
 
 .rect-overlay svg {
   width: 100vw;
   height: 100vh;
 }
 
-/* line 92, resources/assets/styles/common/_global.scss */
+/* line 107, resources/assets/styles/common/_global.scss */
 
 .circ-overlay {
   position: fixed;
@@ -18021,7 +18039,7 @@ p:last-child {
   mix-blend-mode: difference;
 }
 
-/* line 101, resources/assets/styles/common/_global.scss */
+/* line 116, resources/assets/styles/common/_global.scss */
 
 .circ-overlay svg {
   width: 100vw;
@@ -20235,19 +20253,19 @@ body#tinymce {
   text-decoration: none;
 }
 
-/* line 12, resources/assets/styles/components/_menu.scss */
+/* line 14, resources/assets/styles/components/_menu.scss */
 
 #nav {
   font-family: "TheinhardtM", sans-serif;
 }
 
-/* line 15, resources/assets/styles/components/_menu.scss */
+/* line 17, resources/assets/styles/components/_menu.scss */
 
 #nav .menu-wrapper {
   z-index: 11000;
 }
 
-/* line 19, resources/assets/styles/components/_menu.scss */
+/* line 21, resources/assets/styles/components/_menu.scss */
 
 #nav .social-wrapper {
   position: absolute;
@@ -20258,14 +20276,14 @@ body#tinymce {
 }
 
 @media (min-width: 768px) {
-  /* line 19, resources/assets/styles/components/_menu.scss */
+  /* line 21, resources/assets/styles/components/_menu.scss */
 
   #nav .social-wrapper {
     bottom: 30px;
   }
 }
 
-/* line 31, resources/assets/styles/components/_menu.scss */
+/* line 33, resources/assets/styles/components/_menu.scss */
 
 #nav .social-wrapper .social {
   display: inline-block;
@@ -20275,38 +20293,46 @@ body#tinymce {
   margin-right: 22px;
 }
 
-/* line 38, resources/assets/styles/components/_menu.scss */
+/* line 40, resources/assets/styles/components/_menu.scss */
 
 #nav .social-wrapper .social a {
   display: block;
 }
 
-/* line 42, resources/assets/styles/components/_menu.scss */
+/* line 44, resources/assets/styles/components/_menu.scss */
 
 #nav .social-wrapper .social svg {
   width: 28px;
   height: 28px;
 }
 
-/* line 46, resources/assets/styles/components/_menu.scss */
+/* line 48, resources/assets/styles/components/_menu.scss */
 
 #nav .social-wrapper .social svg .social-icon {
   fill: #000;
 }
 
-/* line 53, resources/assets/styles/components/_menu.scss */
+/* line 55, resources/assets/styles/components/_menu.scss */
 
 #nav #logo {
   float: left;
   position: absolute;
   z-index: 11000;
   top: calc((100vw/24.5));
-  left: 20px;
+  left: calc((100vw / 24.5) * 1) !important;
   width: auto;
   height: calc((100vw/24.5) * 2.5);
 }
 
-/* line 62, resources/assets/styles/components/_menu.scss */
+@media (min-width: 992px) {
+  /* line 55, resources/assets/styles/components/_menu.scss */
+
+  #nav #logo {
+    left: calc((100vw / 24.5) * 0.5) !important;
+  }
+}
+
+/* line 69, resources/assets/styles/components/_menu.scss */
 
 #nav #logo svg {
   width: auto;
@@ -20314,7 +20340,7 @@ body#tinymce {
 }
 
 @media (min-width: 992px) {
-  /* line 53, resources/assets/styles/components/_menu.scss */
+  /* line 55, resources/assets/styles/components/_menu.scss */
 
   #nav #logo {
     top: 35px;
@@ -20323,7 +20349,7 @@ body#tinymce {
     height: 79px;
   }
 
-  /* line 73, resources/assets/styles/components/_menu.scss */
+  /* line 80, resources/assets/styles/components/_menu.scss */
 
   #nav #logo svg {
     width: 244px;
@@ -20332,7 +20358,7 @@ body#tinymce {
   }
 }
 
-/* line 80, resources/assets/styles/components/_menu.scss */
+/* line 87, resources/assets/styles/components/_menu.scss */
 
 #nav #logo .logo-fill {
   fill: #fff;
@@ -20343,7 +20369,7 @@ body#tinymce {
   transition: fill 0.4s ease-in-out;
 }
 
-/* line 90, resources/assets/styles/components/_menu.scss */
+/* line 97, resources/assets/styles/components/_menu.scss */
 
 #nav #logo.open .logo-fill {
   fill: #fff;
@@ -20354,7 +20380,7 @@ body#tinymce {
   transition: fill 0.4s ease-in-out;
 }
 
-/* line 102, resources/assets/styles/components/_menu.scss */
+/* line 109, resources/assets/styles/components/_menu.scss */
 
 #show-menu {
   position: absolute;
@@ -20372,26 +20398,34 @@ body#tinymce {
   transition: color 0.4s ease-in-out;
   font-size: 17px;
   top: calc((100vw/24.5));
-  right: calc((100vw/24.5));
+  right: calc((100vw/24.5) * 1);
   width: calc((100vw/24.5) * 2);
   height: calc((100vw/24.5) * 2);
 }
 
-/* line 122, resources/assets/styles/components/_menu.scss */
+@media (min-width: 992px) {
+  /* line 109, resources/assets/styles/components/_menu.scss */
+
+  #show-menu {
+    left: calc((100vw/24.5) * 0.5);
+  }
+}
+
+/* line 133, resources/assets/styles/components/_menu.scss */
 
 #show-menu svg {
   width: calc((100vw/24.5) * 2);
   height: calc((100vw/24.5) * 2);
 }
 
-/* line 126, resources/assets/styles/components/_menu.scss */
+/* line 137, resources/assets/styles/components/_menu.scss */
 
 #show-menu svg .fill {
   mix-blend-mode: difference;
 }
 
 @media (min-width: 992px) {
-  /* line 102, resources/assets/styles/components/_menu.scss */
+  /* line 109, resources/assets/styles/components/_menu.scss */
 
   #show-menu {
     top: 40px;
@@ -20400,7 +20434,7 @@ body#tinymce {
     height: 74px;
   }
 
-  /* line 137, resources/assets/styles/components/_menu.scss */
+  /* line 148, resources/assets/styles/components/_menu.scss */
 
   #show-menu svg {
     width: 74px;
@@ -20408,7 +20442,7 @@ body#tinymce {
   }
 }
 
-/* line 143, resources/assets/styles/components/_menu.scss */
+/* line 154, resources/assets/styles/components/_menu.scss */
 
 #show-menu .fill {
   fill: #fff;
@@ -20419,7 +20453,7 @@ body#tinymce {
   transition: fill 0.4s ease-in-out;
 }
 
-/* line 153, resources/assets/styles/components/_menu.scss */
+/* line 164, resources/assets/styles/components/_menu.scss */
 
 #show-menu.open .fill {
   fill: #fff;
@@ -20431,7 +20465,7 @@ body#tinymce {
 }
 
 @media (min-width: 768px) {
-  /* line 165, resources/assets/styles/components/_menu.scss */
+  /* line 176, resources/assets/styles/components/_menu.scss */
 
   #show-menu.black-nav .fill {
     fill: #fff;
@@ -20443,7 +20477,7 @@ body#tinymce {
   }
 }
 
-/* line 176, resources/assets/styles/components/_menu.scss */
+/* line 187, resources/assets/styles/components/_menu.scss */
 
 #show-menu.open {
   color: #fff;
@@ -20454,7 +20488,7 @@ body#tinymce {
   transition: color 0.4s ease-in-out;
 }
 
-/* line 186, resources/assets/styles/components/_menu.scss */
+/* line 197, resources/assets/styles/components/_menu.scss */
 
 #menu-bar {
   width: 100%;
@@ -20468,14 +20502,14 @@ body#tinymce {
   transition: top 0.4s ease-in-out;
 }
 
-/* line 197, resources/assets/styles/components/_menu.scss */
+/* line 208, resources/assets/styles/components/_menu.scss */
 
 #menu-bar #circle-canvas {
   position: fixed;
   z-index: 10000;
 }
 
-/* line 202, resources/assets/styles/components/_menu.scss */
+/* line 213, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper {
   position: fixed;
@@ -20491,7 +20525,7 @@ body#tinymce {
   transform-style: preserve-3d;
 }
 
-/* line 215, resources/assets/styles/components/_menu.scss */
+/* line 226, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper h3 {
   font-size: 112px;
@@ -20500,7 +20534,7 @@ body#tinymce {
   margin: 0;
 }
 
-/* line 222, resources/assets/styles/components/_menu.scss */
+/* line 233, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper ul {
   position: relative;
@@ -20513,14 +20547,14 @@ body#tinymce {
   text-align: center;
 }
 
-/* line 232, resources/assets/styles/components/_menu.scss */
+/* line 243, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper ul li {
   line-height: 1;
   width: auto;
 }
 
-/* line 236, resources/assets/styles/components/_menu.scss */
+/* line 247, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper ul li a {
   position: relative;
@@ -20535,14 +20569,14 @@ body#tinymce {
 }
 
 @media (min-width: 992px) {
-  /* line 236, resources/assets/styles/components/_menu.scss */
+  /* line 247, resources/assets/styles/components/_menu.scss */
 
   #menu-bar .menu-wrapper ul li a {
     font-size: 112px;
   }
 }
 
-/* line 252, resources/assets/styles/components/_menu.scss */
+/* line 263, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper ul li a::before {
   content: "";
@@ -20579,13 +20613,13 @@ body#tinymce {
             } */
 }
 
-/* line 288, resources/assets/styles/components/_menu.scss */
+/* line 299, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper ul li a:hover {
   text-decoration: none;
 }
 
-/* line 291, resources/assets/styles/components/_menu.scss */
+/* line 302, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper ul li a:hover::before {
   opacity: 1;
@@ -20606,13 +20640,13 @@ body#tinymce {
   }
 }
 
-/* line 311, resources/assets/styles/components/_menu.scss */
+/* line 322, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper ul li a:focus {
   text-decoration: none;
 }
 
-/* line 318, resources/assets/styles/components/_menu.scss */
+/* line 329, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper ul li.active a::before {
   opacity: 1;
@@ -20620,51 +20654,51 @@ body#tinymce {
   left: 0;
 }
 
-/* line 328, resources/assets/styles/components/_menu.scss */
+/* line 339, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper ul li + li a {
   margin-left: 30%;
   margin-top: calc((100vw / 49) * 4);
 }
 
-/* line 335, resources/assets/styles/components/_menu.scss */
+/* line 346, resources/assets/styles/components/_menu.scss */
 
 #menu-bar .menu-wrapper ul li + li + li a {
   margin-left: -30%;
   margin-top: calc((100vw / 49) * 1);
 }
 
-/* line 350, resources/assets/styles/components/_menu.scss */
+/* line 361, resources/assets/styles/components/_menu.scss */
 
 .nav-white #logo .logo-fill {
   fill: #fff !important;
 }
 
-/* line 356, resources/assets/styles/components/_menu.scss */
+/* line 367, resources/assets/styles/components/_menu.scss */
 
 .nav-white #show-menu .fill {
   fill: #fff !important;
 }
 
-/* line 364, resources/assets/styles/components/_menu.scss */
+/* line 375, resources/assets/styles/components/_menu.scss */
 
 .nav-black #logo .logo-fill {
   fill: #000 !important;
 }
 
-/* line 370, resources/assets/styles/components/_menu.scss */
+/* line 381, resources/assets/styles/components/_menu.scss */
 
 .nav-black #show-menu .fill {
   fill: #000 !important;
 }
 
-/* line 377, resources/assets/styles/components/_menu.scss */
+/* line 388, resources/assets/styles/components/_menu.scss */
 
 .nav-black.open #logo .logo-fill {
   fill: #fff !important;
 }
 
-/* line 383, resources/assets/styles/components/_menu.scss */
+/* line 394, resources/assets/styles/components/_menu.scss */
 
 .nav-black.open #show-menu .fill {
   fill: #fff !important;

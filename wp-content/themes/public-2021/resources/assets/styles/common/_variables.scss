@@ -32,11 +32,6 @@ $container-max-widths: (
 $grid-columns:                16 !default;
 $grid-gutter-width:           30px !default;
 
-.container-fluid {
-  padding-left: 1.56vw !important;
-  padding-right: 1.56vw !important;
-}
-
 .container-blog {
   padding-left: 0 !important;
   padding-right: 0 !important;

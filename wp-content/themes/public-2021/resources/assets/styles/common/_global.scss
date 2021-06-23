@@ -19,8 +19,23 @@ html {
 }
 
 .page-white {
-  padding-top: calc((100vw/24.5) * 3.5);
-  padding-bottom: calc((100vw/24.5) * 3.5);
+  padding-top: calc((100vw / 24.5) * 7);
+  padding-bottom: calc((100vw / 24.5) * 3.5);
+
+  @include media-breakpoint-up(lg) {
+    padding-top: calc((100vw / 24.5) * 3.5);
+    padding-bottom: calc((100vw / 24.5) * 3.5);
+  }
+}
+
+.container-fluid {
+  padding-left: calc((100vw / 24.5) * 1) !important;
+  padding-right: calc((100vw / 24.5) * 1) !important;
+
+  @include media-breakpoint-up(lg) {
+    padding-left: calc((100vw / 24.5) * 0.5) !important;
+    padding-right: calc((100vw / 24.5) * 0.5) !important;
+  }
 }
 
 p {

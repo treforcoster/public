@@ -8,6 +8,8 @@ $menuLH : 1;
 $mobileLogoHeight: calc((100vw/24.5) * 2.5);
 $mobileToggleHeight: calc((100vw/24.5) * 2);
 $mobileToggleY: calc((100vw/24.5));
+$mobileToggleXmobile: calc((100vw/24.5) * 1);
+$mobileToggleXdesktop: calc((100vw/24.5) * 0.5);
 
 #nav {
   font-family: "TheinhardtM", sans-serif;
@@ -55,7 +57,12 @@ $mobileToggleY: calc((100vw/24.5));
     position: absolute;
     z-index: 11000;
     top: $mobileToggleY;
-    left: 20px;
+    left: calc((100vw / 24.5) * 1) !important;
+
+    @include media-breakpoint-up(lg) {
+      left: calc((100vw / 24.5) * 0.5) !important;
+    }
+
     width: auto;
     height: $mobileLogoHeight;
 
@@ -115,9 +122,13 @@ $mobileToggleY: calc((100vw/24.5));
   transition: color $transition ease-in-out;
   font-size: 17px;
   top: $mobileToggleY;
-  right: $mobileToggleY;
+  right: $mobileToggleXmobile;
   width: $mobileToggleHeight;
   height: $mobileToggleHeight;
+
+  @include media-breakpoint-up(lg) {
+    left: $mobileToggleXdesktop;
+  }
 
   svg {
     width: $mobileToggleHeight;
