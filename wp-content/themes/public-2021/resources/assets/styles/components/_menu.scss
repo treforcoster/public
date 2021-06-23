@@ -127,7 +127,7 @@ $mobileToggleXdesktop: calc((100vw/24.5) * 0.5);
   height: $mobileToggleHeight;
 
   @include media-breakpoint-up(lg) {
-    left: $mobileToggleXdesktop;
+    right: $mobileToggleXdesktop;
   }
 
   svg {

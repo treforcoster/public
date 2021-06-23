@@ -20407,7 +20407,7 @@ body#tinymce {
   /* line 109, resources/assets/styles/components/_menu.scss */
 
   #show-menu {
-    left: calc((100vw/24.5) * 0.5);
+    right: calc((100vw/24.5) * 0.5);
   }
 }
 
