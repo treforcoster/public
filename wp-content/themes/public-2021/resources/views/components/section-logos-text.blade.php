@@ -24,12 +24,12 @@
 
                 if ($size === "small"){
 
-                  $imageColClass = "col-8 col-md-1";
+                  $imageColClass = "col-8 col-lg-1";
                   $imageClass = "small";
 
                 } else {
 
-                  $imageColClass = "col-8 col-md-2";
+                  $imageColClass = "col-8 col-lg-2";
                   $imageClass = "large";
 
                 }?>
