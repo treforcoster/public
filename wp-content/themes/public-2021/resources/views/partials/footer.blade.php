@@ -23,10 +23,10 @@
     <div class="row justify-content-between">
       <div class="col-8">
         <div class="row">
-          <div class="col-lg-6 vertical-spacing-mobile-bottom">
+          <div class="col-lg-8 col-xl-7 col-xxl-6 vertical-spacing-mobile-bottom">
             @php dynamic_sidebar('sidebar-footer-1') @endphp
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-8 col-xl-7 col-xxl-6 ">
             @php dynamic_sidebar('sidebar-footer-2') @endphp
           </div>
         </div>
