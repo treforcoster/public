@@ -1,6 +1,6 @@
 <section class="section section-logos-text medium">
     <div class="row align-items-center justify-content-between">
-      <div class="col-md-6 order-lg-2">
+      <div class="col-lg-6 order-lg-2">
         <div class="text-row">
 
           {!! get_sub_field('text') !!}
