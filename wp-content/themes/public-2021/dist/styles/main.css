@@ -19098,6 +19098,532 @@ p:last-child {
   padding-left: 2rem;
 }
 
+/* line 1, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+:root {
+  --text-size-medium-blog-h1-size: 1.6875rem;
+  --text-size-medium-blog-h1-padding: 2rem;
+  --text-size-medium-blog-h1-line-height: 1.11;
+  --text-size-medium-blog-h1-letter-spacing: normal;
+  --text-size-medium-blog-h1-weight: 400;
+  --text-size-medium-blog-h1-transform: none;
+  /* -- */
+  --text-size-medium-blog-h2-size: 1.6875rem;
+  --text-size-medium-blog-h2-padding: 1.6875rem;
+  --text-size-medium-blog-h2-line-height: 1.11;
+  --text-size-medium-blog-h2-letter-spacing: normal;
+  --text-size-medium-blog-h2-weight: 400;
+  --text-size-medium-blog-h2-transform: none;
+  /* -- */
+  --text-size-medium-blog-h3-size: 1.25rem;
+  --text-size-medium-blog-h3-padding: 0.5rem;
+  --text-size-medium-blog-h3-line-height: 1.11;
+  --text-size-medium-blog-h3-letter-spacing: normal;
+  --text-size-medium-blog-h3-weight: 400;
+  --text-size-medium-blog-h3-transform: none;
+  /* -- */
+  --text-size-medium-blog-h4-size: 1.25rem;
+  --text-size-medium-blog-h4-padding: 0.5rem;
+  --text-size-medium-blog-h4-line-height: 1.11;
+  --text-size-medium-blog-h4-letter-spacing: normal;
+  --text-size-medium-blog-h4-weight: 400;
+  --text-size-medium-blog-h4-transform: none;
+  /* -- */
+  --text-size-medium-blog-p-size: 1.6875rem;
+  --text-size-medium-blog-p-padding: 1.6875rem;
+  --text-size-medium-blog-p-line-height: 1.11;
+  --text-size-medium-blog-p-letter-spacing: normal;
+  --text-size-medium-blog-p-weight: 400;
+  --text-size-medium-blog-p-transform: none;
+  /* -- */
+  --text-size-medium-blog-q-p-size: 1.33rem;
+  --text-size-medium-blog-q-p-padding: 1rem;
+  --text-size-medium-blog-q-p-line-height: 1.11;
+  --text-size-medium-blog-q-p-letter-spacing: normal;
+  --text-size-medium-blog-q-p-weight: 400;
+  --text-size-medium-blog-q-p-transform: none;
+  /* -- */
+  --text-size-medium-blog-q-c-size: 1rem;
+  --text-size-medium-blog-q-c-padding: 1rem;
+  --text-size-medium-blog-q-c-line-height: 1.11;
+  --text-size-medium-blog-q-c-letter-spacing: normal;
+  --text-size-medium-blog-q-c-weight: 400;
+  --text-size-medium-blog-q-c-transform: none;
+  /* -- */
+  --text-size-medium-blog-scale-xs: 1.8/2;
+  --text-size-medium-blog-scale-sm: 1.8/2;
+  --text-size-medium-blog-scale-md: 1.8/2;
+  --text-size-medium-blog-scale-lg: 1;
+  --text-size-medium-blog-scale-xl: 1;
+  --text-size-medium-blog-scale-xxl: 1;
+  /* -- */
+  /*
+  --text-size-medium-blog-scale-xs: 0.35;
+  --text-size-medium-blog-scale-sm: 0.45;
+  --text-size-medium-blog-scale-md: 0.63;
+  --text-size-medium-blog-scale-lg: 0.62;
+  --text-size-medium-blog-scale-xl: 0.74;
+  */
+}
+
+/* line 77, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+.medium-blog h1 {
+  margin: 0;
+  font-size: 3.2vw;
+  padding-bottom: 1.28vw;
+  line-height: var(--text-size-medium-blog-h1-line-height);
+  letter-spacing: var(--text-size-medium-blog-h1-letter-spacing);
+  font-weight: var(--text-size-medium-blog-h1-weight);
+  text-transform: var(--text-size-medium-blog-h1-transform);
+}
+
+@media (min-width: 576px) {
+  /* line 77, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog h1 {
+    font-size: 3.2vw;
+    padding-bottom: 1.28vw;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 77, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog h1 {
+    font-size: 3.2vw;
+    padding-bottom: 1.28vw;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 77, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog h1 {
+    font-size: calc(var(--text-size-medium-blog-h1-size) * var(--text-size-medium-blog-scale-lg));
+    padding-bottom: calc(var(--text-size-medium-blog-h1-padding) * var(--text-size-medium-blog-scale-lg));
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 77, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog h1 {
+    font-size: calc(var(--text-size-medium-blog-h1-size) * var(--text-size-medium-blog-scale-xl));
+    padding-bottom: calc(var(--text-size-medium-blog-h1-padding) * var(--text-size-medium-blog-scale-xl));
+  }
+}
+
+@media (min-width: 1600px) {
+  /* line 77, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog h1 {
+    font-size: calc(var(--text-size-medium-blog-h1-size) * var(--text-size-medium-blog-scale-xxl));
+    padding-bottom: calc(var(--text-size-medium-blog-h1-padding) * var(--text-size-medium-blog-scale-xxl));
+  }
+}
+
+/* line 112, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+.medium-blog h2,
+.medium-blog .h2 {
+  margin: 0;
+  font-size: calc(var(--text-size-medium-blog-h2-size) * var(--text-size-medium-blog-scale-xs));
+  padding-bottom: calc(var(--text-size-medium-blog-h2-padding) * var(--text-size-medium-blog-scale-xs));
+  line-height: var(--text-size-medium-blog-h2-line-height);
+  letter-spacing: var(--text-size-medium-blog-h2-letter-spacing);
+  font-weight: var(--text-size-medium-blog-h2-weight);
+  text-transform: var(--text-size-medium-blog-h2-transform);
+}
+
+@media (min-width: 576px) {
+  /* line 112, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog h2,
+  .medium-blog .h2 {
+    font-size: calc(var(--text-size-medium-blog-h2-size) * var(--text-size-medium-blog-scale-sm));
+    padding-bottom: calc(var(--text-size-medium-blog-h2-padding) * var(--text-size-medium-blog-scale-sm));
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 112, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog h2,
+  .medium-blog .h2 {
+    font-size: calc(var(--text-size-medium-blog-h2-size) * var(--text-size-medium-blog-scale-md));
+    padding-bottom: calc(var(--text-size-medium-blog-h2-padding) * var(--text-size-medium-blog-scale-md));
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 112, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog h2,
+  .medium-blog .h2 {
+    font-size: calc(var(--text-size-medium-blog-h2-size) * var(--text-size-medium-blog-scale-lg));
+    padding-bottom: calc(var(--text-size-medium-blog-h2-padding) * var(--text-size-medium-blog-scale-lg));
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 112, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog h2,
+  .medium-blog .h2 {
+    font-size: calc(var(--text-size-medium-blog-h2-size) * var(--text-size-medium-blog-scale-xl));
+    padding-bottom: calc(var(--text-size-medium-blog-h2-padding) * var(--text-size-medium-blog-scale-xl));
+  }
+}
+
+@media (min-width: 1600px) {
+  /* line 112, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog h2,
+  .medium-blog .h2 {
+    font-size: calc(var(--text-size-medium-blog-h2-size) * var(--text-size-medium-blog-scale-xxl));
+    padding-bottom: calc(var(--text-size-medium-blog-h2-padding) * var(--text-size-medium-blog-scale-xxl));
+  }
+}
+
+/* line 148, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+.medium-blog h3 {
+  margin: 0;
+  font-size: calc(var(--text-size-medium-blog-h3-size) * var(--text-size-medium-blog-scale-xs));
+  padding-bottom: calc(var(--text-size-medium-blog-h3-padding) * var(--text-size-medium-blog-scale-xs));
+  line-height: var(--text-size-medium-blog-h3-line-height);
+  letter-spacing: var(--text-size-medium-blog-h3-letter-spacing);
+  font-weight: var(--text-size-medium-blog-h3-weight);
+  text-transform: var(--text-size-medium-blog-h3-transform);
+}
+
+@media (min-width: 576px) {
+  /* line 148, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog h3 {
+    font-size: calc(var(--text-size-medium-blog-h3-size) * var(--text-size-medium-blog-scale-sm));
+    padding-bottom: calc(var(--text-size-medium-blog-h3-padding) * var(--text-size-medium-blog-scale-sm));
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 148, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog h3 {
+    font-size: calc(var(--text-size-medium-blog-h3-size) * var(--text-size-medium-blog-scale-md));
+    padding-bottom: calc(var(--text-size-medium-blog-h3-padding) * var(--text-size-medium-blog-scale-md));
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 148, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog h3 {
+    font-size: calc(var(--text-size-medium-blog-h3-size) * var(--text-size-medium-blog-scale-lg));
+    padding-bottom: calc(var(--text-size-medium-blog-h3-padding) * var(--text-size-medium-blog-scale-lg));
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 148, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog h3 {
+    font-size: calc(var(--text-size-medium-blog-h3-size) * var(--text-size-medium-blog-scale-xl));
+    padding-bottom: calc(var(--text-size-medium-blog-h3-padding) * var(--text-size-medium-blog-scale-xl));
+  }
+}
+
+@media (min-width: 1600px) {
+  /* line 148, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog h3 {
+    font-size: calc(var(--text-size-medium-blog-h3-size) * var(--text-size-medium-blog-scale-xxl));
+    padding-bottom: calc(var(--text-size-medium-blog-h3-padding) * var(--text-size-medium-blog-scale-xxl));
+  }
+}
+
+/* line 183, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+.medium-blog h4 {
+  margin: 0;
+  font-size: calc(var(--text-size-medium-blog-h4-size) * var(--text-size-medium-blog-scale-xs));
+  padding-bottom: calc(var(--text-size-medium-blog-h4-padding) * var(--text-size-medium-blog-scale-xs));
+  line-height: var(--text-size-medium-blog-h4-line-height);
+  letter-spacing: var(--text-size-medium-blog-h4-letter-spacing);
+  font-weight: var(--text-size-medium-blog-h4-weight);
+  text-transform: var(--text-size-medium-blog-h4-transform);
+}
+
+@media (min-width: 576px) {
+  /* line 183, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog h4 {
+    font-size: calc(var(--text-size-medium-blog-h4-size) * var(--text-size-medium-blog-scale-sm));
+    padding-bottom: calc(var(--text-size-medium-blog-h4-padding) * var(--text-size-medium-blog-scale-sm));
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 183, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog h4 {
+    font-size: calc(var(--text-size-medium-blog-h4-size) * var(--text-size-medium-blog-scale-md));
+    padding-bottom: calc(var(--text-size-medium-blog-h4-padding) * var(--text-size-medium-blog-scale-md));
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 183, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog h4 {
+    font-size: calc(var(--text-size-medium-blog-h4-size) * var(--text-size-medium-blog-scale-lg));
+    padding-bottom: calc(var(--text-size-medium-blog-h4-padding) * var(--text-size-medium-blog-scale-lg));
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 183, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog h4 {
+    font-size: calc(var(--text-size-medium-blog-h4-size) * var(--text-size-medium-blog-scale-xl));
+    padding-bottom: calc(var(--text-size-medium-blog-h4-padding) * var(--text-size-medium-blog-scale-xl));
+  }
+}
+
+@media (min-width: 1600px) {
+  /* line 183, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog h4 {
+    font-size: calc(var(--text-size-medium-blog-h4-size) * var(--text-size-medium-blog-scale-xxl));
+    padding-bottom: calc(var(--text-size-medium-blog-h4-padding) * var(--text-size-medium-blog-scale-xxl));
+  }
+}
+
+/* line 218, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+.medium-blog p,
+.medium-blog ul,
+.medium-blog ol,
+.medium-blog .p {
+  margin: 0;
+  font-size: calc(var(--text-size-medium-blog-p-size) * var(--text-size-medium-blog-scale-xs));
+  padding-bottom: calc(var(--text-size-medium-blog-p-padding) * var(--text-size-medium-blog-scale-xs));
+  line-height: var(--text-size-medium-blog-p-line-height);
+  letter-spacing: var(--text-size-medium-blog-p-letter-spacing);
+  font-weight: var(--text-size-medium-blog-p-weight);
+  text-transform: var(--text-size-medium-blog-p-transform);
+}
+
+@media (min-width: 576px) {
+  /* line 218, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog p,
+  .medium-blog ul,
+  .medium-blog ol,
+  .medium-blog .p {
+    font-size: calc(var(--text-size-medium-blog-p-size) * var(--text-size-medium-blog-scale-sm));
+    padding-bottom: calc(var(--text-size-medium-blog-p-padding) * var(--text-size-medium-blog-scale-sm));
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 218, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog p,
+  .medium-blog ul,
+  .medium-blog ol,
+  .medium-blog .p {
+    font-size: calc(var(--text-size-medium-blog-p-size) * var(--text-size-medium-blog-scale-md));
+    padding-bottom: calc(var(--text-size-medium-blog-p-padding) * var(--text-size-medium-blog-scale-md));
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 218, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog p,
+  .medium-blog ul,
+  .medium-blog ol,
+  .medium-blog .p {
+    font-size: calc(var(--text-size-medium-blog-p-size) * var(--text-size-medium-blog-scale-lg));
+    padding-bottom: calc(var(--text-size-medium-blog-p-padding) * var(--text-size-medium-blog-scale-lg));
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 218, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog p,
+  .medium-blog ul,
+  .medium-blog ol,
+  .medium-blog .p {
+    font-size: calc(var(--text-size-medium-blog-p-size) * var(--text-size-medium-blog-scale-xl));
+    padding-bottom: calc(var(--text-size-medium-blog-p-padding) * var(--text-size-medium-blog-scale-xl));
+  }
+}
+
+@media (min-width: 1600px) {
+  /* line 218, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog p,
+  .medium-blog ul,
+  .medium-blog ol,
+  .medium-blog .p {
+    font-size: calc(var(--text-size-medium-blog-p-size) * var(--text-size-medium-blog-scale-xxl));
+    padding-bottom: calc(var(--text-size-medium-blog-p-padding) * var(--text-size-medium-blog-scale-xxl));
+  }
+}
+
+/* line 258, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+.medium-blog blockquote p {
+  margin: 0;
+  font-size: calc(var(--text-size-medium-blog-q-p-size) * var(--text-size-medium-blog-scale-xs));
+  padding-bottom: calc(var(--text-size-medium-blog-q-p-padding) * var(--text-size-medium-blog-scale-xs));
+  line-height: var(--text-size-medium-blog-q-p-line-height);
+  letter-spacing: var(--text-size-medium-blog-q-p-letter-spacing);
+  font-weight: var(--text-size-medium-blog-q-p-weight);
+  text-transform: var(--text-size-medium-blog-q-p-transform);
+}
+
+@media (min-width: 576px) {
+  /* line 258, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog blockquote p {
+    font-size: calc(var(--text-size-medium-blog-q-p-size) * var(--text-size-medium-blog-scale-sm));
+    padding-bottom: calc(var(--text-size-medium-blog-q-p-padding) * var(--text-size-medium-blog-scale-sm));
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 258, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog blockquote p {
+    font-size: calc(var(--text-size-medium-blog-q-p-size) * var(--text-size-medium-blog-scale-md));
+    padding-bottom: calc(var(--text-size-medium-blog-q-p-padding) * var(--text-size-medium-blog-scale-md));
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 258, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog blockquote p {
+    font-size: calc(var(--text-size-medium-blog-q-p-size) * var(--text-size-medium-blog-scale-lg));
+    padding-bottom: calc(var(--text-size-medium-blog-q-p-padding) * var(--text-size-medium-blog-scale-lg));
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 258, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog blockquote p {
+    font-size: calc(var(--text-size-medium-blog-q-p-size) * var(--text-size-medium-blog-scale-xl));
+    padding-bottom: calc(var(--text-size-medium-blog-q-p-padding) * var(--text-size-medium-blog-scale-xl));
+  }
+}
+
+@media (min-width: 1600px) {
+  /* line 258, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog blockquote p {
+    font-size: calc(var(--text-size-medium-blog-q-p-size) * var(--text-size-medium-blog-scale-xxl));
+    padding-bottom: calc(var(--text-size-medium-blog-q-p-padding) * var(--text-size-medium-blog-scale-xxl));
+  }
+}
+
+/* line 293, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+.medium-blog blockquote cite {
+  margin: 0;
+  font-size: calc(var(--text-size-medium-blog-q-c-size) * var(--text-size-medium-blog-scale-xs));
+  padding-bottom: calc(var(--text-size-medium-blog-q-c-padding) * var(--text-size-medium-blog-scale-xs));
+  line-height: var(--text-size-medium-blog-q-c-line-height);
+  letter-spacing: var(--text-size-medium-blog-q-c-letter-spacing);
+  font-weight: var(--text-size-medium-blog-q-c-weight);
+  text-transform: var(--text-size-medium-blog-q-c-transform);
+}
+
+@media (min-width: 576px) {
+  /* line 293, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog blockquote cite {
+    font-size: calc(var(--text-size-medium-blog-q-c-size) * var(--text-size-medium-blog-scale-sm));
+    padding-bottom: calc(var(--text-size-medium-blog-q-c-padding) * var(--text-size-medium-blog-scale-sm));
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 293, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog blockquote cite {
+    font-size: calc(var(--text-size-medium-blog-q-c-size) * var(--text-size-medium-blog-scale-md));
+    padding-bottom: calc(var(--text-size-medium-blog-q-c-padding) * var(--text-size-medium-blog-scale-md));
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 293, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog blockquote cite {
+    font-size: calc(var(--text-size-medium-blog-q-c-size) * var(--text-size-medium-blog-scale-lg));
+    padding-bottom: calc(var(--text-size-medium-blog-q-c-padding) * var(--text-size-medium-blog-scale-lg));
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 293, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog blockquote cite {
+    font-size: calc(var(--text-size-medium-blog-q-c-size) * var(--text-size-medium-blog-scale-xl));
+    padding-bottom: calc(var(--text-size-medium-blog-q-c-padding) * var(--text-size-medium-blog-scale-xl));
+  }
+}
+
+@media (min-width: 1600px) {
+  /* line 293, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+  .medium-blog blockquote cite {
+    font-size: calc(var(--text-size-medium-blog-q-c-size) * var(--text-size-medium-blog-scale-xxl));
+    padding-bottom: calc(var(--text-size-medium-blog-q-c-padding) * var(--text-size-medium-blog-scale-xxl));
+  }
+}
+
+/* line 342, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+.medium-blog .h1:last-child,
+.medium-blog .h2:last-child,
+.medium-blog .h3:last-child,
+.medium-blog .h4:last-child,
+.medium-blog .h5:last-child,
+.medium-blog h1:last-child,
+.medium-blog h2:last-child,
+.medium-blog h3:last-child,
+.medium-blog h4:last-child,
+.medium-blog h5:last-child,
+.medium-blog p:last-child,
+.medium-blog ul:last-child,
+.medium-blog ol:last-child {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 348, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+.medium-blog ul,
+.medium-blog ol {
+  padding-left: 2rem;
+}
+
+/* line 352, resources/assets/styles/common/_text-size-medium-blog.scss */
+
+.medium-blog ul:last-child,
+.medium-blog ol:last-child {
+  margin: 0;
+  padding: 0;
+  padding-left: 2rem;
+}
+
 /* line 1, resources/assets/styles/common/_text-size-small.scss */
 
 :root {

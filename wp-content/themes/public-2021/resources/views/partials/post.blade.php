@@ -1,4 +1,4 @@
-<article class="blog-post <?php echo $postClass;?> medium">
+<article class="blog-post <?php echo $postClass;?> medium-blog">
 <?php
 
   $postID = get_sub_field($postFormat);
