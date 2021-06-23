@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-8">
 
-        <div class="footer-logo">
+        <div class="footer-logo vertical-spacing-mobile-bottom">
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                viewBox="0 0 36 43" style="enable-background:new 0 0 36 43;" xml:space="preserve">
           <style type="text/css">
@@ -23,10 +23,10 @@
     <div class="row justify-content-between">
       <div class="col-8">
         <div class="row">
-          <div class="col-6">
+          <div class="col-lg-6 vertical-spacing-mobile-bottom">
             @php dynamic_sidebar('sidebar-footer-1') @endphp
           </div>
-          <div class="col-6">
+          <div class="col-lg-6">
             @php dynamic_sidebar('sidebar-footer-2') @endphp
           </div>
         </div>
@@ -34,9 +34,9 @@
       <div class="col-8">
         <div class="row justify-content-end">
           <div class="col-sm-16">
-            <div class="social-wrapper">
+            <div class="social-wrapper vertical-spacing-mobile-bottom">
 
-              <a class="social" href="https://www.linkedin.com/company/public-london/" target="_blank">
+              <a class="social vertical-spacing-mobile-bottom" href="https://www.linkedin.com/company/public-london/" target="_blank">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                      viewBox="0 0 63.5 64.7" style="enable-background:new 0 0 63.5 64.7;" xml:space="preserve">
                 <style type="text/css">
