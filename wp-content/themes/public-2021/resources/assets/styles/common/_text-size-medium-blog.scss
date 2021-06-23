@@ -112,21 +112,21 @@
   h2,
   .h2 {
     margin: 0;
-    font-size: calc(var(--text-size-medium-blog-h2-size) * var(--text-size-medium-blog-scale-xs));
-    padding-bottom: calc(var(--text-size-medium-blog-h2-padding) * var(--text-size-medium-blog-scale-xs));
+    font-size: 3.2vw;
+    padding-bottom: 1.28vw;
     line-height: var(--text-size-medium-blog-h2-line-height);
     letter-spacing: var(--text-size-medium-blog-h2-letter-spacing);
     font-weight: var(--text-size-medium-blog-h2-weight);
     text-transform: var(--text-size-medium-blog-h2-transform);
 
     @include media-breakpoint-up(sm) {
-      font-size: calc(var(--text-size-medium-blog-h2-size) * var(--text-size-medium-blog-scale-sm));
-      padding-bottom: calc(var(--text-size-medium-blog-h2-padding) * var(--text-size-medium-blog-scale-sm));
+      font-size: 3.2vw;
+      padding-bottom: 1.28vw;
     }
 
     @include media-breakpoint-up(md) {
-      font-size: calc(var(--text-size-medium-blog-h2-size) * var(--text-size-medium-blog-scale-md));
-      padding-bottom: calc(var(--text-size-medium-blog-h2-padding) * var(--text-size-medium-blog-scale-md));
+      font-size: 3.2vw;
+      padding-bottom: 1.28vw;
     }
 
     @include media-breakpoint-up(lg) {
@@ -147,21 +147,21 @@
 
   h3 {
     margin: 0;
-    font-size: calc(var(--text-size-medium-blog-h3-size) * var(--text-size-medium-blog-scale-xs));
-    padding-bottom: calc(var(--text-size-medium-blog-h3-padding) * var(--text-size-medium-blog-scale-xs));
+    font-size: 3.2vw;
+    padding-bottom: 1.28vw;
     line-height: var(--text-size-medium-blog-h3-line-height);
     letter-spacing: var(--text-size-medium-blog-h3-letter-spacing);
     font-weight: var(--text-size-medium-blog-h3-weight);
     text-transform: var(--text-size-medium-blog-h3-transform);
 
     @include media-breakpoint-up(sm) {
-      font-size: calc(var(--text-size-medium-blog-h3-size) * var(--text-size-medium-blog-scale-sm));
-      padding-bottom: calc(var(--text-size-medium-blog-h3-padding) * var(--text-size-medium-blog-scale-sm));
+      font-size: 3.2vw;
+      padding-bottom: 1.28vw;
     }
 
     @include media-breakpoint-up(md) {
-      font-size: calc(var(--text-size-medium-blog-h3-size) * var(--text-size-medium-blog-scale-md));
-      padding-bottom: calc(var(--text-size-medium-blog-h3-padding) * var(--text-size-medium-blog-scale-md));
+      font-size: 3.2vw;
+      padding-bottom: 1.28vw;
     }
 
     @include media-breakpoint-up(lg) {
@@ -182,21 +182,21 @@
 
   h4 {
     margin: 0;
-    font-size: calc(var(--text-size-medium-blog-h4-size) * var(--text-size-medium-blog-scale-xs));
-    padding-bottom: calc(var(--text-size-medium-blog-h4-padding) * var(--text-size-medium-blog-scale-xs));
+    font-size: 3.2vw;
+    padding-bottom: 1.28vw;
     line-height: var(--text-size-medium-blog-h4-line-height);
     letter-spacing: var(--text-size-medium-blog-h4-letter-spacing);
     font-weight: var(--text-size-medium-blog-h4-weight);
     text-transform: var(--text-size-medium-blog-h4-transform);
 
     @include media-breakpoint-up(sm) {
-      font-size: calc(var(--text-size-medium-blog-h4-size) * var(--text-size-medium-blog-scale-sm));
-      padding-bottom: calc(var(--text-size-medium-blog-h4-padding) * var(--text-size-medium-blog-scale-sm));
+      font-size: 3.2vw;
+      padding-bottom: 1.28vw;
     }
 
     @include media-breakpoint-up(md) {
-      font-size: calc(var(--text-size-medium-blog-h4-size) * var(--text-size-medium-blog-scale-md));
-      padding-bottom: calc(var(--text-size-medium-blog-h4-padding) * var(--text-size-medium-blog-scale-md));
+      font-size: 3.2vw;
+      padding-bottom: 1.28vw;
     }
 
     @include media-breakpoint-up(lg) {
@@ -220,8 +220,8 @@
   ol,
   .p {
     margin: 0;
-    font-size: calc(var(--text-size-medium-blog-p-size) * var(--text-size-medium-blog-scale-xs));
-    padding-bottom: calc(var(--text-size-medium-blog-p-padding) * var(--text-size-medium-blog-scale-xs));
+    font-size: 3.2vw;
+    padding-bottom: 1.28vw;
     line-height: var(--text-size-medium-blog-p-line-height);
     letter-spacing: var(--text-size-medium-blog-p-letter-spacing);
     font-weight: var(--text-size-medium-blog-p-weight);
@@ -229,13 +229,13 @@
     //font-family: var(--font-copy);
 
     @include media-breakpoint-up(sm) {
-      font-size: calc(var(--text-size-medium-blog-p-size) * var(--text-size-medium-blog-scale-sm));
-      padding-bottom: calc(var(--text-size-medium-blog-p-padding) * var(--text-size-medium-blog-scale-sm));
+      font-size: 3.2vw;
+      padding-bottom: 1.28vw;
     }
 
     @include media-breakpoint-up(md) {
-      font-size: calc(var(--text-size-medium-blog-p-size) * var(--text-size-medium-blog-scale-md));
-      padding-bottom: calc(var(--text-size-medium-blog-p-padding) * var(--text-size-medium-blog-scale-md));
+      font-size: 3.2vw;
+      padding-bottom: 1.28vw;
     }
 
     @include media-breakpoint-up(lg) {
@@ -257,21 +257,21 @@
   blockquote {
     p {
       margin: 0;
-      font-size: calc(var(--text-size-medium-blog-q-p-size) * var(--text-size-medium-blog-scale-xs));
-      padding-bottom: calc(var(--text-size-medium-blog-q-p-padding) * var(--text-size-medium-blog-scale-xs));
+      font-size: 3.2vw;
+      padding-bottom: 1.28vw;
       line-height: var(--text-size-medium-blog-q-p-line-height);
       letter-spacing: var(--text-size-medium-blog-q-p-letter-spacing);
       font-weight: var(--text-size-medium-blog-q-p-weight);
       text-transform: var(--text-size-medium-blog-q-p-transform);
 
       @include media-breakpoint-up(sm) {
-        font-size: calc(var(--text-size-medium-blog-q-p-size) * var(--text-size-medium-blog-scale-sm));
-        padding-bottom: calc(var(--text-size-medium-blog-q-p-padding) * var(--text-size-medium-blog-scale-sm));
+        font-size: 3.2vw;
+        padding-bottom: 1.28vw;
       }
 
       @include media-breakpoint-up(md) {
-        font-size: calc(var(--text-size-medium-blog-q-p-size) * var(--text-size-medium-blog-scale-md));
-        padding-bottom: calc(var(--text-size-medium-blog-q-p-padding) * var(--text-size-medium-blog-scale-md));
+        font-size: 3.2vw;
+        padding-bottom: 1.28vw;
       }
 
       @include media-breakpoint-up(lg) {
@@ -292,21 +292,21 @@
 
     cite {
       margin: 0;
-      font-size: calc(var(--text-size-medium-blog-q-c-size) * var(--text-size-medium-blog-scale-xs));
-      padding-bottom: calc(var(--text-size-medium-blog-q-c-padding) * var(--text-size-medium-blog-scale-xs));
+      font-size: 3.2vw;
+      padding-bottom: 1.28vw;
       line-height: var(--text-size-medium-blog-q-c-line-height);
       letter-spacing: var(--text-size-medium-blog-q-c-letter-spacing);
       font-weight: var(--text-size-medium-blog-q-c-weight);
       text-transform: var(--text-size-medium-blog-q-c-transform);
 
       @include media-breakpoint-up(sm) {
-        font-size: calc(var(--text-size-medium-blog-q-c-size) * var(--text-size-medium-blog-scale-sm));
-        padding-bottom: calc(var(--text-size-medium-blog-q-c-padding) * var(--text-size-medium-blog-scale-sm));
+        font-size: 3.2vw;
+        padding-bottom: 1.28vw;
       }
 
       @include media-breakpoint-up(md) {
-        font-size: calc(var(--text-size-medium-blog-q-c-size) * var(--text-size-medium-blog-scale-md));
-        padding-bottom: calc(var(--text-size-medium-blog-q-c-padding) * var(--text-size-medium-blog-scale-md));
+        font-size: 3.2vw;
+        padding-bottom: 1.28vw;
       }
 
       @include media-breakpoint-up(lg) {

@@ -19228,8 +19228,8 @@ p:last-child {
 .medium-blog h2,
 .medium-blog .h2 {
   margin: 0;
-  font-size: calc(var(--text-size-medium-blog-h2-size) * var(--text-size-medium-blog-scale-xs));
-  padding-bottom: calc(var(--text-size-medium-blog-h2-padding) * var(--text-size-medium-blog-scale-xs));
+  font-size: 3.2vw;
+  padding-bottom: 1.28vw;
   line-height: var(--text-size-medium-blog-h2-line-height);
   letter-spacing: var(--text-size-medium-blog-h2-letter-spacing);
   font-weight: var(--text-size-medium-blog-h2-weight);
@@ -19241,8 +19241,8 @@ p:last-child {
 
   .medium-blog h2,
   .medium-blog .h2 {
-    font-size: calc(var(--text-size-medium-blog-h2-size) * var(--text-size-medium-blog-scale-sm));
-    padding-bottom: calc(var(--text-size-medium-blog-h2-padding) * var(--text-size-medium-blog-scale-sm));
+    font-size: 3.2vw;
+    padding-bottom: 1.28vw;
   }
 }
 
@@ -19251,8 +19251,8 @@ p:last-child {
 
   .medium-blog h2,
   .medium-blog .h2 {
-    font-size: calc(var(--text-size-medium-blog-h2-size) * var(--text-size-medium-blog-scale-md));
-    padding-bottom: calc(var(--text-size-medium-blog-h2-padding) * var(--text-size-medium-blog-scale-md));
+    font-size: 3.2vw;
+    padding-bottom: 1.28vw;
   }
 }
 
@@ -19290,8 +19290,8 @@ p:last-child {
 
 .medium-blog h3 {
   margin: 0;
-  font-size: calc(var(--text-size-medium-blog-h3-size) * var(--text-size-medium-blog-scale-xs));
-  padding-bottom: calc(var(--text-size-medium-blog-h3-padding) * var(--text-size-medium-blog-scale-xs));
+  font-size: 3.2vw;
+  padding-bottom: 1.28vw;
   line-height: var(--text-size-medium-blog-h3-line-height);
   letter-spacing: var(--text-size-medium-blog-h3-letter-spacing);
   font-weight: var(--text-size-medium-blog-h3-weight);
@@ -19302,8 +19302,8 @@ p:last-child {
   /* line 148, resources/assets/styles/common/_text-size-medium-blog.scss */
 
   .medium-blog h3 {
-    font-size: calc(var(--text-size-medium-blog-h3-size) * var(--text-size-medium-blog-scale-sm));
-    padding-bottom: calc(var(--text-size-medium-blog-h3-padding) * var(--text-size-medium-blog-scale-sm));
+    font-size: 3.2vw;
+    padding-bottom: 1.28vw;
   }
 }
 
@@ -19311,8 +19311,8 @@ p:last-child {
   /* line 148, resources/assets/styles/common/_text-size-medium-blog.scss */
 
   .medium-blog h3 {
-    font-size: calc(var(--text-size-medium-blog-h3-size) * var(--text-size-medium-blog-scale-md));
-    padding-bottom: calc(var(--text-size-medium-blog-h3-padding) * var(--text-size-medium-blog-scale-md));
+    font-size: 3.2vw;
+    padding-bottom: 1.28vw;
   }
 }
 
@@ -19347,8 +19347,8 @@ p:last-child {
 
 .medium-blog h4 {
   margin: 0;
-  font-size: calc(var(--text-size-medium-blog-h4-size) * var(--text-size-medium-blog-scale-xs));
-  padding-bottom: calc(var(--text-size-medium-blog-h4-padding) * var(--text-size-medium-blog-scale-xs));
+  font-size: 3.2vw;
+  padding-bottom: 1.28vw;
   line-height: var(--text-size-medium-blog-h4-line-height);
   letter-spacing: var(--text-size-medium-blog-h4-letter-spacing);
   font-weight: var(--text-size-medium-blog-h4-weight);
@@ -19359,8 +19359,8 @@ p:last-child {
   /* line 183, resources/assets/styles/common/_text-size-medium-blog.scss */
 
   .medium-blog h4 {
-    font-size: calc(var(--text-size-medium-blog-h4-size) * var(--text-size-medium-blog-scale-sm));
-    padding-bottom: calc(var(--text-size-medium-blog-h4-padding) * var(--text-size-medium-blog-scale-sm));
+    font-size: 3.2vw;
+    padding-bottom: 1.28vw;
   }
 }
 
@@ -19368,8 +19368,8 @@ p:last-child {
   /* line 183, resources/assets/styles/common/_text-size-medium-blog.scss */
 
   .medium-blog h4 {
-    font-size: calc(var(--text-size-medium-blog-h4-size) * var(--text-size-medium-blog-scale-md));
-    padding-bottom: calc(var(--text-size-medium-blog-h4-padding) * var(--text-size-medium-blog-scale-md));
+    font-size: 3.2vw;
+    padding-bottom: 1.28vw;
   }
 }
 
@@ -19407,8 +19407,8 @@ p:last-child {
 .medium-blog ol,
 .medium-blog .p {
   margin: 0;
-  font-size: calc(var(--text-size-medium-blog-p-size) * var(--text-size-medium-blog-scale-xs));
-  padding-bottom: calc(var(--text-size-medium-blog-p-padding) * var(--text-size-medium-blog-scale-xs));
+  font-size: 3.2vw;
+  padding-bottom: 1.28vw;
   line-height: var(--text-size-medium-blog-p-line-height);
   letter-spacing: var(--text-size-medium-blog-p-letter-spacing);
   font-weight: var(--text-size-medium-blog-p-weight);
@@ -19422,8 +19422,8 @@ p:last-child {
   .medium-blog ul,
   .medium-blog ol,
   .medium-blog .p {
-    font-size: calc(var(--text-size-medium-blog-p-size) * var(--text-size-medium-blog-scale-sm));
-    padding-bottom: calc(var(--text-size-medium-blog-p-padding) * var(--text-size-medium-blog-scale-sm));
+    font-size: 3.2vw;
+    padding-bottom: 1.28vw;
   }
 }
 
@@ -19434,8 +19434,8 @@ p:last-child {
   .medium-blog ul,
   .medium-blog ol,
   .medium-blog .p {
-    font-size: calc(var(--text-size-medium-blog-p-size) * var(--text-size-medium-blog-scale-md));
-    padding-bottom: calc(var(--text-size-medium-blog-p-padding) * var(--text-size-medium-blog-scale-md));
+    font-size: 3.2vw;
+    padding-bottom: 1.28vw;
   }
 }
 
@@ -19479,8 +19479,8 @@ p:last-child {
 
 .medium-blog blockquote p {
   margin: 0;
-  font-size: calc(var(--text-size-medium-blog-q-p-size) * var(--text-size-medium-blog-scale-xs));
-  padding-bottom: calc(var(--text-size-medium-blog-q-p-padding) * var(--text-size-medium-blog-scale-xs));
+  font-size: 3.2vw;
+  padding-bottom: 1.28vw;
   line-height: var(--text-size-medium-blog-q-p-line-height);
   letter-spacing: var(--text-size-medium-blog-q-p-letter-spacing);
   font-weight: var(--text-size-medium-blog-q-p-weight);
@@ -19491,8 +19491,8 @@ p:last-child {
   /* line 258, resources/assets/styles/common/_text-size-medium-blog.scss */
 
   .medium-blog blockquote p {
-    font-size: calc(var(--text-size-medium-blog-q-p-size) * var(--text-size-medium-blog-scale-sm));
-    padding-bottom: calc(var(--text-size-medium-blog-q-p-padding) * var(--text-size-medium-blog-scale-sm));
+    font-size: 3.2vw;
+    padding-bottom: 1.28vw;
   }
 }
 
@@ -19500,8 +19500,8 @@ p:last-child {
   /* line 258, resources/assets/styles/common/_text-size-medium-blog.scss */
 
   .medium-blog blockquote p {
-    font-size: calc(var(--text-size-medium-blog-q-p-size) * var(--text-size-medium-blog-scale-md));
-    padding-bottom: calc(var(--text-size-medium-blog-q-p-padding) * var(--text-size-medium-blog-scale-md));
+    font-size: 3.2vw;
+    padding-bottom: 1.28vw;
   }
 }
 
@@ -19536,8 +19536,8 @@ p:last-child {
 
 .medium-blog blockquote cite {
   margin: 0;
-  font-size: calc(var(--text-size-medium-blog-q-c-size) * var(--text-size-medium-blog-scale-xs));
-  padding-bottom: calc(var(--text-size-medium-blog-q-c-padding) * var(--text-size-medium-blog-scale-xs));
+  font-size: 3.2vw;
+  padding-bottom: 1.28vw;
   line-height: var(--text-size-medium-blog-q-c-line-height);
   letter-spacing: var(--text-size-medium-blog-q-c-letter-spacing);
   font-weight: var(--text-size-medium-blog-q-c-weight);
@@ -19548,8 +19548,8 @@ p:last-child {
   /* line 293, resources/assets/styles/common/_text-size-medium-blog.scss */
 
   .medium-blog blockquote cite {
-    font-size: calc(var(--text-size-medium-blog-q-c-size) * var(--text-size-medium-blog-scale-sm));
-    padding-bottom: calc(var(--text-size-medium-blog-q-c-padding) * var(--text-size-medium-blog-scale-sm));
+    font-size: 3.2vw;
+    padding-bottom: 1.28vw;
   }
 }
 
@@ -19557,8 +19557,8 @@ p:last-child {
   /* line 293, resources/assets/styles/common/_text-size-medium-blog.scss */
 
   .medium-blog blockquote cite {
-    font-size: calc(var(--text-size-medium-blog-q-c-size) * var(--text-size-medium-blog-scale-md));
-    padding-bottom: calc(var(--text-size-medium-blog-q-c-padding) * var(--text-size-medium-blog-scale-md));
+    font-size: 3.2vw;
+    padding-bottom: 1.28vw;
   }
 }
 
